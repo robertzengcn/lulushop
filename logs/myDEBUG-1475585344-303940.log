@@ -1,0 +1,21 @@
+[04-Oct-2016 20:49:04] PHP Warning:  file_get_contents() [<a href='function.file-get-contents'>function.file-get-contents</a>]: SSL: connection timeout in D:\wampserver\wamp\www\lulu\includes\classes\MicrosoftTranslator.class.php on line 142
+[04-Oct-2016 20:49:05] PHP Stack trace:
+[04-Oct-2016 20:49:05] PHP   1. {main}() D:\wampserver\wamp\www\lulu\index.php:0
+[04-Oct-2016 20:49:05] PHP   2. require() D:\wampserver\wamp\www\lulu\index.php:36
+[04-Oct-2016 20:49:05] PHP   3. Translator->bing() D:\wampserver\wamp\www\lulu\includes\modules\pages\transapi\header_php.php:35
+[04-Oct-2016 20:49:05] PHP   4. MicrosoftTranslator->translate() D:\wampserver\wamp\www\lulu\includes\classes\translator.php:19
+[04-Oct-2016 20:49:05] PHP   5. file_get_contents() D:\wampserver\wamp\www\lulu\includes\classes\MicrosoftTranslator.class.php:142
+[04-Oct-2016 20:49:05] PHP Warning:  file_get_contents() [<a href='function.file-get-contents'>function.file-get-contents</a>]: Failed to enable crypto in D:\wampserver\wamp\www\lulu\includes\classes\MicrosoftTranslator.class.php on line 142
+[04-Oct-2016 20:49:05] PHP Stack trace:
+[04-Oct-2016 20:49:05] PHP   1. {main}() D:\wampserver\wamp\www\lulu\index.php:0
+[04-Oct-2016 20:49:05] PHP   2. require() D:\wampserver\wamp\www\lulu\index.php:36
+[04-Oct-2016 20:49:05] PHP   3. Translator->bing() D:\wampserver\wamp\www\lulu\includes\modules\pages\transapi\header_php.php:35
+[04-Oct-2016 20:49:05] PHP   4. MicrosoftTranslator->translate() D:\wampserver\wamp\www\lulu\includes\classes\translator.php:19
+[04-Oct-2016 20:49:05] PHP   5. file_get_contents() D:\wampserver\wamp\www\lulu\includes\classes\MicrosoftTranslator.class.php:142
+[04-Oct-2016 20:49:05] PHP Warning:  file_get_contents(https://api.datamarket.azure.com/Data.ashx/Bing/MicrosoftTranslator/v1/Translate?Text=%27%E7%BC%96%E8%80%85%E6%8C%89%EF%BC%9AEmmeline+Peaches+%EF%BC%88%E5%8C%96%E5%90%8D%EF%BC%89%E6%98%AF%E4%B8%80%E4%BD%8D%E8%81%8C%E4%B8%9A%E7%9A%84%E6%83%85%E8%B6%A3%E7%94%A8%E5%93%81%E4%BD%93%E9%AA%8C%E5%B8%88%EF%BC%8C%E5%A5%B9%E6%AF%8F%E5%A4%A9%E9%83%BD%E8%A6%81%E5%B0%9D%E8%AF%95%E4%B8%8D%E5%90%8C%E7%9A%84%E6%83%85%E8%B6%A3%E7%8E%A9%E5%85%B7%EF%BC%8C%E7%84%B6%E5%90%8E%E5%91%8A%E8%AF%89%E5%A5%B9%E7%9A%84%E7%B2%89%E4%B8%9D%E4%BB%AC%E5%93%AA%E4%BA%9B%E4%BA%A7%E5%93%81%E5%8F%AF%E4%BB%A5%E8%AE%A9%E5%A5%B9high%E5%88%B0%E6%9E%81%E8%87%B4%E3%80%82%E5%90%8C%E6%97%B6%EF%BC%8C%E5%A5%B9%E7%9B%AE%E5%89%8D%E5%B7%B2%E7%BB%8F%E8%BF%90%E8%90%A5%E4%BA%86%E4%B8%80%E4%B8%AA%E7%8B%AC%E7%AB%8B%E7%9A%84%E4%BA%92%E5%8A%A8%E7%BD%91%E7%AB%99%E3%80%82%27&amp;To=%27en%27&amp;$format=Raw&amp;$top=100) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: operation failed in D:\wampserver\wamp\www\lulu\includes\classes\MicrosoftTranslator.class.php on line 142
+[04-Oct-2016 20:49:05] PHP Stack trace:
+[04-Oct-2016 20:49:05] PHP   1. {main}() D:\wampserver\wamp\www\lulu\index.php:0
+[04-Oct-2016 20:49:05] PHP   2. require() D:\wampserver\wamp\www\lulu\index.php:36
+[04-Oct-2016 20:49:05] PHP   3. Translator->bing() D:\wampserver\wamp\www\lulu\includes\modules\pages\transapi\header_php.php:35
+[04-Oct-2016 20:49:05] PHP   4. MicrosoftTranslator->translate() D:\wampserver\wamp\www\lulu\includes\classes\translator.php:19
+[04-Oct-2016 20:49:05] PHP   5. file_get_contents() D:\wampserver\wamp\www\lulu\includes\classes\MicrosoftTranslator.class.php:142

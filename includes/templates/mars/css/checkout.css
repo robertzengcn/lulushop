@@ -1,0 +1,56 @@
+.textcent{
+	text-align:center;
+}
+.textalri{
+	text-align:right;
+}
+.textright{
+	float:right;
+}
+.imgmagin{
+	padding: 2px;
+}
+
+#mainWrapper {
+	overflow: hidden;
+}
+.limitslab{
+	
+	white-space:nowrap;overflow:hidden;text-overflow:ellipsis;
+}
+#editaddress{
+	z-index: 99999999;
+}
+.centelform{
+	margin:0 auto;
+}
+.butm{
+	margin-bottom: 10px;
+}
+#coupon{
+	z-index: 99999999;
+}
+@media (min-width: 768px) {
+#coupon .modal-dialog  {
+	width:15%;}
+#editaddress .modal-dialog  {
+	width:38%;}	
+	
+}
+
+.fec-page-step {
+    color: #ed1c24;
+    display: block;
+    font-size: 22px;
+    line-height: normal;
+    margin-bottom: 27px;
+    text-transform: uppercase;
+}
+
+
+
+
+
+
+
+

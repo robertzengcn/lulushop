@@ -1,0 +1,795 @@
+AWSTATS DATA FILE 6.8 (build 1.910)
+# If you remove this file, all statistics for date 201310 will be lost/reset.
+
+# Position (offset in bytes) in this file of beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 1915                
+POS_TIME 2597                
+POS_VISITOR 16243               
+POS_DAY 24290               
+POS_DOMAIN 3474                
+POS_LOGIN 3903                
+POS_ROBOT 4058                
+POS_WORMS 4946                
+POS_EMAILSENDER 5077                
+POS_EMAILRECEIVER 5220                
+POS_SESSION 25067               
+POS_SIDER 25268               
+POS_FILETYPES 5355                
+POS_OS 5554                
+POS_BROWSER 5705                
+POS_SCREENSIZE 6151                
+POS_UNKNOWNREFERER 6225                
+POS_UNKNOWNREFERERBROWSER 6589                
+POS_ORIGIN 6722                
+POS_SEREFERRALS 6863                
+POS_PAGEREFS 7029                
+POS_SEARCHWORDS 7360                
+POS_KEYWORDS 9110                
+POS_MISC 2261                
+POS_ERRORS 10546               
+POS_CLUSTER 3759                
+POS_SIDER_404 10700               
+POS_PLUGIN_geoip_city_maxmind 14855               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20131101071531 633 145135 7168511464443
+FirstTime 20131001015726
+LastTime 20131031003509
+LastUpdate 20131102100048 633 631 0 1 0
+TotalVisits 254                 
+TotalUnique 156                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 223                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 7 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 54 85 1956818 159 186 857289
+1 12 76 1622839 148 180 893608
+2 17 61 2161448 174 181 535174
+3 22 64 1518179 141 154 602657
+4 9 28 1062670 176 216 1190645
+5 18 50 1700404 210 225 1176037
+6 9 22 406471 166 178 1321914
+7 17 30 450475 127 158 513428
+8 12 63 2543741 137 145 700974
+9 22 22 406148 186 208 1230982
+10 16 58 1539564 127 134 454892
+11 52 152 4688492 163 169 682942
+12 8 14 264469 141 145 671158
+13 11 25 463505 144 151 738701
+14 8 30 661852 137 147 1019359
+15 20 50 1027216 162 181 1392805
+16 13 33 1087536 153 190 915270
+17 9 26 523056 140 150 630701
+18 3 3 39997 126 150 1301389
+19 7 28 467809 119 126 777011
+20 13 79 2476423 119 127 663677
+21 11 25 443867 179 188 876187
+22 120 460 12624352 720 726 1134083
+23 16 50 828695 152 158 750130
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 15
+cn 395 1375 36888982
+us 83 115 2896231
+pl 4 18 802498
+jp 2 2 17568
+tw 2 2 26714
+ca 2 11 189361
+ru 2 2 26690
+de 2 2 25648
+ua 1 1 12824
+kr 1 1 13272
+fr 1 1 13272
+unknown 1 1 12806
+id 1 1 13272
+vn 1 1 13435
+hk 1 1 13453
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 21
+baiduspider 718 5760071 20131031004514 0
+googlebot 260 3239877 20131031021424 0
+msnbot 236 3836727 20131028040138 0
+spider 96 1556645 20131030220814 0
+wordpress 89 1 20131030170057 0
+yandex 54 886999 20131029181042 0
+sogou 54 713282 20131030155909 0
+bot[+:,\.\;\/\\-] 50 817759 20131030031019 0
+[+:,\.\;\/\\-]bot 39 656015 20131030021413 0
+mj12bot 28 358289 20131028232005 0
+bspider 4 40434 20131007171051 0
+exabot 2 26733 20131030224801 0
+no_user_agent 11 77975 20131030170058 0
+phantom 16 773925 20131012182038 0
+surveybot 2 25885 20131026010056 0
+java 1 13272 20131022091956 0
+turnitinbot 1 17016 20131025053758 0
+msnbot\-media 4 395759 20131019050338 0
+netcraft 3 12790 20131011125033 0
+nutch 2 25580 20131020162056 0
+crawl 21 327268 20131026141033 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 8
+css 292 2608749 0 0
+png 182 13050343 0 0
+php 110 7293203 0 0
+html 387 5552482 0 0
+js 536 12358996 0 0
+jpg 1 10615 0 0
+gif 24 77812 0 0
+svg 2 13826 0 0
+END_FILETYPES
+
+# OS ID - Hits
+BEGIN_OS 11
+winxp 283
+winlong 5
+win2000 1
+winnt 820
+win98 14
+linux 299
+winme 1
+macosx 2
+winunknown 1
+win2003 28
+Unknown 80
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 30
+msie6.0 77
+firefox5.0 1
+firefox3.0.7 2
+firefox20.0 2
+firefox17.0 3
+firefox3.6 1
+opera 5
+libwww 2
+firefox4.0 1
+firefox24.0 437
+msie6.1 58
+msie5.00 14
+firefox3.6.15 81
+msie8.0 96
+firefox0.10.1 2
+mozilla 141
+netscape5.0 1
+firefox14.0.1 21
+firefox22.0 1
+msie7.0 108
+msie10.0 20
+firefox23.0 1
+firefox16.0 1
+netscape4.0 50
+firefox3.6.12 3
+msie9.0 56
+firefox8.0.1 2
+Unknown 1
+firefox3.6.8 6
+safari 340
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 6
+Mozilla/5.0 20131024102906
+Mozilla/5.0_(compatible;_SiteExplorer/1.0b;__http://siteexplorer.info/) 20131022091354
+LWP::Simple/6.00_libwww-perl/6.05 20131024102907
+Mozilla/3.0_(compatible;_Indy_Library) 20131021080419
+Mozilla/4.0 20131026113134
+libwww-perl/5.834 20131029060159
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 1
+Microsoft_Office_Protocol_Discovery 20131025233232
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 301 353
+From1 0 0
+From2 29 38
+From3 4 6
+From4 165 1137
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 2
+baidu 28 37
+sogou 1 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 4
+http://www.webstream.biz 2 2
+http://www.jobui.com/company/937984/ 1 1
+http://extrabot.com/help/grurohotimuvyly.htm 1 1
+http://EIGMOAEptyoA_yixCFOxXnANedT62v3IJRqMKy5NASav95qtva02 0 2
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 17
+%ce%ab%b7%bb%b8%d6%cc%fa+%bc%af%cd%c5+%d3%d0%cf%de%d4%f0%c8%ce%b9%ab%cb%be%7c%ce%ab%b7%bb%d7%ee%b4%f3%b8%d6%cc%fa%b9%ab%cb%be 9
+%e6%bd%8d%e5%9d%8a%e9%92%a2%e9%93%81%e9%9b%86%e5%9b%a2%e5%85%ac%e5%8f%b8 3
+%ce%ab%b7%bb%b8%d6%cc%fa%bc%af%cd%c5%b9%ab%cb%be 2
+%ce%ab%b7%bb%b8%d6%cc%fa%bc%af%cd%c5%b9%ab%cb%be_%ce%ab%b7%bb%b8%d6%cc%fa+%bc%af%cd%c5+%d3%d0%cf%de%d4%f0%c8%ce%b9%ab%cb%be+%7c+%ce%ab%b7%bb%d7%ee%b4%f3%b8%d6%cc%fa%b9%ab%cb%be 2
+%c7%a7%d2%ed%cf%c2%d4%d8%d5%be 1
+%e6%bd%8d%e5%9d%8a%e5%b8%82%e6%9c%80%e5%a4%a7%e7%9a%84%e9%92%a2%e9%93%81%e9%92%9c%e9%80%a0%e5%8e%82 1
+%e6%bd%8d%e5%9d%8a%e9%92%a2%e9%93%81%e9%99%90%e8%b4%a3%e4%bb%bb%e5%85%ac%e5%8f%b8%e5%9c%b0%e5%9d%80 1
+%ce%ab%b7%bb%b8%d6%cc%fa%cf%de%d4%f0%c8%ce%b9%ab%cb%be%b5%d8%d6%b7 1
+%e6%bd%8d%e5%9d%8a%e9%92%a2%e9%93%81%e9%9b%86%e5%9b%a2%e5%85%ac%e5%8f%b8+%e6%80%8e%e4%b9%88%e6%a0%b7 1
+%e6%bd%8d%e5%9d%8a%e9%92%a2%e9%93%81%e9%9b%86%e5%9b%a2%e5%85%ac%e5%8f%b8%e9%94%80%e5%94%ae 1
+%e4%b8%b4%e6%b2%82%e5%a4%a7%e7%94%b0%e5%86%9c%e7%89%a7 1
+%e5%b1%b1%e4%b8%9c%e6%bd%8d%e5%9d%8a%e9%92%a2%e9%93%81%e9%9b%86%e5%9b%a2%e5%85%ac%e5%8f%b8 1
+%e6%bd%8d%e5%9d%8a%e6%9c%80%e5%a4%a7%e7%9a%84%e9%92%a2%e9%93%81%e5%8e%82 1
+%e5%b1%b1%e4%b8%9c%e6%bd%8d%e5%9d%8a%e9%92%a2%e9%93%81%e9%9b%86%e5%9b%a2%e5%85%ac%e5%8f%b8%e6%80%8e%e4%b9%88%e6%a0%b7 1
+site+www.china-spa.cn 1
+%e9%92%a2%e9%93%81+%e9%9b%86%e5%9b%a2+%e6%9c%89%e9%99%90%e8%b4%a3%e4%bb%bb%e5%85%ac%e5%8f%b8 1
+%ce%ab%b7%bb%b8%d6%cc%fa%bc%af%cd%c5%b9%ab%cb%be+%d4%f5%c3%b4%d1%f9_%ce%ab%b7%bb%b8%d6%cc%fa+%bc%af%cd%c5+%d3%d0%cf%de%d4%f0%c8%ce%b9%ab%cb%be+%7c+%ce%ab%b7%bb%d7%ee%b4%f3%b8%d6%cc%fa%b9%ab%cb%be 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 25
+%bc%af%cd%c5 12
+%ce%ab%b7%bb%b8%d6%cc%fa 9
+%d3%d0%cf%de%d4%f0%c8%ce%b9%ab%cb%be%7c%ce%ab%b7%bb%d7%ee%b4%f3%b8%d6%cc%fa%b9%ab%cb%be 9
+%e6%bd%8d%e5%9d%8a%e9%92%a2%e9%93%81%e9%9b%86%e5%9b%a2%e5%85%ac%e5%8f%b8 4
+%ce%ab%b7%bb%d7%ee%b4%f3%b8%d6%cc%fa%b9%ab%cb%be 3
+%d3%d0%cf%de%d4%f0%c8%ce%b9%ab%cb%be 3
+%7c 3
+%ce%ab%b7%bb%b8%d6%cc%fa%bc%af%cd%c5%b9%ab%cb%be 3
+%ce%ab%b7%bb%b8%d6%cc%fa%bc%af%cd%c5%b9%ab%cb%be_%ce%ab%b7%bb%b8%d6%cc%fa 2
+%c7%a7%d2%ed%cf%c2%d4%d8%d5%be 1
+%e6%bd%8d%e5%9d%8a%e9%92%a2%e9%93%81%e9%99%90%e8%b4%a3%e4%bb%bb%e5%85%ac%e5%8f%b8%e5%9c%b0%e5%9d%80 1
+%e6%bd%8d%e5%9d%8a%e5%b8%82%e6%9c%80%e5%a4%a7%e7%9a%84%e9%92%a2%e9%93%81%e9%92%9c%e9%80%a0%e5%8e%82 1
+%ce%ab%b7%bb%b8%d6%cc%fa%cf%de%d4%f0%c8%ce%b9%ab%cb%be%b5%d8%d6%b7 1
+%e9%92%a2%e9%93%81 1
+%d4%f5%c3%b4%d1%f9_%ce%ab%b7%bb%b8%d6%cc%fa 1
+%e6%bd%8d%e5%9d%8a%e9%92%a2%e9%93%81%e9%9b%86%e5%9b%a2%e5%85%ac%e5%8f%b8%e9%94%80%e5%94%ae 1
+%e4%b8%b4%e6%b2%82%e5%a4%a7%e7%94%b0%e5%86%9c%e7%89%a7 1
+%e9%9b%86%e5%9b%a2 1
+www.china-spa.cn 1
+%e5%b1%b1%e4%b8%9c%e6%bd%8d%e5%9d%8a%e9%92%a2%e9%93%81%e9%9b%86%e5%9b%a2%e5%85%ac%e5%8f%b8 1
+%e6%bd%8d%e5%9d%8a%e6%9c%80%e5%a4%a7%e7%9a%84%e9%92%a2%e9%93%81%e5%8e%82 1
+%e5%b1%b1%e4%b8%9c%e6%bd%8d%e5%9d%8a%e9%92%a2%e9%93%81%e9%9b%86%e5%9b%a2%e5%85%ac%e5%8f%b8%e6%80%8e%e4%b9%88%e6%a0%b7 1
+site 1
+%e6%9c%89%e9%99%90%e8%b4%a3%e4%bb%bb%e5%85%ac%e5%8f%b8 1
+%e6%80%8e%e4%b9%88%e6%a0%b7 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 6
+403 461 25816
+302 13 50
+206 2 86268
+400 11 4227
+301 1569 381067
+404 826 971283
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 111
+http://61.163.249.25/proxy 1 http://www.baidu.com/
+/sitemap.xml 1 -
+/ 67 -
+/sanqingcha/list_3_2.html 1 http://china-spa.cn/sanqingcha/list_3_2.html
+/robots.txt 438 -
+/news/2010070720.html 1 -
+/news/2010070618.html 1 -
+/plus/flink_add.php 1 -
+/hr/6.jpg 1 -
+/invoker/JMXInvokerServlet 2 -
+/sanqingcha/2012/0814/59.html 2 -
+/wp-content/themes/blinc/framework/_scripts/valums_uploader/php.php 1 -
+/wp-content/themes/saico/framework/_scripts/valums_uploader/php.php 1 -
+/english/spa.html 1 -
+/kouchushishimeyuanyinyinqide/ 1 -
+/news/201004107.html 1 -
+/news/2010060617.html 1 -
+/sanqingcha/ 4 -
+/ppiyprfr.html 1 -
+/spa/ 1 -
+/kouchushishimeyuanyinyinqide/2012/0726/14.html 1 -
+/kouchuchishimeyao/2012/0725/5.html 1 -
+/sanqingcha/2012/0811/50.html 2 -
+/english/ 1 -
+/imgs/yewei.jpg 1 -
+/templets/default/style/dedecms.css 6 -
+/dede/templets/article_coonepage_rule.htm 1 -
+/2012-10-09-07-48-16/ 2 -
+/sf/10-sf/ 2 -
+/lvyou/index_clip_image004_0000.jpg 34 -
+/news/2010052912.html 3 -
+/imgs/jiudian/021-%EF%BF%BD%CD%B7%EF%BF%BD%EF%BF%BD%EF%BF%BD%D7%BC%EF%BF%BD%EF%BF%BD-2.jpg 1 -
+/jiudian/ 2 -
+/kouchuchishimeyao/list_2_1.html 1 http://china-spa.cn/kouchuchishimeyao/list_2_1.html
+/lvyou/index_clip_image005_0000.jpg 1 -
+/news/maps.html 1 -
+/imgs/muer.jpg 3 http://image.baidu.com/i
+/HNAP1/ 28 http://76.163.168.24/
+/sf/ 1 -
+/administrator 2 -
+/plus/flink.php 1 -
+/yjivwl8m0oegq84x.html 1 http://china-spa.cn/
+/plus/img/wbg.gif 1 -
+/member/images/member.gif 3 -
+/imgs/huacai.bmp 1 -
+/imgs/jiudian/028-8F%EF%BF%BD%D7%B7%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD.jpg 1 -
+/a/chanpinjieshao/20130308/6.html 1 -
+/news/2010060115.html 3 -
+/member/templets/images/login_logo.gif 1 -
+/sanqingcha/2012/0814/58.html 2 -
+/wp-content/themes/nuance/functions/jwpanel/scripts/valums_uploader/php.php 1 -
+/kouchushishimeyuanyinyinqide/2012/0726/11.html 1 http://china-spa.cn/kouchushishimeyuanyinyinqide/2012/0726/11.html
+/about/ 3 -
+/http://china-spa.cn/wp-content/themes/hero/css/superfish.css 1 -
+/menpiaoyuding/ 2 -
+/wp-content/themes/skinizer/framework/_scripts/valums_uploader/php.php 1 -
+/imgs/c_04_03.gif 1 -
+/sanqingcha/2012/0814/60.html 2 -
+/imgs/fen.bmp 1 -
+/w00tw00t.at.blackhats.romanian.anti-sec:) 1 -
+/kouchushishimeyuanyinyinqide/2012/0730/23.html 1 -
+/http://china-spa.cn/wp-content/themes/hero/css/nivo-slider.css 1 -
+/csl9s546xwps9e3h.html 1 http://www.china-spa.cn/
+/web-console/Invoker 2 -
+/data/admin/ver.txt 5 -
+/english 1 -
+/wp-content/themes/lightspeed/framework/_scripts/valums_uploader/php.php 1 -
+/news/youhuihuodong.html 1 -
+/invoker/EJBInvokerServlet/ 2 -
+/jiudian 1 -
+/wp-content/themes/skyd/framework/_scripts/valums_uploader/php.php 1 -
+/data/admin/allowurl.txt 6 -
+/member/images/base.css 2 -
+/kouchushishimeyuanyinyinqide/2012/0807/42.html 2 -
+/index.html 21 -
+/plus/guestbook.php 1 -
+/wp-content/themes/magnitudo/framework/_scripts/valums_uploader/php.php 1 -
+/2012-10-09-07-43-46/ 3 -
+/tags.php 9 -
+/dede/img/admin_top_logo.gif 2 -
+/show/2010070720.html 1 -
+/plugins/editor.zoho/agent/save_zoho.php 1 -
+/hr 2 -
+/news/huiyuan.html 1 -
+/member/images/dzh_logo.gif 2 -
+/kouchushishimeyuanyinyinqide/2012/0730/25.html 3 -
+/kouchuchishimeyao/2012/0726/18.html 1 -
+/%c2%a02013-10-03%c2%a0 1 -
+/hr/5.jpg 18 -
+/english/food-entertainment.html 1 -
+/icons/apache_pb.gif 1 -
+/status 1 -
+/news/list_2_1.html 1 -
+/wp-content/themes/eptonic/functions/jwpanel/scripts/valums_uploader/php.php 1 -
+/http://china-spa.cn/wp-content/themes/hero/style.css 1 -
+/plus/recommend.php 1 http://china-spa.cn/plus/recommend.php
+/wp-content/themes/switchblade/framework/_scripts/valums_uploader/php.php 1 -
+/news/2010060114.html 1 -
+/author/admin/ 1 -
+/english/ABOUT.HTML 1 -
+/2013/04/ 1 -
+/plus/download.php 3 -
+http://images4.byinter.net/img-681.jpg 1 -
+/lvyou/ 1 -
+/tag/%E4%BB%80%E4%B9%88%E6%98%AF%E5%87%8F%E8%82%A5%E8%8C%B6 7 -
+/imgs/jiudian/023-%EF%BF%BD%CD%B7%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD.jpg 1 -
+//cgi-bin/php-cgi 1 -
+/10-sf/4-2012-10-09-09-16-52/ 2 -
+/news/ 4 -
+http://baidu.comhttp/baidu.com/ 48 http://www.baidu.com/
+/maps/maps1.html 1 -
+END_SIDER_404
+
+# Plugin key - Pages - Hits - Bandwidth - Last access
+BEGIN_PLUGIN_geoip_city_maxmind 46
+cn_fuzhou_07 0 506 0 0
+cn_beijing_22 0 486 0 0
+cn_guangzhou_30 0 121 0 0
+cn_wuhan_12 0 46 0 0
+unknown 0 46 0 0
+cn_zhengzhou_09 0 33 0 0
+us_dallas_tx 0 32 0 0
+cn_quanzhou_07 0 23 0 0
+cn_tianjin_28 0 23 0 0
+cn_shanghai_23 0 21 0 0
+ca_montreal_qc 0 1 0 0
+cn_xian_26 0 5 0 0
+cn_taian_25 0 1 0 0
+us_absecon_nj 0 1 0 0
+cn_hangzhou_02 0 4 0 0
+us_san%20diego_ca 0 1 0 0
+cn_jinan_25 0 18 0 0
+cn_nanjing_04 0 7 0 0
+ru_saint%20petersburg_66 0 2 0 0
+cn_xiamen_07 0 21 0 0
+us_tempe_az 0 1 0 0
+cn_Ürümqi_13 0 1 0 0
+cn_chongqing_33 0 1 0 0
+pl_warsaw_78 0 16 0 0
+cn_harbin_08 0 1 0 0
+us_reston_va 0 20 0 0
+cn_kunming_29 0 2 0 0
+cn_hebei_10 0 3 0 0
+hk_central%20district_00 0 1 0 0
+us_houston_tx 0 19 0 0
+cn_chengdu_32 0 9 0 0
+vn_can%20tho_87 0 1 0 0
+us_maspeth_ny 0 1 0 0
+pl_trzebinia_77 0 2 0 0
+cn_changsha_11 0 2 0 0
+tw_taipei_03 0 1 0 0
+ca_ottawa_on 0 10 0 0
+cn_langfang_10 0 1 0 0
+cn_nanning_16 0 2 0 0
+kr_seoul_11 0 1 0 0
+cn_putian_07 0 1 0 0
+cn_qingdao_25 0 15 0 0
+cn_baotou_20 0 1 0 0
+cn_weifang_25 0 15 0 0
+us_ashburn_va 0 6 0 0
+us_woodbridge_nj 0 3 0 0
+END_PLUGIN_geoip_city_maxmind
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 223
+125.77.121.217 46 208 4911972 20131021224322
+36.248.182.82 39 153 4907793 20131002224012
+120.42.175.214 32 80 2941984 20131026113850
+183.60.243.242 32 32 415083 20131030185317
+183.60.244.20 26 26 328174 20131029173307
+69.58.178.56 20 20 323705 20131021165812
+110.80.33.98 20 20 337176 20131030000656
+208.43.225.85 20 20 380540 20131022091354
+184.173.121.53 19 19 365655 20131023002605
+220.181.132.219 14 14 173115 20131031000401
+123.125.71.15 0 1 7200 
+173.220.235.18 1 1 12800 20131007105200
+61.135.190.105 0 8 239557 
+117.24.22.58 1 12 329855 20131019205832
+54.200.152.43 1 1 13435 20131029071911
+59.174.31.109 1 31 761107 20131007010801
+70.36.97.52 1 1 12824 20131015031504
+123.125.71.27 0 2 30986 
+220.181.51.212 0 1 30200 
+123.125.71.44 0 2 4952 
+1.202.110.114 1 15 728688 20131028035110
+198.100.144.166 1 1 12613 20131001015726
+112.90.78.22 1 6 148886 20131026113130
+111.20.184.27 1 1 13272 20131021225507
+182.113.67.2 1 15 761107 20131016053309
+54.219.129.239 1 1 12801 20131015120304
+110.90.42.74 2 25 939098 20131018084734
+61.146.178.189 5 5 64568 20131022020950
+123.125.71.33 0 3 190005 
+113.206.46.254 1 1 13272 20131021231804
+14.17.34.191 1 6 148709 20131022115919
+222.189.57.182 1 1 13453 20131026113922
+123.125.71.58 0 2 31317 
+183.219.26.206 1 1 13453 20131026132417
+123.125.71.43 0 1 30200 
+110.245.50.19 1 1 13272 20131021230926
+119.138.219.42 1 15 761555 20131026084040
+123.125.71.51 0 4 35938 
+123.125.71.31 0 2 96920 
+123.125.71.19 0 3 216370 
+219.143.225.2 14 14 226199 20131028034301
+219.143.225.20 1 1 13454 20131029045231
+220.181.108.19 1 1 13418 20131029035422
+220.181.132.195 2 20 353490 20131007203910
+42.120.145.102 1 1 13272 20131024102906
+123.125.71.41 0 3 98037 
+123.125.71.17 0 3 38186 
+60.215.251.157 2 16 774827 20131022221339
+208.80.194.32 1 1 13419 20131026155121
+220.181.132.15 1 10 177377 20131028132238
+180.149.133.39 0 1 1701 
+171.105.60.60 1 1 13272 20131026084014
+220.181.51.54 0 1 167288 
+211.142.193.13 1 1 12790 20131018104046
+182.118.20.162 1 1 13453 20131030151403
+180.153.163.208 2 2 16934 20131007005527
+61.164.150.70 6 6 26732 20131028074818
+123.125.71.54 0 1 93085 
+61.135.190.223 0 5 135437 
+120.71.159.106 1 1 13272 20131021230234
+220.169.155.71 1 1 12790 20131011053120
+218.107.133.87 1 1 13460 20131026114723
+61.135.190.221 1 6 119626 20131025021102
+222.247.38.219 1 1 13272 20131021230859
+61.135.190.100 1 8 274894 20131027014832
+123.125.71.23 0 3 67742 
+123.125.71.20 0 1 7200 
+221.232.63.75 1 1 12790 20131021030946
+42.120.145.184 1 1 0 20131024102907
+180.166.31.2 1 1 13272 20131021225149
+58.18.5.235 1 1 13272 20131021225000
+120.37.228.158 1 1 12790 20131014090029
+61.135.190.220 2 5 36167 20131030060058
+123.125.71.34 0 1 1117 
+61.135.190.219 2 5 89883 20131020145811
+61.136.228.131 3 12 203190 20131022011630
+220.181.51.202 0 1 7200 
+146.185.165.90 1 1 13254 20131026074816
+182.89.148.200 1 1 13460 20131026120208
+123.124.244.136 1 1 13272 20131021225344
+180.178.36.226 1 1 13453 20131026113831
+180.153.100.112 1 1 13460 20131026113843
+113.162.231.148 1 1 13435 20131029233400
+61.146.178.184 2 2 25648 20131019082913
+123.125.71.60 0 2 31317 
+124.160.161.213 1 1 13460 20131030022442
+223.78.220.88 2 15 464450 20131028114624
+107.20.67.165 1 1 4141 20131004084002
+119.147.146.189 1 6 148897 20131026120712
+220.181.51.210 0 1 93085 
+218.30.116.100 0 1 1117 
+198.24.171.82 1 1 12824 20131021080419
+123.125.71.119 1 1 12824 20131016042925
+123.125.71.57 0 3 130485 
+110.251.172.82 1 1 13272 20131021225537
+61.135.189.44 1 1 12824 20131016061928
+175.44.50.26 1 15 760939 20131001102517
+5.9.189.39 1 1 12824 20131005021956
+111.161.61.114 1 6 148261 20131009101634
+202.102.79.243 4 4 52416 20131030033327
+221.10.185.2 1 8 145431 20131006174716
+220.181.51.39 0 1 323174 
+180.241.201.21 1 1 13272 20131021224753
+218.30.116.93 0 1 93085 
+61.135.190.104 0 8 268640 
+218.30.116.97 0 3 18235 
+112.90.139.28 1 1 12824 20131019080322
+120.37.85.149 2 11 349084 20131028114304
+220.181.125.73 1 1 12824 20131016061928
+123.168.196.225 1 15 761549 20131022202334
+123.125.71.16 0 1 93085 
+123.125.71.59 0 1 7200 
+180.149.133.36 0 1 23693 
+61.135.190.102 1 3 107026 20131019220826
+95.134.6.24 1 1 12824 20131007054848
+208.43.225.84 7 7 128184 20131013021256
+85.25.184.208 1 1 12824 20131004192650
+110.85.105.97 1 1 12790 20131018232148
+220.181.132.197 1 10 176742 20131002224222
+199.30.24.111 0 14 748326 
+117.33.101.108 3 3 42943 20131030221014
+218.30.116.95 0 2 94202 
+218.241.98.203 1 1 4115 20131029060159
+114.108.177.117 1 1 13272 20131021225127
+61.135.190.224 3 7 63302 20131026115903
+111.248.128.19 1 1 13272 20131021225801
+112.64.235.248 2 2 25648 20131011070302
+123.125.71.40 0 2 31317 
+123.168.8.245 1 1 13266 20131021225159
+220.181.51.211 0 1 1701 
+58.19.126.64 1 1 13272 20131021225118
+37.59.186.166 1 1 13272 20131022005539
+123.125.71.14 0 1 30200 
+180.153.201.216 1 6 148261 20131019040239
+120.42.93.189 1 1 12824 20131006053129
+115.53.22.125 1 1 13272 20131021230123
+123.125.71.45 0 3 11821 
+123.138.102.148 1 1 13272 20131022181716
+198.154.104.37 0 4 28487 
+54.200.201.67 1 1 12801 20131021103154
+123.125.71.18 0 1 30200 
+111.14.70.156 1 1 13460 20131026114140
+119.147.146.118 2 7 161981 20131022155934
+220.181.132.19 3 30 530873 20131029220211
+220.181.132.220 5 5 65385 20131030220434
+123.125.71.26 0 4 217487 
+220.181.89.187 0 5 53010 
+117.79.144.165 6 24 243065 20131030153743
+124.160.161.228 1 1 12818 20131008073707
+192.241.200.199 1 1 12806 20131012175609
+123.125.71.24 0 3 11505 
+77.255.81.88 2 2 28567 20131026175853
+123.125.71.53 0 1 93085 
+14.17.34.190 2 12 297418 20131022214009
+199.30.24.104 0 14 748283 
+110.194.250.66 6 20 767099 20131021055733
+222.222.131.247 1 1 13272 20131021225940
+101.226.89.69 1 1 13272 20131022214018
+183.61.174.211 1 1 13418 20131031000504
+123.125.71.32 0 2 14400 
+123.125.71.38 0 1 30200 
+198.154.104.40 1 1 12824 20131006010746
+46.229.170.197 1 1 13461 20131028055457
+220.181.51.200 1 1 12790 20131004192447
+182.245.126.76 2 2 26028 20131024204237
+101.23.200.175 1 1 13272 20131021230716
+218.30.116.99 0 3 38517 
+220.181.132.193 2 20 353496 20131009002410
+123.125.71.47 0 2 94202 
+50.116.47.13 1 1 12613 20131001212322
+123.125.71.12 0 2 34035 
+113.212.70.233 1 1 12824 20131006192449
+220.181.51.203 0 1 2222 
+123.125.71.49 0 5 138802 
+222.35.68.234 3 17 774827 20131021224539
+220.181.132.16 1 10 176748 20131009031503
+218.10.51.11 1 1 12824 20131019114712
+119.98.237.65 1 1 12790 20131009130633
+23.20.115.183 1 1 12824 20131009105305
+220.181.51.199 0 2 4952 
+182.127.155.207 1 14 248395 20131006232051
+101.226.89.61 1 1 13266 20131022214018
+120.40.9.97 1 15 761107 20131011085048
+220.181.51.201 0 1 23693 
+180.149.133.38 1 1 12824 20131018201646
+61.135.190.222 1 3 46859 20131018102405
+123.125.71.29 0 2 100285 
+111.240.148.216 1 1 13442 20131027034612
+61.135.190.101 1 5 170144 20131018145041
+123.125.71.46 0 1 30200 
+218.92.254.86 2 2 25580 20131021142720
+211.142.193.14 1 1 12790 20131008121417
+117.25.128.150 1 1 13461 20131028062254
+124.135.54.94 1 15 761107 20131007003105
+180.149.133.15 0 1 2222 
+123.125.71.30 0 1 1117 
+221.236.199.6 1 1 13266 20131021225047
+218.30.116.94 0 3 37870 
+220.181.51.209 0 1 871 
+123.125.71.136 1 1 16435 20131018201729
+23.22.97.147 4 4 13460 20131030075919
+83.143.141.111 2 16 773931 20131016203219
+131.253.24.39 1 10 176748 20131021143439
+123.125.71.39 0 3 101402 
+123.125.71.48 0 1 30200 
+61.150.72.208 1 1 13442 20131026113713
+210.238.97.50 2 2 17568 20131031003509
+220.181.132.198 3 30 530874 20131029213054
+146.185.148.18 1 1 13436 20131030052523
+183.61.174.217 1 1 13418 20131031000452
+211.97.12.188 1 1 13272 20131024180325
+123.125.71.52 0 3 9434 
+110.90.41.203 3 8 91579 20131025233238
+220.181.132.200 2 20 353946 20131026113228
+123.151.39.54 3 17 779318 20131029160220
+101.226.89.64 1 1 13272 20131022214018
+112.64.235.247 1 6 148709 20131022070344
+123.125.71.36 0 3 12152 
+61.135.190.103 3 18 419695 20131029070850
+123.125.71.25 0 3 34821 
+123.125.71.50 0 1 3835 
+119.183.140.226 1 1 13272 20131021225223
+218.30.116.96 0 2 123285 
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 30
+20131001 7 30 1000578 7
+20131002 46 186 5936360 6
+20131003 7 22 382105 5
+20131004 5 15 242986 5
+20131005 6 23 403921 6
+20131006 9 42 675999 9
+20131007 19 81 2081188 12
+20131008 4 9 186693 4
+20131009 11 42 767328 11
+20131010 12 12 187503 3
+20131011 9 23 863631 8
+20131012 4 8 102587 4
+20131013 7 7 128184 1
+20131014 3 8 173875 3
+20131015 6 14 336361 5
+20131016 9 42 2130060 8
+20131018 10 60 1739454 9
+20131019 11 42 999843 11
+20131020 11 39 739786 8
+20131021 93 315 7721452 32
+20131022 39 128 4018937 18
+20131023 20 25 514364 2
+20131024 6 12 203985 6
+20131025 8 18 294335 6
+20131026 53 141 4600700 21
+20131027 4 6 154101 4
+20131028 22 72 2050360 11
+20131029 16 62 1580389 13
+20131030 37 45 691104 12
+20131031 5 5 57857 4
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 6
+5mn-15mn 7
+2mn-5mn 2
+15mn-30mn 2
+30s-2mn 6
+0s-30s 236
+30mn-1h 1
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 17
+/ 383 5314192 251 249
+/wp-admin/admin-ajax.php 41 37064 0 3
+/wp-admin/load-scripts.php 23 4541587 0 0
+/wp-admin/load-styles.php 14 1361968 0 0
+/wp-login.php 8 24233 3 1
+/wp-admin/theme-editor.php 6 205826 0 0
+/wp-admin/ 4 238290 0 1
+/wp-admin/post-new.php 4 391020 0 0
+/wp-admin/post.php 4 408810 0 0
+/wp-admin/profile.php 3 76134 0 0
+/wp-admin/options-permalink.php 1 23956 0 0
+/wp-admin/about.php 1 23365 0 0
+/wp-admin/themes.php 1 44253 0 0
+/wp-includes/js/mediaelement/controls.svg 1 10344 0 0
+/wp-admin/options-general.php 2 106710 0 0
+/wp-includes/js/mediaelement/bigplay.svg 1 3482 0 0
+/wp-admin/update-core.php 2 48277 0 0
+END_SIDER

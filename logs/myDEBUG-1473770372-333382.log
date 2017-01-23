@@ -1,0 +1,8 @@
+[13-Sep-2016 20:39:32] PHP Fatal error:  1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'key FROM cai_translator WHERE stute=1 order by rand() limit 1' at line 1 :: SELECT key FROM cai_translator WHERE stute=1 order by rand() limit 1 in D:\wampserver\wamp\www\lulu\includes\classes\db\mysql\query_factory.php on line 122
+[13-Sep-2016 20:39:32] PHP Stack trace:
+[13-Sep-2016 20:39:32] PHP   1. {main}() D:\wampserver\wamp\www\lulu\index.php:0
+[13-Sep-2016 20:39:32] PHP   2. require() D:\wampserver\wamp\www\lulu\index.php:36
+[13-Sep-2016 20:39:32] PHP   3. queryFactory->Execute() D:\wampserver\wamp\www\lulu\includes\modules\pages\transapi\header_php.php:23
+[13-Sep-2016 20:39:32] PHP   4. queryFactory->set_error() D:\wampserver\wamp\www\lulu\includes\classes\db\mysql\query_factory.php:232
+[13-Sep-2016 20:39:32] PHP   5. queryFactory->show_error() D:\wampserver\wamp\www\lulu\includes\classes\db\mysql\query_factory.php:107
+[13-Sep-2016 20:39:32] PHP   6. trigger_error() D:\wampserver\wamp\www\lulu\includes\classes\db\mysql\query_factory.php:122

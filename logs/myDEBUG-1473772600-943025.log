@@ -1,0 +1,7 @@
+[13-Sep-2016 21:16:44] PHP Warning:  file_get_contents(https://api.datamarket.azure.com/Data.ashx/Bing/MicrosoftTranslator/v1/Translate?Text=%27%E6%88%91%E4%BB%AC%E5%8F%AF%E4%BB%A5%E4%BD%BF%E7%94%A8php.ini%E4%B8%AD%E9%85%8D%E7%BD%AE%E5%8F%82%E6%95%B0%E6%9D%A5%E6%8E%A7%E5%88%B6%27&amp;To=%27en%27&amp;$format=Raw&amp;$top=100) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: HTTP request failed! HTTP/1.1 401 The authorization type you provided is not supported.  Only Basic and OAuth are supported
+ in D:\wampserver\wamp\www\lulu\includes\classes\MicrosoftTranslator.class.php on line 142
+[13-Sep-2016 21:16:44] PHP Stack trace:
+[13-Sep-2016 21:16:44] PHP   1. {main}() D:\wampserver\wamp\www\lulu\index.php:0
+[13-Sep-2016 21:16:44] PHP   2. require() D:\wampserver\wamp\www\lulu\index.php:36
+[13-Sep-2016 21:16:44] PHP   3. MicrosoftTranslator->translate() D:\wampserver\wamp\www\lulu\includes\modules\pages\transapi\header_php.php:38
+[13-Sep-2016 21:16:44] PHP   4. file_get_contents() D:\wampserver\wamp\www\lulu\includes\classes\MicrosoftTranslator.class.php:142

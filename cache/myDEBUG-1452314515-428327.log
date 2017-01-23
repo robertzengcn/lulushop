@@ -1,0 +1,9 @@
+[09-Jan-2016 04:41:55 UTC] PHP Fatal error:  1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '''=:state,entry_zone_id=:zoneid,entry_country_id=44 WHERE address_book_id = 507 ' at line 2 :: UPDATE address_book set entry_firstname ='发大水发', entry_street_address='读书发大水发散发',entry_postcode='3434234',
+			entry_city='范德萨发大水',entry_telephone='4324234',''=:state,entry_zone_id=:zoneid,entry_country_id=44 WHERE address_book_id = 507 AND customers_id='456' in D:\wampserver\wamp\www\lulu\includes\classes\db\mysql\query_factory.php on line 122
+[09-Jan-2016 04:41:55 UTC] PHP Stack trace:
+[09-Jan-2016 04:41:55 UTC] PHP   1. {main}() D:\wampserver\wamp\www\lulu\index.php:0
+[09-Jan-2016 04:41:55 UTC] PHP   2. require() D:\wampserver\wamp\www\lulu\index.php:36
+[09-Jan-2016 04:41:55 UTC] PHP   3. queryFactory->Execute() D:\wampserver\wamp\www\lulu\includes\modules\pages\ajaxcheckpay\header_php.php:180
+[09-Jan-2016 04:41:55 UTC] PHP   4. queryFactory->set_error() D:\wampserver\wamp\www\lulu\includes\classes\db\mysql\query_factory.php:232
+[09-Jan-2016 04:41:55 UTC] PHP   5. queryFactory->show_error() D:\wampserver\wamp\www\lulu\includes\classes\db\mysql\query_factory.php:107
+[09-Jan-2016 04:41:55 UTC] PHP   6. trigger_error() D:\wampserver\wamp\www\lulu\includes\classes\db\mysql\query_factory.php:122

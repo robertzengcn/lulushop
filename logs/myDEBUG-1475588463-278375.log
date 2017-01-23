@@ -1,0 +1,8 @@
+[04-Oct-2016 21:41:04] PHP Warning:  file_get_contents(https://api.datamarket.azure.com/Data.ashx/Bing/MicrosoftTranslator/v1/Translate?Text=%27%E5%86%85%E5%AE%B9%E6%91%98%E8%A6%81%EF%BC%9A%E5%A5%B3%E6%80%A7%E5%AF%B9%E4%B8%8D%E5%90%8C%E7%A7%8D%E7%B1%BB%E7%9A%84%E5%AE%89%E5%85%A8%E5%A5%97%E6%9C%89%E4%BB%80%E4%B9%88%E4%B8%8D%E5%90%8C%E7%9A%84%E6%84%9F%E8%A7%89%E3%80%82%E6%88%91%E4%BB%AC%E6%94%B6%E9%9B%86%E4%BA%86%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86%E5%B8%82%E5%9C%BA%E4%B8%8A%E6%9C%80%E4%B8%BB%E6%B5%81%E7%9A%84%E5%A5%97%E5%A5%97%EF%BC%8C%E5%8E%BB%E5%81%9A%E4%BA%86%E4%B8%80%E4%B8%AA%E4%BB%8E%E5%A5%B3%E6%80%A7%E8%A7%92%E5%BA%A6%E5%87%BA%E5%8F%91%E7%9A%84%E5%A5%97%E5%A5%97%E8%AF%84%E6%B5%8B%E3%80%82%27&amp;To=%27en%27&amp;$format=Raw&amp;$top=100) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: HTTP request failed! HTTP/1.1 502 Bad Gateway
+ in D:\wampserver\wamp\www\lulu\includes\classes\MicrosoftTranslator.class.php on line 142
+[04-Oct-2016 21:41:04] PHP Stack trace:
+[04-Oct-2016 21:41:04] PHP   1. {main}() D:\wampserver\wamp\www\lulu\index.php:0
+[04-Oct-2016 21:41:04] PHP   2. require() D:\wampserver\wamp\www\lulu\index.php:36
+[04-Oct-2016 21:41:04] PHP   3. Translator->bing() D:\wampserver\wamp\www\lulu\includes\modules\pages\transapi\header_php.php:35
+[04-Oct-2016 21:41:04] PHP   4. MicrosoftTranslator->translate() D:\wampserver\wamp\www\lulu\includes\classes\translator.php:19
+[04-Oct-2016 21:41:04] PHP   5. file_get_contents() D:\wampserver\wamp\www\lulu\includes\classes\MicrosoftTranslator.class.php:142

@@ -1,0 +1,222 @@
+[06-Jan-2016 13:36:42 UTC] PHP Warning:  imagepng() [<a href='function.imagepng'>function.imagepng</a>]: Unable to open 'D:/wampserver/wamp/www/lulu/bmz_cache/d/d02cc76529f79bc780ff1178ba6e3d0a.image.74x110.143cm智能可发声口交全身硅胶实体娃娃.png' for writing: Invalid argument in D:\wampserver\wamp\www\lulu\includes\classes\bmz_image_handler.class.php on line 652
+[06-Jan-2016 13:36:42 UTC] PHP Stack trace:
+[06-Jan-2016 13:36:42 UTC] PHP   1. {main}() D:\wampserver\wamp\www\lulu\index.php:0
+[06-Jan-2016 13:36:42 UTC] PHP   2. require() D:\wampserver\wamp\www\lulu\index.php:97
+[06-Jan-2016 13:36:42 UTC] PHP   3. require() D:\wampserver\wamp\www\lulu\includes\templates\mars\common\tpl_main_page.php:148
+[06-Jan-2016 13:36:42 UTC] PHP   4. zen_image() D:\wampserver\wamp\www\lulu\includes\templates\mars\common\tpl_header.php:122
+[06-Jan-2016 13:36:42 UTC] PHP   5. handle_image() D:\wampserver\wamp\www\lulu\includes\functions\html_output.php:202
+[06-Jan-2016 13:36:42 UTC] PHP   6. ih_image->get_local() D:\wampserver\wamp\www\lulu\includes\functions\extra_functions\functions_bmz_image_handler.php:58
+[06-Jan-2016 13:36:42 UTC] PHP   7. ih_image->get_resized_image() D:\wampserver\wamp\www\lulu\includes\classes\bmz_image_handler.class.php:195
+[06-Jan-2016 13:36:42 UTC] PHP   8. ih_image->resize_imageGD() D:\wampserver\wamp\www\lulu\includes\classes\bmz_image_handler.class.php:268
+[06-Jan-2016 13:36:42 UTC] PHP   9. ih_image->save_imageGD() D:\wampserver\wamp\www\lulu\includes\classes\bmz_image_handler.class.php:600
+[06-Jan-2016 13:36:42 UTC] PHP  10. imagepng() D:\wampserver\wamp\www\lulu\includes\classes\bmz_image_handler.class.php:652
+[06-Jan-2016 13:36:43 UTC] PHP Warning:  imagepng() [<a href='function.imagepng'>function.imagepng</a>]: Unable to open 'D:/wampserver/wamp/www/lulu/bmz_cache/f/ffaf50efeb6024ccf31edfed6ce34acb.image.207x305.143cm智能可发声口交全身硅胶实体娃娃.png' for writing: Invalid argument in D:\wampserver\wamp\www\lulu\includes\classes\bmz_image_handler.class.php on line 652
+[06-Jan-2016 13:36:43 UTC] PHP Stack trace:
+[06-Jan-2016 13:36:43 UTC] PHP   1. {main}() D:\wampserver\wamp\www\lulu\index.php:0
+[06-Jan-2016 13:36:43 UTC] PHP   2. require() D:\wampserver\wamp\www\lulu\index.php:97
+[06-Jan-2016 13:36:43 UTC] PHP   3. require() D:\wampserver\wamp\www\lulu\includes\templates\mars\common\tpl_main_page.php:261
+[06-Jan-2016 13:36:43 UTC] PHP   4. require() D:\wampserver\wamp\www\lulu\includes\modules\pages\index\main_template_vars.php:217
+[06-Jan-2016 13:36:43 UTC] PHP   5. require() D:\wampserver\wamp\www\lulu\includes\templates\mars\templates\tpl_index_default.php:62
+[06-Jan-2016 13:36:43 UTC] PHP   6. include() D:\wampserver\wamp\www\lulu\includes\templates\mars\templates\tpl_modules_whats_new.php:12
+[06-Jan-2016 13:36:43 UTC] PHP   7. zen_image() D:\wampserver\wamp\www\lulu\includes\modules\mars\new_products.php:91
+[06-Jan-2016 13:36:43 UTC] PHP   8. handle_image() D:\wampserver\wamp\www\lulu\includes\functions\html_output.php:202
+[06-Jan-2016 13:36:43 UTC] PHP   9. ih_image->get_local() D:\wampserver\wamp\www\lulu\includes\functions\extra_functions\functions_bmz_image_handler.php:58
+[06-Jan-2016 13:36:43 UTC] PHP  10. ih_image->get_resized_image() D:\wampserver\wamp\www\lulu\includes\classes\bmz_image_handler.class.php:195
+[06-Jan-2016 13:36:43 UTC] PHP  11. ih_image->resize_imageGD() D:\wampserver\wamp\www\lulu\includes\classes\bmz_image_handler.class.php:268
+[06-Jan-2016 13:36:43 UTC] PHP  12. ih_image->save_imageGD() D:\wampserver\wamp\www\lulu\includes\classes\bmz_image_handler.class.php:600
+[06-Jan-2016 13:36:43 UTC] PHP  13. imagepng() D:\wampserver\wamp\www\lulu\includes\classes\bmz_image_handler.class.php:652
+[06-Jan-2016 13:36:43 UTC] PHP Warning:  imagejpeg() [<a href='function.imagejpeg'>function.imagejpeg</a>]: Unable to open 'D:/wampserver/wamp/www/lulu/bmz_cache/1/15e071241a0e7745574b5b06fe141dfc.image.305x305.全硅胶半身实体娃娃.jpg' for writing: Invalid argument in D:\wampserver\wamp\www\lulu\includes\classes\bmz_image_handler.class.php on line 657
+[06-Jan-2016 13:36:43 UTC] PHP Stack trace:
+[06-Jan-2016 13:36:43 UTC] PHP   1. {main}() D:\wampserver\wamp\www\lulu\index.php:0
+[06-Jan-2016 13:36:43 UTC] PHP   2. require() D:\wampserver\wamp\www\lulu\index.php:97
+[06-Jan-2016 13:36:43 UTC] PHP   3. require() D:\wampserver\wamp\www\lulu\includes\templates\mars\common\tpl_main_page.php:261
+[06-Jan-2016 13:36:43 UTC] PHP   4. require() D:\wampserver\wamp\www\lulu\includes\modules\pages\index\main_template_vars.php:217
+[06-Jan-2016 13:36:43 UTC] PHP   5. require() D:\wampserver\wamp\www\lulu\includes\templates\mars\templates\tpl_index_default.php:62
+[06-Jan-2016 13:36:43 UTC] PHP   6. include() D:\wampserver\wamp\www\lulu\includes\templates\mars\templates\tpl_modules_whats_new.php:12
+[06-Jan-2016 13:36:43 UTC] PHP   7. zen_image() D:\wampserver\wamp\www\lulu\includes\modules\mars\new_products.php:91
+[06-Jan-2016 13:36:43 UTC] PHP   8. handle_image() D:\wampserver\wamp\www\lulu\includes\functions\html_output.php:202
+[06-Jan-2016 13:36:43 UTC] PHP   9. ih_image->get_local() D:\wampserver\wamp\www\lulu\includes\functions\extra_functions\functions_bmz_image_handler.php:58
+[06-Jan-2016 13:36:43 UTC] PHP  10. ih_image->get_resized_image() D:\wampserver\wamp\www\lulu\includes\classes\bmz_image_handler.class.php:195
+[06-Jan-2016 13:36:43 UTC] PHP  11. ih_image->resize_imageGD() D:\wampserver\wamp\www\lulu\includes\classes\bmz_image_handler.class.php:268
+[06-Jan-2016 13:36:43 UTC] PHP  12. ih_image->save_imageGD() D:\wampserver\wamp\www\lulu\includes\classes\bmz_image_handler.class.php:600
+[06-Jan-2016 13:36:43 UTC] PHP  13. imagejpeg() D:\wampserver\wamp\www\lulu\includes\classes\bmz_image_handler.class.php:657
+[06-Jan-2016 13:36:44 UTC] PHP Warning:  imagepng() [<a href='function.imagepng'>function.imagepng</a>]: Unable to open 'D:/wampserver/wamp/www/lulu/bmz_cache/5/5141258731b8710b4607736265fdc820.image.230x305.108cm智能可发声口交全身硅胶实体娃娃.png' for writing: Invalid argument in D:\wampserver\wamp\www\lulu\includes\classes\bmz_image_handler.class.php on line 652
+[06-Jan-2016 13:36:44 UTC] PHP Stack trace:
+[06-Jan-2016 13:36:44 UTC] PHP   1. {main}() D:\wampserver\wamp\www\lulu\index.php:0
+[06-Jan-2016 13:36:44 UTC] PHP   2. require() D:\wampserver\wamp\www\lulu\index.php:97
+[06-Jan-2016 13:36:44 UTC] PHP   3. require() D:\wampserver\wamp\www\lulu\includes\templates\mars\common\tpl_main_page.php:261
+[06-Jan-2016 13:36:44 UTC] PHP   4. require() D:\wampserver\wamp\www\lulu\includes\modules\pages\index\main_template_vars.php:217
+[06-Jan-2016 13:36:44 UTC] PHP   5. require() D:\wampserver\wamp\www\lulu\includes\templates\mars\templates\tpl_index_default.php:62
+[06-Jan-2016 13:36:44 UTC] PHP   6. include() D:\wampserver\wamp\www\lulu\includes\templates\mars\templates\tpl_modules_whats_new.php:12
+[06-Jan-2016 13:36:44 UTC] PHP   7. zen_image() D:\wampserver\wamp\www\lulu\includes\modules\mars\new_products.php:91
+[06-Jan-2016 13:36:44 UTC] PHP   8. handle_image() D:\wampserver\wamp\www\lulu\includes\functions\html_output.php:202
+[06-Jan-2016 13:36:44 UTC] PHP   9. ih_image->get_local() D:\wampserver\wamp\www\lulu\includes\functions\extra_functions\functions_bmz_image_handler.php:58
+[06-Jan-2016 13:36:44 UTC] PHP  10. ih_image->get_resized_image() D:\wampserver\wamp\www\lulu\includes\classes\bmz_image_handler.class.php:195
+[06-Jan-2016 13:36:44 UTC] PHP  11. ih_image->resize_imageGD() D:\wampserver\wamp\www\lulu\includes\classes\bmz_image_handler.class.php:268
+[06-Jan-2016 13:36:44 UTC] PHP  12. ih_image->save_imageGD() D:\wampserver\wamp\www\lulu\includes\classes\bmz_image_handler.class.php:600
+[06-Jan-2016 13:36:44 UTC] PHP  13. imagepng() D:\wampserver\wamp\www\lulu\includes\classes\bmz_image_handler.class.php:652
+[06-Jan-2016 13:36:44 UTC] PHP Warning:  imagejpeg() [<a href='function.imagejpeg'>function.imagejpeg</a>]: Unable to open 'D:/wampserver/wamp/www/lulu/bmz_cache/2/222c945776f4f7569b45c7213c145e1f.image.252x305.可充气枕头娃娃.jpg' for writing: Invalid argument in D:\wampserver\wamp\www\lulu\includes\classes\bmz_image_handler.class.php on line 657
+[06-Jan-2016 13:36:44 UTC] PHP Stack trace:
+[06-Jan-2016 13:36:44 UTC] PHP   1. {main}() D:\wampserver\wamp\www\lulu\index.php:0
+[06-Jan-2016 13:36:44 UTC] PHP   2. require() D:\wampserver\wamp\www\lulu\index.php:97
+[06-Jan-2016 13:36:44 UTC] PHP   3. require() D:\wampserver\wamp\www\lulu\includes\templates\mars\common\tpl_main_page.php:261
+[06-Jan-2016 13:36:44 UTC] PHP   4. require() D:\wampserver\wamp\www\lulu\includes\modules\pages\index\main_template_vars.php:217
+[06-Jan-2016 13:36:44 UTC] PHP   5. require() D:\wampserver\wamp\www\lulu\includes\templates\mars\templates\tpl_index_default.php:62
+[06-Jan-2016 13:36:44 UTC] PHP   6. include() D:\wampserver\wamp\www\lulu\includes\templates\mars\templates\tpl_modules_whats_new.php:12
+[06-Jan-2016 13:36:44 UTC] PHP   7. zen_image() D:\wampserver\wamp\www\lulu\includes\modules\mars\new_products.php:91
+[06-Jan-2016 13:36:44 UTC] PHP   8. handle_image() D:\wampserver\wamp\www\lulu\includes\functions\html_output.php:202
+[06-Jan-2016 13:36:44 UTC] PHP   9. ih_image->get_local() D:\wampserver\wamp\www\lulu\includes\functions\extra_functions\functions_bmz_image_handler.php:58
+[06-Jan-2016 13:36:44 UTC] PHP  10. ih_image->get_resized_image() D:\wampserver\wamp\www\lulu\includes\classes\bmz_image_handler.class.php:195
+[06-Jan-2016 13:36:44 UTC] PHP  11. ih_image->resize_imageGD() D:\wampserver\wamp\www\lulu\includes\classes\bmz_image_handler.class.php:268
+[06-Jan-2016 13:36:44 UTC] PHP  12. ih_image->save_imageGD() D:\wampserver\wamp\www\lulu\includes\classes\bmz_image_handler.class.php:600
+[06-Jan-2016 13:36:44 UTC] PHP  13. imagejpeg() D:\wampserver\wamp\www\lulu\includes\classes\bmz_image_handler.class.php:657
+[06-Jan-2016 13:36:44 UTC] PHP Warning:  imagejpeg() [<a href='function.imagejpeg'>function.imagejpeg</a>]: Unable to open 'D:/wampserver/wamp/www/lulu/bmz_cache/c/c382944f192b1be08dfb4f8d9a0534a2.image.305x305.可充气的刘诗诗娃娃.jpg' for writing: Invalid argument in D:\wampserver\wamp\www\lulu\includes\classes\bmz_image_handler.class.php on line 657
+[06-Jan-2016 13:36:44 UTC] PHP Stack trace:
+[06-Jan-2016 13:36:44 UTC] PHP   1. {main}() D:\wampserver\wamp\www\lulu\index.php:0
+[06-Jan-2016 13:36:44 UTC] PHP   2. require() D:\wampserver\wamp\www\lulu\index.php:97
+[06-Jan-2016 13:36:44 UTC] PHP   3. require() D:\wampserver\wamp\www\lulu\includes\templates\mars\common\tpl_main_page.php:261
+[06-Jan-2016 13:36:44 UTC] PHP   4. require() D:\wampserver\wamp\www\lulu\includes\modules\pages\index\main_template_vars.php:217
+[06-Jan-2016 13:36:44 UTC] PHP   5. require() D:\wampserver\wamp\www\lulu\includes\templates\mars\templates\tpl_index_default.php:62
+[06-Jan-2016 13:36:44 UTC] PHP   6. include() D:\wampserver\wamp\www\lulu\includes\templates\mars\templates\tpl_modules_whats_new.php:12
+[06-Jan-2016 13:36:44 UTC] PHP   7. zen_image() D:\wampserver\wamp\www\lulu\includes\modules\mars\new_products.php:91
+[06-Jan-2016 13:36:44 UTC] PHP   8. handle_image() D:\wampserver\wamp\www\lulu\includes\functions\html_output.php:202
+[06-Jan-2016 13:36:44 UTC] PHP   9. ih_image->get_local() D:\wampserver\wamp\www\lulu\includes\functions\extra_functions\functions_bmz_image_handler.php:58
+[06-Jan-2016 13:36:44 UTC] PHP  10. ih_image->get_resized_image() D:\wampserver\wamp\www\lulu\includes\classes\bmz_image_handler.class.php:195
+[06-Jan-2016 13:36:44 UTC] PHP  11. ih_image->resize_imageGD() D:\wampserver\wamp\www\lulu\includes\classes\bmz_image_handler.class.php:268
+[06-Jan-2016 13:36:44 UTC] PHP  12. ih_image->save_imageGD() D:\wampserver\wamp\www\lulu\includes\classes\bmz_image_handler.class.php:600
+[06-Jan-2016 13:36:44 UTC] PHP  13. imagejpeg() D:\wampserver\wamp\www\lulu\includes\classes\bmz_image_handler.class.php:657
+[06-Jan-2016 13:36:44 UTC] PHP Warning:  imagejpeg() [<a href='function.imagejpeg'>function.imagejpeg</a>]: Unable to open 'D:/wampserver/wamp/www/lulu/bmz_cache/7/73fb567adcd43d86d50259287b27ca1d.image.305x220.M腿可充气便携式自慰娃娃.jpg' for writing: Invalid argument in D:\wampserver\wamp\www\lulu\includes\classes\bmz_image_handler.class.php on line 657
+[06-Jan-2016 13:36:44 UTC] PHP Stack trace:
+[06-Jan-2016 13:36:44 UTC] PHP   1. {main}() D:\wampserver\wamp\www\lulu\index.php:0
+[06-Jan-2016 13:36:44 UTC] PHP   2. require() D:\wampserver\wamp\www\lulu\index.php:97
+[06-Jan-2016 13:36:44 UTC] PHP   3. require() D:\wampserver\wamp\www\lulu\includes\templates\mars\common\tpl_main_page.php:261
+[06-Jan-2016 13:36:44 UTC] PHP   4. require() D:\wampserver\wamp\www\lulu\includes\modules\pages\index\main_template_vars.php:217
+[06-Jan-2016 13:36:44 UTC] PHP   5. require() D:\wampserver\wamp\www\lulu\includes\templates\mars\templates\tpl_index_default.php:62
+[06-Jan-2016 13:36:44 UTC] PHP   6. include() D:\wampserver\wamp\www\lulu\includes\templates\mars\templates\tpl_modules_whats_new.php:12
+[06-Jan-2016 13:36:44 UTC] PHP   7. zen_image() D:\wampserver\wamp\www\lulu\includes\modules\mars\new_products.php:91
+[06-Jan-2016 13:36:44 UTC] PHP   8. handle_image() D:\wampserver\wamp\www\lulu\includes\functions\html_output.php:202
+[06-Jan-2016 13:36:44 UTC] PHP   9. ih_image->get_local() D:\wampserver\wamp\www\lulu\includes\functions\extra_functions\functions_bmz_image_handler.php:58
+[06-Jan-2016 13:36:44 UTC] PHP  10. ih_image->get_resized_image() D:\wampserver\wamp\www\lulu\includes\classes\bmz_image_handler.class.php:195
+[06-Jan-2016 13:36:44 UTC] PHP  11. ih_image->resize_imageGD() D:\wampserver\wamp\www\lulu\includes\classes\bmz_image_handler.class.php:268
+[06-Jan-2016 13:36:44 UTC] PHP  12. ih_image->save_imageGD() D:\wampserver\wamp\www\lulu\includes\classes\bmz_image_handler.class.php:600
+[06-Jan-2016 13:36:44 UTC] PHP  13. imagejpeg() D:\wampserver\wamp\www\lulu\includes\classes\bmz_image_handler.class.php:657
+[06-Jan-2016 13:36:45 UTC] PHP Warning:  imagepng() [<a href='function.imagepng'>function.imagepng</a>]: Unable to open 'D:/wampserver/wamp/www/lulu/bmz_cache/f/f672a2b19f91ae8e596ad5efa5467e0f.image.167x305.125cm智能可发声口交全身硅胶实体娃娃.png' for writing: Invalid argument in D:\wampserver\wamp\www\lulu\includes\classes\bmz_image_handler.class.php on line 652
+[06-Jan-2016 13:36:45 UTC] PHP Stack trace:
+[06-Jan-2016 13:36:45 UTC] PHP   1. {main}() D:\wampserver\wamp\www\lulu\index.php:0
+[06-Jan-2016 13:36:45 UTC] PHP   2. require() D:\wampserver\wamp\www\lulu\index.php:97
+[06-Jan-2016 13:36:45 UTC] PHP   3. require() D:\wampserver\wamp\www\lulu\includes\templates\mars\common\tpl_main_page.php:261
+[06-Jan-2016 13:36:45 UTC] PHP   4. require() D:\wampserver\wamp\www\lulu\includes\modules\pages\index\main_template_vars.php:217
+[06-Jan-2016 13:36:45 UTC] PHP   5. require() D:\wampserver\wamp\www\lulu\includes\templates\mars\templates\tpl_index_default.php:62
+[06-Jan-2016 13:36:45 UTC] PHP   6. include() D:\wampserver\wamp\www\lulu\includes\templates\mars\templates\tpl_modules_whats_new.php:12
+[06-Jan-2016 13:36:45 UTC] PHP   7. zen_image() D:\wampserver\wamp\www\lulu\includes\modules\mars\new_products.php:91
+[06-Jan-2016 13:36:45 UTC] PHP   8. handle_image() D:\wampserver\wamp\www\lulu\includes\functions\html_output.php:202
+[06-Jan-2016 13:36:45 UTC] PHP   9. ih_image->get_local() D:\wampserver\wamp\www\lulu\includes\functions\extra_functions\functions_bmz_image_handler.php:58
+[06-Jan-2016 13:36:45 UTC] PHP  10. ih_image->get_resized_image() D:\wampserver\wamp\www\lulu\includes\classes\bmz_image_handler.class.php:195
+[06-Jan-2016 13:36:45 UTC] PHP  11. ih_image->resize_imageGD() D:\wampserver\wamp\www\lulu\includes\classes\bmz_image_handler.class.php:268
+[06-Jan-2016 13:36:45 UTC] PHP  12. ih_image->save_imageGD() D:\wampserver\wamp\www\lulu\includes\classes\bmz_image_handler.class.php:600
+[06-Jan-2016 13:36:45 UTC] PHP  13. imagepng() D:\wampserver\wamp\www\lulu\includes\classes\bmz_image_handler.class.php:652
+[06-Jan-2016 13:36:45 UTC] PHP Warning:  imagejpeg() [<a href='function.imagejpeg'>function.imagejpeg</a>]: Unable to open 'D:/wampserver/wamp/www/lulu/bmz_cache/4/409a7e44fc4e4400cde83b0aa86b3556.image.230x305.165cm智能可发声口交全身硅胶实体娃娃.jpg' for writing: Invalid argument in D:\wampserver\wamp\www\lulu\includes\classes\bmz_image_handler.class.php on line 657
+[06-Jan-2016 13:36:45 UTC] PHP Stack trace:
+[06-Jan-2016 13:36:45 UTC] PHP   1. {main}() D:\wampserver\wamp\www\lulu\index.php:0
+[06-Jan-2016 13:36:45 UTC] PHP   2. require() D:\wampserver\wamp\www\lulu\index.php:97
+[06-Jan-2016 13:36:45 UTC] PHP   3. require() D:\wampserver\wamp\www\lulu\includes\templates\mars\common\tpl_main_page.php:261
+[06-Jan-2016 13:36:45 UTC] PHP   4. require() D:\wampserver\wamp\www\lulu\includes\modules\pages\index\main_template_vars.php:217
+[06-Jan-2016 13:36:45 UTC] PHP   5. require() D:\wampserver\wamp\www\lulu\includes\templates\mars\templates\tpl_index_default.php:65
+[06-Jan-2016 13:36:45 UTC] PHP   6. include() D:\wampserver\wamp\www\lulu\includes\templates\mars\templates\tpl_modules_featured_products.php:12
+[06-Jan-2016 13:36:45 UTC] PHP   7. zen_image() D:\wampserver\wamp\www\lulu\includes\modules\mars\featured_products.php:92
+[06-Jan-2016 13:36:45 UTC] PHP   8. handle_image() D:\wampserver\wamp\www\lulu\includes\functions\html_output.php:202
+[06-Jan-2016 13:36:45 UTC] PHP   9. ih_image->get_local() D:\wampserver\wamp\www\lulu\includes\functions\extra_functions\functions_bmz_image_handler.php:58
+[06-Jan-2016 13:36:45 UTC] PHP  10. ih_image->get_resized_image() D:\wampserver\wamp\www\lulu\includes\classes\bmz_image_handler.class.php:195
+[06-Jan-2016 13:36:45 UTC] PHP  11. ih_image->resize_imageGD() D:\wampserver\wamp\www\lulu\includes\classes\bmz_image_handler.class.php:268
+[06-Jan-2016 13:36:45 UTC] PHP  12. ih_image->save_imageGD() D:\wampserver\wamp\www\lulu\includes\classes\bmz_image_handler.class.php:600
+[06-Jan-2016 13:36:45 UTC] PHP  13. imagejpeg() D:\wampserver\wamp\www\lulu\includes\classes\bmz_image_handler.class.php:657
+[06-Jan-2016 13:36:45 UTC] PHP Warning:  imagejpeg() [<a href='function.imagejpeg'>function.imagejpeg</a>]: Unable to open 'D:/wampserver/wamp/www/lulu/bmz_cache/d/d99927ca7accc40d470bfdfa1885bc9f.image.305x305.超豪华智能发声发热实体娃娃.jpg' for writing: Invalid argument in D:\wampserver\wamp\www\lulu\includes\classes\bmz_image_handler.class.php on line 657
+[06-Jan-2016 13:36:45 UTC] PHP Stack trace:
+[06-Jan-2016 13:36:45 UTC] PHP   1. {main}() D:\wampserver\wamp\www\lulu\index.php:0
+[06-Jan-2016 13:36:45 UTC] PHP   2. require() D:\wampserver\wamp\www\lulu\index.php:97
+[06-Jan-2016 13:36:45 UTC] PHP   3. require() D:\wampserver\wamp\www\lulu\includes\templates\mars\common\tpl_main_page.php:261
+[06-Jan-2016 13:36:45 UTC] PHP   4. require() D:\wampserver\wamp\www\lulu\includes\modules\pages\index\main_template_vars.php:217
+[06-Jan-2016 13:36:45 UTC] PHP   5. require() D:\wampserver\wamp\www\lulu\includes\templates\mars\templates\tpl_index_default.php:65
+[06-Jan-2016 13:36:45 UTC] PHP   6. include() D:\wampserver\wamp\www\lulu\includes\templates\mars\templates\tpl_modules_featured_products.php:12
+[06-Jan-2016 13:36:45 UTC] PHP   7. zen_image() D:\wampserver\wamp\www\lulu\includes\modules\mars\featured_products.php:92
+[06-Jan-2016 13:36:45 UTC] PHP   8. handle_image() D:\wampserver\wamp\www\lulu\includes\functions\html_output.php:202
+[06-Jan-2016 13:36:45 UTC] PHP   9. ih_image->get_local() D:\wampserver\wamp\www\lulu\includes\functions\extra_functions\functions_bmz_image_handler.php:58
+[06-Jan-2016 13:36:45 UTC] PHP  10. ih_image->get_resized_image() D:\wampserver\wamp\www\lulu\includes\classes\bmz_image_handler.class.php:195
+[06-Jan-2016 13:36:45 UTC] PHP  11. ih_image->resize_imageGD() D:\wampserver\wamp\www\lulu\includes\classes\bmz_image_handler.class.php:268
+[06-Jan-2016 13:36:45 UTC] PHP  12. ih_image->save_imageGD() D:\wampserver\wamp\www\lulu\includes\classes\bmz_image_handler.class.php:600
+[06-Jan-2016 13:36:45 UTC] PHP  13. imagejpeg() D:\wampserver\wamp\www\lulu\includes\classes\bmz_image_handler.class.php:657
+[06-Jan-2016 13:36:46 UTC] PHP Warning:  imagepng() [<a href='function.imagepng'>function.imagepng</a>]: Unable to open 'D:/wampserver/wamp/www/lulu/bmz_cache/f/f672a2b19f91ae8e596ad5efa5467e0f.image.167x305.125cm智能可发声口交全身硅胶实体娃娃.png' for writing: Invalid argument in D:\wampserver\wamp\www\lulu\includes\classes\bmz_image_handler.class.php on line 652
+[06-Jan-2016 13:36:46 UTC] PHP Stack trace:
+[06-Jan-2016 13:36:46 UTC] PHP   1. {main}() D:\wampserver\wamp\www\lulu\index.php:0
+[06-Jan-2016 13:36:46 UTC] PHP   2. require() D:\wampserver\wamp\www\lulu\index.php:97
+[06-Jan-2016 13:36:46 UTC] PHP   3. require() D:\wampserver\wamp\www\lulu\includes\templates\mars\common\tpl_main_page.php:261
+[06-Jan-2016 13:36:46 UTC] PHP   4. require() D:\wampserver\wamp\www\lulu\includes\modules\pages\index\main_template_vars.php:217
+[06-Jan-2016 13:36:46 UTC] PHP   5. require() D:\wampserver\wamp\www\lulu\includes\templates\mars\templates\tpl_index_default.php:65
+[06-Jan-2016 13:36:46 UTC] PHP   6. include() D:\wampserver\wamp\www\lulu\includes\templates\mars\templates\tpl_modules_featured_products.php:12
+[06-Jan-2016 13:36:46 UTC] PHP   7. zen_image() D:\wampserver\wamp\www\lulu\includes\modules\mars\featured_products.php:92
+[06-Jan-2016 13:36:46 UTC] PHP   8. handle_image() D:\wampserver\wamp\www\lulu\includes\functions\html_output.php:202
+[06-Jan-2016 13:36:46 UTC] PHP   9. ih_image->get_local() D:\wampserver\wamp\www\lulu\includes\functions\extra_functions\functions_bmz_image_handler.php:58
+[06-Jan-2016 13:36:46 UTC] PHP  10. ih_image->get_resized_image() D:\wampserver\wamp\www\lulu\includes\classes\bmz_image_handler.class.php:195
+[06-Jan-2016 13:36:46 UTC] PHP  11. ih_image->resize_imageGD() D:\wampserver\wamp\www\lulu\includes\classes\bmz_image_handler.class.php:268
+[06-Jan-2016 13:36:46 UTC] PHP  12. ih_image->save_imageGD() D:\wampserver\wamp\www\lulu\includes\classes\bmz_image_handler.class.php:600
+[06-Jan-2016 13:36:46 UTC] PHP  13. imagepng() D:\wampserver\wamp\www\lulu\includes\classes\bmz_image_handler.class.php:652
+[06-Jan-2016 13:36:46 UTC] PHP Warning:  imagejpeg() [<a href='function.imagejpeg'>function.imagejpeg</a>]: Unable to open 'D:/wampserver/wamp/www/lulu/bmz_cache/7/73fb567adcd43d86d50259287b27ca1d.image.305x220.M腿可充气便携式自慰娃娃.jpg' for writing: Invalid argument in D:\wampserver\wamp\www\lulu\includes\classes\bmz_image_handler.class.php on line 657
+[06-Jan-2016 13:36:46 UTC] PHP Stack trace:
+[06-Jan-2016 13:36:46 UTC] PHP   1. {main}() D:\wampserver\wamp\www\lulu\index.php:0
+[06-Jan-2016 13:36:46 UTC] PHP   2. require() D:\wampserver\wamp\www\lulu\index.php:97
+[06-Jan-2016 13:36:46 UTC] PHP   3. require() D:\wampserver\wamp\www\lulu\includes\templates\mars\common\tpl_main_page.php:261
+[06-Jan-2016 13:36:46 UTC] PHP   4. require() D:\wampserver\wamp\www\lulu\includes\modules\pages\index\main_template_vars.php:217
+[06-Jan-2016 13:36:46 UTC] PHP   5. require() D:\wampserver\wamp\www\lulu\includes\templates\mars\templates\tpl_index_default.php:65
+[06-Jan-2016 13:36:46 UTC] PHP   6. include() D:\wampserver\wamp\www\lulu\includes\templates\mars\templates\tpl_modules_featured_products.php:12
+[06-Jan-2016 13:36:46 UTC] PHP   7. zen_image() D:\wampserver\wamp\www\lulu\includes\modules\mars\featured_products.php:92
+[06-Jan-2016 13:36:46 UTC] PHP   8. handle_image() D:\wampserver\wamp\www\lulu\includes\functions\html_output.php:202
+[06-Jan-2016 13:36:46 UTC] PHP   9. ih_image->get_local() D:\wampserver\wamp\www\lulu\includes\functions\extra_functions\functions_bmz_image_handler.php:58
+[06-Jan-2016 13:36:46 UTC] PHP  10. ih_image->get_resized_image() D:\wampserver\wamp\www\lulu\includes\classes\bmz_image_handler.class.php:195
+[06-Jan-2016 13:36:46 UTC] PHP  11. ih_image->resize_imageGD() D:\wampserver\wamp\www\lulu\includes\classes\bmz_image_handler.class.php:268
+[06-Jan-2016 13:36:46 UTC] PHP  12. ih_image->save_imageGD() D:\wampserver\wamp\www\lulu\includes\classes\bmz_image_handler.class.php:600
+[06-Jan-2016 13:36:46 UTC] PHP  13. imagejpeg() D:\wampserver\wamp\www\lulu\includes\classes\bmz_image_handler.class.php:657
+[06-Jan-2016 13:36:46 UTC] PHP Warning:  imagejpeg() [<a href='function.imagejpeg'>function.imagejpeg</a>]: Unable to open 'D:/wampserver/wamp/www/lulu/bmz_cache/6/6a7f7bdacef3670b7049ed9fe9287a7b.image.228x305.154cm全实体娃娃.jpg' for writing: Invalid argument in D:\wampserver\wamp\www\lulu\includes\classes\bmz_image_handler.class.php on line 657
+[06-Jan-2016 13:36:46 UTC] PHP Stack trace:
+[06-Jan-2016 13:36:46 UTC] PHP   1. {main}() D:\wampserver\wamp\www\lulu\index.php:0
+[06-Jan-2016 13:36:46 UTC] PHP   2. require() D:\wampserver\wamp\www\lulu\index.php:97
+[06-Jan-2016 13:36:46 UTC] PHP   3. require() D:\wampserver\wamp\www\lulu\includes\templates\mars\common\tpl_main_page.php:261
+[06-Jan-2016 13:36:46 UTC] PHP   4. require() D:\wampserver\wamp\www\lulu\includes\modules\pages\index\main_template_vars.php:217
+[06-Jan-2016 13:36:46 UTC] PHP   5. require() D:\wampserver\wamp\www\lulu\includes\templates\mars\templates\tpl_index_default.php:65
+[06-Jan-2016 13:36:46 UTC] PHP   6. include() D:\wampserver\wamp\www\lulu\includes\templates\mars\templates\tpl_modules_featured_products.php:12
+[06-Jan-2016 13:36:46 UTC] PHP   7. zen_image() D:\wampserver\wamp\www\lulu\includes\modules\mars\featured_products.php:92
+[06-Jan-2016 13:36:46 UTC] PHP   8. handle_image() D:\wampserver\wamp\www\lulu\includes\functions\html_output.php:202
+[06-Jan-2016 13:36:46 UTC] PHP   9. ih_image->get_local() D:\wampserver\wamp\www\lulu\includes\functions\extra_functions\functions_bmz_image_handler.php:58
+[06-Jan-2016 13:36:46 UTC] PHP  10. ih_image->get_resized_image() D:\wampserver\wamp\www\lulu\includes\classes\bmz_image_handler.class.php:195
+[06-Jan-2016 13:36:46 UTC] PHP  11. ih_image->resize_imageGD() D:\wampserver\wamp\www\lulu\includes\classes\bmz_image_handler.class.php:268
+[06-Jan-2016 13:36:46 UTC] PHP  12. ih_image->save_imageGD() D:\wampserver\wamp\www\lulu\includes\classes\bmz_image_handler.class.php:600
+[06-Jan-2016 13:36:46 UTC] PHP  13. imagejpeg() D:\wampserver\wamp\www\lulu\includes\classes\bmz_image_handler.class.php:657
+[06-Jan-2016 13:36:46 UTC] PHP Warning:  imagejpeg() [<a href='function.imagejpeg'>function.imagejpeg</a>]: Unable to open 'D:/wampserver/wamp/www/lulu/bmz_cache/b/bd30272656272649fc941e20a53659a5.image.212x305.可供口交充气式娃娃.jpg' for writing: Invalid argument in D:\wampserver\wamp\www\lulu\includes\classes\bmz_image_handler.class.php on line 657
+[06-Jan-2016 13:36:46 UTC] PHP Stack trace:
+[06-Jan-2016 13:36:46 UTC] PHP   1. {main}() D:\wampserver\wamp\www\lulu\index.php:0
+[06-Jan-2016 13:36:46 UTC] PHP   2. require() D:\wampserver\wamp\www\lulu\index.php:97
+[06-Jan-2016 13:36:46 UTC] PHP   3. require() D:\wampserver\wamp\www\lulu\includes\templates\mars\common\tpl_main_page.php:261
+[06-Jan-2016 13:36:46 UTC] PHP   4. require() D:\wampserver\wamp\www\lulu\includes\modules\pages\index\main_template_vars.php:217
+[06-Jan-2016 13:36:46 UTC] PHP   5. require() D:\wampserver\wamp\www\lulu\includes\templates\mars\templates\tpl_index_default.php:65
+[06-Jan-2016 13:36:46 UTC] PHP   6. include() D:\wampserver\wamp\www\lulu\includes\templates\mars\templates\tpl_modules_featured_products.php:12
+[06-Jan-2016 13:36:46 UTC] PHP   7. zen_image() D:\wampserver\wamp\www\lulu\includes\modules\mars\featured_products.php:92
+[06-Jan-2016 13:36:46 UTC] PHP   8. handle_image() D:\wampserver\wamp\www\lulu\includes\functions\html_output.php:202
+[06-Jan-2016 13:36:46 UTC] PHP   9. ih_image->get_local() D:\wampserver\wamp\www\lulu\includes\functions\extra_functions\functions_bmz_image_handler.php:58
+[06-Jan-2016 13:36:46 UTC] PHP  10. ih_image->get_resized_image() D:\wampserver\wamp\www\lulu\includes\classes\bmz_image_handler.class.php:195
+[06-Jan-2016 13:36:46 UTC] PHP  11. ih_image->resize_imageGD() D:\wampserver\wamp\www\lulu\includes\classes\bmz_image_handler.class.php:268
+[06-Jan-2016 13:36:46 UTC] PHP  12. ih_image->save_imageGD() D:\wampserver\wamp\www\lulu\includes\classes\bmz_image_handler.class.php:600
+[06-Jan-2016 13:36:46 UTC] PHP  13. imagejpeg() D:\wampserver\wamp\www\lulu\includes\classes\bmz_image_handler.class.php:657
+[06-Jan-2016 13:36:47 UTC] PHP Warning:  imagejpeg() [<a href='function.imagejpeg'>function.imagejpeg</a>]: Unable to open 'D:/wampserver/wamp/www/lulu/bmz_cache/b/b6288a3897059784d0638908ea8418b6.image.203x305.仿真全硅胶情趣娃娃.jpg' for writing: Invalid argument in D:\wampserver\wamp\www\lulu\includes\classes\bmz_image_handler.class.php on line 657
+[06-Jan-2016 13:36:47 UTC] PHP Stack trace:
+[06-Jan-2016 13:36:47 UTC] PHP   1. {main}() D:\wampserver\wamp\www\lulu\index.php:0
+[06-Jan-2016 13:36:47 UTC] PHP   2. require() D:\wampserver\wamp\www\lulu\index.php:97
+[06-Jan-2016 13:36:47 UTC] PHP   3. require() D:\wampserver\wamp\www\lulu\includes\templates\mars\common\tpl_main_page.php:261
+[06-Jan-2016 13:36:47 UTC] PHP   4. require() D:\wampserver\wamp\www\lulu\includes\modules\pages\index\main_template_vars.php:217
+[06-Jan-2016 13:36:47 UTC] PHP   5. require() D:\wampserver\wamp\www\lulu\includes\templates\mars\templates\tpl_index_default.php:68
+[06-Jan-2016 13:36:47 UTC] PHP   6. include() D:\wampserver\wamp\www\lulu\includes\templates\mars\templates\tpl_modules_specials_default.php:12
+[06-Jan-2016 13:36:47 UTC] PHP   7. zen_image() D:\wampserver\wamp\www\lulu\includes\modules\mars\specials_index.php:95
+[06-Jan-2016 13:36:47 UTC] PHP   8. handle_image() D:\wampserver\wamp\www\lulu\includes\functions\html_output.php:202
+[06-Jan-2016 13:36:47 UTC] PHP   9. ih_image->get_local() D:\wampserver\wamp\www\lulu\includes\functions\extra_functions\functions_bmz_image_handler.php:58
+[06-Jan-2016 13:36:47 UTC] PHP  10. ih_image->get_resized_image() D:\wampserver\wamp\www\lulu\includes\classes\bmz_image_handler.class.php:195
+[06-Jan-2016 13:36:47 UTC] PHP  11. ih_image->resize_imageGD() D:\wampserver\wamp\www\lulu\includes\classes\bmz_image_handler.class.php:268
+[06-Jan-2016 13:36:47 UTC] PHP  12. ih_image->save_imageGD() D:\wampserver\wamp\www\lulu\includes\classes\bmz_image_handler.class.php:600
+[06-Jan-2016 13:36:47 UTC] PHP  13. imagejpeg() D:\wampserver\wamp\www\lulu\includes\classes\bmz_image_handler.class.php:657

@@ -1,0 +1,21 @@
+[10-Oct-2016 21:08:52] PHP Warning:  file_get_contents() [<a href='function.file-get-contents'>function.file-get-contents</a>]: SSL: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ in D:\wampserver\wamp\www\lulu\includes\classes\MicrosoftTranslator.class.php on line 142
+[10-Oct-2016 21:08:52] PHP Stack trace:
+[10-Oct-2016 21:08:52] PHP   1. {main}() D:\wampserver\wamp\www\lulu\index.php:0
+[10-Oct-2016 21:08:52] PHP   2. require() D:\wampserver\wamp\www\lulu\index.php:36
+[10-Oct-2016 21:08:52] PHP   3. Translator->bing() D:\wampserver\wamp\www\lulu\includes\modules\pages\transapi\header_php.php:36
+[10-Oct-2016 21:08:52] PHP   4. MicrosoftTranslator->translate() D:\wampserver\wamp\www\lulu\includes\classes\translator.php:19
+[10-Oct-2016 21:08:52] PHP   5. file_get_contents() D:\wampserver\wamp\www\lulu\includes\classes\MicrosoftTranslator.class.php:142
+[10-Oct-2016 21:08:52] PHP Warning:  file_get_contents(https://api.datamarket.azure.com/Data.ashx/Bing/MicrosoftTranslator/v1/Translate?Text=%27%E5%AE%89%E5%85%A8%E5%A5%97%E9%A3%9E%E5%A4%A9%E2%80%94%E2%80%94%E6%9D%B0%E5%A3%AB%E9%82%A6%E5%BC%80%E5%90%AF%E5%A4%AA%E7%A9%BA%E8%90%A5%E9%94%80%E8%AE%A1%E5%88%92%27&amp;To=%27en%27&amp;$format=Raw&amp;$top=100) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: HTTP request failed!  in D:\wampserver\wamp\www\lulu\includes\classes\MicrosoftTranslator.class.php on line 142
+[10-Oct-2016 21:08:52] PHP Stack trace:
+[10-Oct-2016 21:08:52] PHP   1. {main}() D:\wampserver\wamp\www\lulu\index.php:0
+[10-Oct-2016 21:08:52] PHP   2. require() D:\wampserver\wamp\www\lulu\index.php:36
+[10-Oct-2016 21:08:52] PHP   3. Translator->bing() D:\wampserver\wamp\www\lulu\includes\modules\pages\transapi\header_php.php:36
+[10-Oct-2016 21:08:52] PHP   4. MicrosoftTranslator->translate() D:\wampserver\wamp\www\lulu\includes\classes\translator.php:19
+[10-Oct-2016 21:08:52] PHP   5. file_get_contents() D:\wampserver\wamp\www\lulu\includes\classes\MicrosoftTranslator.class.php:142
+[10-Oct-2016 21:08:52] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in D:\wampserver\wamp\www\lulu\includes\classes\MicrosoftTranslator.class.php on line 142
+[10-Oct-2016 21:08:52] PHP Stack trace:
+[10-Oct-2016 21:08:52] PHP   1. {main}() D:\wampserver\wamp\www\lulu\index.php:0
+[10-Oct-2016 21:08:52] PHP   2. require() D:\wampserver\wamp\www\lulu\index.php:36
+[10-Oct-2016 21:08:52] PHP   3. Translator->bing() D:\wampserver\wamp\www\lulu\includes\modules\pages\transapi\header_php.php:36
+[10-Oct-2016 21:08:52] PHP   4. MicrosoftTranslator->translate() D:\wampserver\wamp\www\lulu\includes\classes\translator.php:19

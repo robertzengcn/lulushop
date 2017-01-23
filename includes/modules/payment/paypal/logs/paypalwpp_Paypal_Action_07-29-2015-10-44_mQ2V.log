@@ -1,0 +1,215 @@
+Jul-29-2015 10:44:51 (1438137891)
+getLineItemDetails 1
+Not using default currency. Thus, no line-item details can be submitted.
+=================================
+
+Jul-29-2015 10:44:51 (1438137891)
+ec_step1 - 1
+Checking to see if we are in markflow
+cart contents: physical
+
+NOTE: $this->showPaymentPage = 0
+Customer ID: 0
+Session Data: Array
+(
+    [securityToken] => f8b177b19c24d9161f01d5dbe859e3ad
+    [customers_host_address] => 120.14.144.118
+    [cartID] => 
+    [cart] => shoppingCart Object
+        (
+            [contents] => Array
+                (
+                    [1414] => Array
+                        (
+                            [qty] => 1
+                        )
+
+                )
+
+            [total] => 250
+            [weight] => 24
+            [cartID] => 60984
+            [content_type] => physical
+            [free_shipping_item] => 0
+            [free_shipping_weight] => 0
+            [free_shipping_price] => 0
+        )
+
+    [check_valid] => true
+    [language] => schinese
+    [languages_id] => 2
+    [languages_code] => cn
+    [currency] => CNY
+    [today_is] => 2015-07-29
+    [updateExpirations] => 1
+    [session_counter] => 1
+    [customers_ip_address] => 120.14.144.118
+    [new_products_id_in_cart] => 1414
+    [valid_to_checkout] => 1
+    [cart_errors] => 
+    [payment] => paypalwpp
+    [total_weight] => 24
+    [total_count] => 1
+)
+
+=================================
+
+Jul-29-2015 10:44:51 (1438137891)
+ec-step1-addr_check
+cart content is not all virtual (or customer is not logged in) ... therefore will be submitting address details
+=================================
+
+Jul-29-2015 10:44:51 (1438137891)
+getOverrideAddress - 4
+not logged in and not in markflow mode - nothing to override
+=================================
+
+Jul-29-2015 10:44:51 (1438137891)
+ec-step1-addr_check3
+address details from override check: <NONE FOUND>
+=================================
+
+Jul-29-2015 10:44:51 (1438137891)
+ec_step1 - 2 -submit
+Array
+(
+    [CURRENCYCODE] => USD
+    [LOCALECODE] => CN
+    [GIFTMESSAGEENABLE] => 0
+    [GIFTRECEIPTEENABLE] => 0
+    [GIFTWRAPENABLE] => 0
+    [GIFTWRAPNAME] => 
+    [GIFTWRAPAMOUNT] => 0
+    [BUYEREMAILOPTINENABLE] => 0
+    [CUSTOMERSERVICENUMBER] => 
+    [BRANDNAME] => 撸撸商城情趣用品
+    [PAYMENTACTION] => Sale
+    [ALLOWNOTE] => 1
+    [SOLUTIONTYPE] => Sole
+    [LANDINGPAGE] => Billing
+    [NOSHIPPING] => 0
+    [AMT] => 42.35
+    [RETURNURL] => http://www.lulusc.com/ipn_main_handler.php?type=ec
+    [CANCELURL] => http://www.lulusc.com/shopping_cart.html?ec_cancel=1
+)
+
+=================================
+
+Jul-29-2015 10:44:53 (1438137893)
+termEC-1
+Killed the session vars as requested
+=================================
+
+Jul-29-2015 10:44:53 (1438137893)
+termEC-2
+BEFORE: $this->showPaymentPage = 0
+Token Data:
+=================================
+
+Jul-29-2015 10:44:53 (1438137893)
+termEC-3
+AFTER: $this->showPaymentPage = 0
+=================================
+
+Jul-29-2015 10:44:53 (1438137893)
+termEC-9
+We are NOT logged in, so set snapshot to Shipping page, and redirect to login
+=================================
+
+Jul-29-2015 10:44:53 (1438137893)
+termEC-10
+Redirecting to login - Stack: login
+Message: An error occurred when we tried to contact the payment processor. Please try again, select an alternate payment method, or contact the store owner for assistance. ()    -  (35) error:14094410:SSL routines:SSL3_READ_BYTES:sslv3 alert handshake failure
+Session Data: Array
+(
+    [securityToken] => f8b177b19c24d9161f01d5dbe859e3ad
+    [customers_host_address] => 120.14.144.118
+    [cartID] => 
+    [cart] => shoppingCart Object
+        (
+            [contents] => Array
+                (
+                    [1414] => Array
+                        (
+                            [qty] => 1
+                        )
+
+                )
+
+            [total] => 250
+            [weight] => 24
+            [cartID] => 60984
+            [content_type] => physical
+            [free_shipping_item] => 0
+            [free_shipping_weight] => 0
+            [free_shipping_price] => 0
+        )
+
+    [navigation] => navigationHistory Object
+        (
+            [path] => Array
+                (
+                    [0] => Array
+                        (
+                            [page] => index
+                            [mode] => NONSSL
+                            [get] => Array
+                                (
+                                    [type] => ec
+                                )
+
+                            [post] => Array
+                                (
+                                )
+
+                        )
+
+                )
+
+            [snapshot] => Array
+                (
+                    [page] => index
+                    [mode] => NONSSL
+                    [get] => Array
+                        (
+                            [type] => ec
+                        )
+
+                    [post] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [check_valid] => true
+    [language] => schinese
+    [languages_id] => 2
+    [languages_code] => cn
+    [currency] => CNY
+    [today_is] => 2015-07-29
+    [updateExpirations] => 1
+    [session_counter] => 1
+    [customers_ip_address] => 120.14.144.118
+    [new_products_id_in_cart] => 1414
+    [valid_to_checkout] => 1
+    [cart_errors] => 
+    [payment] => paypalwpp
+    [total_weight] => 24
+    [total_count] => 1
+    [messageToStack] => Array
+        (
+            [0] => Array
+                (
+                    [class] => login
+                    [text] => An error occurred when we tried to contact the payment processor. Please try again, select an alternate payment method, or contact the store owner for assistance. ()    -  (35) error:14094410:SSL routines:SSL3_READ_BYTES:sslv3 alert handshake failure
+                    [type] => error
+                )
+
+        )
+
+)
+
+=================================
+

@@ -1,0 +1,8 @@
+[13-Oct-2016 22:24:19] PHP Warning:  file_get_contents(https://api.datamarket.azure.com/Data.ashx/Bing/MicrosoftTranslator/v1/Translate?Text=%27%E4%BD%A0%E5%A5%BD%27&amp;To=%27en%27&amp;$format=Raw&amp;$top=100) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: HTTP request failed! HTTP/1.1 411 Length Required
+ in D:\wampserver\wamp\www\lulu\includes\classes\MicrosoftTranslator.class.php on line 151
+[13-Oct-2016 22:24:19] PHP Stack trace:
+[13-Oct-2016 22:24:19] PHP   1. {main}() D:\wampserver\wamp\www\lulu\index.php:0
+[13-Oct-2016 22:24:19] PHP   2. require() D:\wampserver\wamp\www\lulu\index.php:36
+[13-Oct-2016 22:24:19] PHP   3. Translator->bing() D:\wampserver\wamp\www\lulu\includes\modules\pages\transapi\header_php.php:38
+[13-Oct-2016 22:24:19] PHP   4. MicrosoftTranslator->translate() D:\wampserver\wamp\www\lulu\includes\classes\translator.php:19
+[13-Oct-2016 22:24:19] PHP   5. file_get_contents() D:\wampserver\wamp\www\lulu\includes\classes\MicrosoftTranslator.class.php:151

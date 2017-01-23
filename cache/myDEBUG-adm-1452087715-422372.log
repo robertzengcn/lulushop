@@ -1,0 +1,18 @@
+[06-Jan-2016 13:41:56 UTC] PHP Warning:  array_merge() [<a href='function.array-merge'>function.array-merge</a>]: Argument #1 is not an array in D:\wampserver\wamp\www\lulu\myhtadmin\customers.php on line 1143
+[06-Jan-2016 13:41:56 UTC] PHP Stack trace:
+[06-Jan-2016 13:41:56 UTC] PHP   1. {main}() D:\wampserver\wamp\www\lulu\myhtadmin\customers.php:0
+[06-Jan-2016 13:41:56 UTC] PHP   2. array_merge() D:\wampserver\wamp\www\lulu\myhtadmin\customers.php:1143
+[06-Jan-2016 13:41:56 UTC] PHP Warning:  array_merge() [<a href='function.array-merge'>function.array-merge</a>]: Argument #2 is not an array in D:\wampserver\wamp\www\lulu\myhtadmin\customers.php on line 1145
+[06-Jan-2016 13:41:56 UTC] PHP Stack trace:
+[06-Jan-2016 13:41:56 UTC] PHP   1. {main}() D:\wampserver\wamp\www\lulu\myhtadmin\customers.php:0
+[06-Jan-2016 13:41:56 UTC] PHP   2. array_merge() D:\wampserver\wamp\www\lulu\myhtadmin\customers.php:1145
+[06-Jan-2016 13:41:56 UTC] PHP Warning:  reset() expects parameter 1 to be array, null given in D:\wampserver\wamp\www\lulu\myhtadmin\includes\classes\object_info.php on line 29
+[06-Jan-2016 13:41:56 UTC] PHP Stack trace:
+[06-Jan-2016 13:41:56 UTC] PHP   1. {main}() D:\wampserver\wamp\www\lulu\myhtadmin\customers.php:0
+[06-Jan-2016 13:41:56 UTC] PHP   2. objectInfo->objectInfo() D:\wampserver\wamp\www\lulu\myhtadmin\customers.php:1146
+[06-Jan-2016 13:41:56 UTC] PHP   3. reset() D:\wampserver\wamp\www\lulu\myhtadmin\includes\classes\object_info.php:29
+[06-Jan-2016 13:41:56 UTC] PHP Warning:  Variable passed to each() is not an array or object in D:\wampserver\wamp\www\lulu\myhtadmin\includes\classes\object_info.php on line 30
+[06-Jan-2016 13:41:56 UTC] PHP Stack trace:
+[06-Jan-2016 13:41:56 UTC] PHP   1. {main}() D:\wampserver\wamp\www\lulu\myhtadmin\customers.php:0
+[06-Jan-2016 13:41:56 UTC] PHP   2. objectInfo->objectInfo() D:\wampserver\wamp\www\lulu\myhtadmin\customers.php:1146
+[06-Jan-2016 13:41:56 UTC] PHP   3. each() D:\wampserver\wamp\www\lulu\myhtadmin\includes\classes\object_info.php:30

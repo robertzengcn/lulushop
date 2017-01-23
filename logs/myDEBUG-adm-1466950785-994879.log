@@ -1,0 +1,10 @@
+[26-Jun-2016 14:19:46 UTC] PHP Fatal error:  1267:Illegal mix of collations (latin1_general_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation '=' :: select products_options_name
+                                from products_options
+                                where language_id= '2'
+                                and products_options_name='尺寸' in D:\wampserver\wamp\www\lulu\includes\classes\db\mysql\query_factory.php on line 122
+[26-Jun-2016 14:19:46 UTC] PHP Stack trace:
+[26-Jun-2016 14:19:46 UTC] PHP   1. {main}() D:\wampserver\wamp\www\lulu\myhtadmin\options_name_manager.php:0
+[26-Jun-2016 14:19:46 UTC] PHP   2. queryFactory->Execute() D:\wampserver\wamp\www\lulu\myhtadmin\options_name_manager.php:185
+[26-Jun-2016 14:19:46 UTC] PHP   3. queryFactory->set_error() D:\wampserver\wamp\www\lulu\includes\classes\db\mysql\query_factory.php:232
+[26-Jun-2016 14:19:46 UTC] PHP   4. queryFactory->show_error() D:\wampserver\wamp\www\lulu\includes\classes\db\mysql\query_factory.php:107
+[26-Jun-2016 14:19:46 UTC] PHP   5. trigger_error() D:\wampserver\wamp\www\lulu\includes\classes\db\mysql\query_factory.php:122

@@ -1,0 +1,358 @@
+AWSTATS DATA FILE 6.8 (build 1.910)
+# If you remove this file, all statistics for date 201408 will be lost/reset.
+
+# Position (offset in bytes) in this file of beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 1915                
+POS_TIME 2585                
+POS_VISITOR 8499                
+POS_DAY 9520                
+POS_DOMAIN 3397                
+POS_LOGIN 3728                
+POS_ROBOT 3883                
+POS_WORMS 4414                
+POS_EMAILSENDER 4545                
+POS_EMAILRECEIVER 4688                
+POS_SESSION 9645                
+POS_SIDER 9792                
+POS_FILETYPES 4823                
+POS_OS 4950                
+POS_BROWSER 5042                
+POS_SCREENSIZE 5225                
+POS_UNKNOWNREFERER 5299                
+POS_UNKNOWNREFERERBROWSER 5413                
+POS_ORIGIN 5495                
+POS_SEREFERRALS 5629                
+POS_PAGEREFS 5773                
+POS_SEARCHWORDS 6019                
+POS_KEYWORDS 6171                
+POS_MISC 2248                
+POS_ERRORS 6230                
+POS_CLUSTER 3584                
+POS_SIDER_404 6376                
+POS_PLUGIN_geoip_city_maxmind 7907                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20140901001554 173 30526 11510475479531
+FirstTime 0
+LastTime 20140831233525
+LastUpdate 20140901045811 173 0 172 0 0
+TotalVisits 26                  
+TotalUnique 25                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 25                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 20 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 2 5 147459 6569 6577 4291721
+1 0 0 0 6348 6358 4147187
+2 8 8 1535 6260 6282 4092772
+3 2 5 147459 6639 6646 4336928
+4 0 0 0 6507 6516 4248407
+5 2 2 398 1862 1867 1214501
+6 0 0 0 348 360 229775
+7 2 5 147459 293 296 189642
+8 3 3 597 263 264 166787
+9 1 1 199 235 239 149591
+10 1 1 199 1976 1978 1285111
+11 1 1 7185 13146 13157 8588234
+12 0 0 0 13040 13043 8511561
+13 0 0 0 13149 13172 8595277
+14 0 0 0 13133 13139 8527290
+15 1 1 199 13161 13168 8591167
+16 0 0 0 13142 13150 8583418
+17 0 0 0 13125 13138 8570015
+18 3 6 147634 474 480 309276
+19 2 2 398 6537 6544 4265466
+20 2 2 398 6564 6567 4283641
+21 1 1 7185 6595 6601 4307009
+22 1 1 7185 6607 6614 4307009
+23 3 3 597 6552 6582 4290734
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 9
+cn 14 14 2786
+ru 5 11 295093
+us 5 5 995
+pl 3 3 540
+unknown 3 6 147658
+ua 2 5 147459
+kz 1 1 7185
+gi 1 1 7185
+eu 1 1 7185
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 12
+wordpress 75 14925 20140831233526 0
+baiduspider 49 16391 20140831233525 0
+sogou 12 2388 20140831224812 0
+spider 9 1791 20140831160229 0
+slurp 7 1393 20140831105313 0
+exabot 3 597 20140831172810 0
+googlebot 2 398 20140830020250 0
+bot[+:,\.\;\/\\-] 2 398 20140830050557 0
+no_user_agent 1 199 20140831020611 0
+mj12bot 1 199 20140830054021 0
+yandex 1 199 20140830174336 0
+netcraft 1 0 20140809174402 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 5
+css 4 33332 0 0
+php 3 516 0 0
+html 28 54474 0 0
+js 8 62704 0 0
+gz 4 465060 0 0
+END_FILETYPES
+
+# OS ID - Hits
+BEGIN_OS 6
+winxp 24
+winlong 2
+unix 2
+winnt 17
+Unknown 1
+linux 1
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 11
+msie8.0 6
+firefox5.0 3
+msie10.0 1
+opera 1
+netscape4.0 1
+firefox3.6.12 23
+msie9.0 1
+firefox27.0 2
+msie6.1 2
+safari 6
+firefox15.0.1 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 1
+Mozilla/4.0 20140829233102
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 0
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 23 35
+From1 0 0
+From2 0 0
+From3 2 2
+From4 10 10
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 2
+http://icewireline.com/Chanel-Bags.asp 1 1
+http://docman.com/backoffice/wholesale-hermes.html 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 5
+403 2 1306
+500 162284 105916600
+400 6 1356
+301 150 37530
+404 133 86849
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 47
+/sanqingcha/2012/0814/60.html 2 -
+/robots.txt 18 -
+/wp-content/ws1.php 1 http://china-spa.cn/wp-content/ws1.php
+/root/back.css 1 -
+/cgi-bin/php 1 -
+/plus/feedback.php 3 -
+/kouchushishimeyuanyinyinqide/2012/0811/53.html 2 -
+/web-console/ServerInfo.jsp 4 -
+/plus/flink_add.php 1 -
+/cgi-bin/php5 1 -
+/kouchuchishimeyao/2012/0726/22.html 1 -
+/andro/back.css 1 -
+/cgi-bin/php4 1 -
+/toto/tot/to.php 1 -
+/kouchushishimeyuanyinyinqide/2012/0818/63.html 1 -
+/tags.php 44 -
+/sanqingcha/2012/0725/6.html 1 -
+/a/luyouqishiyongfangfa/ 2 -
+/kouchuchishimeyao/2012/0725/4.html 1 -
+/sanqingcha/2012/0831/67.html 1 -
+/tete/tet/te.php 1 -
+/kouchushishimeyuanyinyinqide/2012/0730/25.html 1 -
+/kouchuchishimeyao/2012/0726/18.html 1 -
+/cgi-bin/php-cgi 1 -
+/hr/5.jpg 1 -
+/kouchushishimeyuanyinyinqide/list_4_1.html 1 -
+/ftft/ftf/ft.php 1 -
+/plus/stow.php 6 -
+/sanqingcha/2012/0831/66.html 1 -
+/plus/recommend.php 8 -
+/kouchuzenmeban/ 1 -
+/kouchuchishimeyao/2012/0726/16.html 1 -
+/pma/scripts/setup.php 2 -
+/plus/erraddsave.php 2 -
+/tag/%E4%BB%80%E4%B9%88%E6%98%AF%E5%87%8F%E8%82%A5%E8%8C%B6 1 -
+/myadmin/scripts/setup.php 2 -
+/kouchuzenmeban/2012/0809/48.html 1 -
+/kouchushishimeyuanyinyinqide/2012/0808/43.html 1 -
+/plus/flink.php 1 -
+/back.css 1 -
+/kouchushishimeyuanyinyinqide/2012/0808/46.html 1 -
+/phpMyAdmin/scripts/setup.php 3 -
+/Panel/back.css 1 -
+/cfg 1 -
+/a/chanpinjieshao/20130308/6.html 2 -
+/kouchuchishimeyao/2012/0731/31.html 1 -
+/cgi-bin/php.cgi 1 -
+END_SIDER_404
+
+# Plugin key - Pages - Hits - Bandwidth - Last access
+BEGIN_PLUGIN_geoip_city_maxmind 11
+unknown 0 25 0 0
+cn_beijing_22 0 6 0 0
+ru_dubna_47 0 5 0 0
+us_kansas%20city_mo 0 2 0 0
+cn_zhengzhou_09 0 2 0 0
+cn_guangzhou_30 0 2 0 0
+cn_wuhan_12 0 1 0 0
+cn_quanzhou_07 0 1 0 0
+cn_shanghai_23 0 1 0 0
+us_las%20vegas_nv 0 1 0 0
+cn_changsha_11 0 1 0 0
+END_PLUGIN_geoip_city_maxmind
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 25
+91.236.74.185 3 3 540 20140831020509
+173.208.204.3 2 2 398 20140830200043
+193.0.223.80 2 5 147459 20140831003720
+185.2.32.76 2 5 147459 20140830034356
+191.101.55.216 2 5 147459 20140830182149
+198.204.225.114 2 2 398 20140830195803
+188.72.127.120 2 5 147459 20140830073831
+202.108.1.225 2 2 398 20140830051834
+183.60.243.242 2 2 398 20140831233525
+192.99.8.227 1 1 199 20140831083117
+195.34.79.51 1 1 7185 20140829211147
+87.245.168.74 1 1 175 20140829182816
+101.199.112.51 1 1 199 20140830020355
+220.181.141.70 1 1 199 20140830020245
+106.120.160.109 1 1 199 20140830020243
+101.226.33.208 1 1 199 20140829233102
+101.199.108.57 1 1 199 20140830020347
+195.78.108.154 1 1 7185 20140830112800
+72.46.128.66 1 1 199 20140831100538
+61.136.198.114 1 1 199 20140829233103
+91.213.93.69 1 1 7185 20140830221437
+182.118.41.87 1 1 199 20140831080129
+182.118.44.187 1 1 199 20140831080131
+113.240.240.130 1 1 199 20140831153230
+125.78.9.156 1 1 199 20140830094958
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 3
+20140829 4 4 7758 4
+20140830 20 29 459135 14
+20140831 11 14 149193 8
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 1
+0s-30s 26
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 4
+/ 21 4179 18 17
+/readme.html 7 50295 7 3
+/wp-includes/js/tinymce/wp-tinymce.js.gz 4 465060 0 4
+/wp-login.php 3 516 1 2
+END_SIDER

@@ -1,0 +1,6 @@
+[06-Jan-2016 13:48:24 UTC] PHP Warning:  Invalid argument supplied for foreach() in D:\wampserver\wamp\www\lulu\includes\templates\mars\templates\tpl_checkout_stacked.php on line 318
+[06-Jan-2016 13:48:24 UTC] PHP Stack trace:
+[06-Jan-2016 13:48:24 UTC] PHP   1. {main}() D:\wampserver\wamp\www\lulu\index.php:0
+[06-Jan-2016 13:48:24 UTC] PHP   2. require() D:\wampserver\wamp\www\lulu\index.php:97
+[06-Jan-2016 13:48:24 UTC] PHP   3. require() D:\wampserver\wamp\www\lulu\includes\templates\mars\common\tpl_main_page.php:261
+[06-Jan-2016 13:48:24 UTC] PHP   4. include() D:\wampserver\wamp\www\lulu\includes\templates\mars\templates\tpl_checkout_default.php:38

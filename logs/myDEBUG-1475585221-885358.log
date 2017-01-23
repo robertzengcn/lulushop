@@ -1,0 +1,8 @@
+[04-Oct-2016 20:47:02] PHP Warning:  file_get_contents(https://api.datamarket.azure.com/Data.ashx/Bing/MicrosoftTranslator/v1/Translate?Text=%27%E7%BC%96%E8%80%85%E6%8C%89%EF%BC%9APokemon+Go%E4%BD%9C%E4%B8%BA%E4%B9%8B%E5%89%8D%E5%9C%A8%E5%9B%BD%E5%A4%96%E7%88%86%E7%BA%A2%E7%9A%84%E4%B8%80%E6%AC%BE%E6%89%8B%E6%B8%B8%EF%BC%8C%E7%94%B1%E4%BA%8E%E5%9C%A8%E5%9B%BD%E5%86%85%E6%9C%AA%E5%BC%80%E6%94%BE%E4%BD%BF%E7%94%A8%EF%BC%8C%E8%AE%A9%E4%B8%8D%E5%B0%91%E6%B8%B8%E6%88%8F%E7%88%B1%E5%A5%BD%E8%80%85%E5%A4%A7%E5%91%BC%E9%81%97%E6%86%BE%E3%80%82%E4%BD%86%E6%98%AF%E7%8E%B0%E5%9C%A8%E6%9C%BA%E4%BC%9A%E6%9D%A5%E4%BA%86%EF%BC%81%E8%84%91%E6%B4%9E%E5%A4%A7%E5%BC%80%E7%9A%84%E7%B2%89%E4%B8%9D%E5%B1%85%E7%84%B6%E6%8A%8A%E5%AE%83%E8%9E%8D%E5%85%A5%E5%88%B0%E4%BA%86%E6%80%A7%E7%8E%A9%E5%85%B7%E4%B9%8B%E4%B8%AD%EF%BC%8C%E8%BF%99%E6%A0%B7%E7%9A%84Pokemon%E4%BD%A0%E6%95%A2%E7%8E%A9%E5%90%97%EF%BC%9F%27&amp;To=%27en%27&amp;$format=Raw&amp;$top=100) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: HTTP request failed! HTTP/1.1 502 Bad Gateway
+ in D:\wampserver\wamp\www\lulu\includes\classes\MicrosoftTranslator.class.php on line 142
+[04-Oct-2016 20:47:02] PHP Stack trace:
+[04-Oct-2016 20:47:02] PHP   1. {main}() D:\wampserver\wamp\www\lulu\index.php:0
+[04-Oct-2016 20:47:02] PHP   2. require() D:\wampserver\wamp\www\lulu\index.php:36
+[04-Oct-2016 20:47:02] PHP   3. Translator->bing() D:\wampserver\wamp\www\lulu\includes\modules\pages\transapi\header_php.php:35
+[04-Oct-2016 20:47:02] PHP   4. MicrosoftTranslator->translate() D:\wampserver\wamp\www\lulu\includes\classes\translator.php:19
+[04-Oct-2016 20:47:02] PHP   5. file_get_contents() D:\wampserver\wamp\www\lulu\includes\classes\MicrosoftTranslator.class.php:142

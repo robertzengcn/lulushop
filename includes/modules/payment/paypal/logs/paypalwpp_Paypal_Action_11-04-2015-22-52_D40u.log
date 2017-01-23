@@ -1,0 +1,108 @@
+Nov-04-2015 22:52:53 (1446648773)
+getLineItemDetails 1
+Not using default currency. Thus, no line-item details can be submitted.
+=================================
+
+Nov-04-2015 22:52:53 (1446648773)
+ec_step1 - 1
+Checking to see if we are in markflow
+cart contents: physical
+
+NOTE: $this->showPaymentPage = 0
+Customer ID: 0
+Session Data: Array
+(
+    [securityToken] => 0f661e0b1746fdcfb09233b08004d055
+    [customers_host_address] => 113.207.76.65
+    [cartID] => 
+    [cart] => shoppingCart Object
+        (
+            [contents] => Array
+                (
+                    [1525] => Array
+                        (
+                            [qty] => 1
+                        )
+
+                )
+
+            [total] => 801
+            [weight] => 0
+            [cartID] => 16439
+            [content_type] => physical
+            [free_shipping_item] => 0
+            [free_shipping_weight] => 0
+            [free_shipping_price] => 0
+        )
+
+    [check_valid] => true
+    [language] => schinese
+    [languages_id] => 2
+    [languages_code] => cn
+    [currency] => CNY
+    [today_is] => 2015-11-04
+    [updateExpirations] => 1
+    [session_counter] => 1
+    [customers_ip_address] => 113.207.76.65
+    [new_products_id_in_cart] => 1525
+    [valid_to_checkout] => 1
+    [cart_errors] => 
+    [cart_country_id] => 44
+    [country_info] => Array
+        (
+            [countries_name] => 中国
+            [countries_iso_code_2] => CN
+            [countries_iso_code_3] => CHN
+        )
+
+    [cart_zone] => 201
+    [cart_zip_code] => 311800
+    [cart_sid] => freeoptions_freeoptions
+    [payment] => paypalwpp
+    [total_weight] => 0
+    [total_count] => 1
+)
+
+=================================
+
+Nov-04-2015 22:52:53 (1446648773)
+ec-step1-addr_check
+cart content is not all virtual (or customer is not logged in) ... therefore will be submitting address details
+=================================
+
+Nov-04-2015 22:52:53 (1446648773)
+getOverrideAddress - 4
+not logged in and not in markflow mode - nothing to override
+=================================
+
+Nov-04-2015 22:52:53 (1446648773)
+ec-step1-addr_check3
+address details from override check: <NONE FOUND>
+=================================
+
+Nov-04-2015 22:52:53 (1446648773)
+ec_step1 - 2 -submit
+Array
+(
+    [CURRENCYCODE] => USD
+    [LOCALECODE] => CN
+    [GIFTMESSAGEENABLE] => 0
+    [GIFTRECEIPTEENABLE] => 0
+    [GIFTWRAPENABLE] => 0
+    [GIFTWRAPNAME] => 
+    [GIFTWRAPAMOUNT] => 0
+    [BUYEREMAILOPTINENABLE] => 0
+    [CUSTOMERSERVICENUMBER] => 
+    [BRANDNAME] => 撸撸商城情趣用品
+    [PAYMENTACTION] => Sale
+    [ALLOWNOTE] => 1
+    [SOLUTIONTYPE] => Sole
+    [LANDINGPAGE] => Billing
+    [NOSHIPPING] => 0
+    [AMT] => 135.69
+    [RETURNURL] => http://www.lulusc.com/ipn_main_handler.php?type=ec
+    [CANCELURL] => http://www.lulusc.com/shopping_cart.html?ec_cancel=1
+)
+
+=================================
+

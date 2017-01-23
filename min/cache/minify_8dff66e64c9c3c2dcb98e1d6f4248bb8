@@ -1,0 +1,125 @@
+body{margin:0;font-family:verdana,arial,helvetica,sans-serif;background:url("/includes/templates/honeyshop/images/bg.gif") repeat-x scroll center top #000;color:#000;font-size:12px;line-height:16px}a
+img{border:none}a:link, #navEZPagesTOC ul li
+a{color:#666;text-decoration:none}a:visited{color:#666;text-decoration:none}a:hover, #navEZPagesTOC ul li a:hover, #navMain ul li a:hover, #navSupp ul li a:hover, #navCatTabs ul li a:hover{color:#F00}a:active{color:#00F}h1{font-size:1.5em;color:#9a9a9a}h2{font-size:1.4em}h3{font-size:1.3em}h4,h5,h6,LABEL,h4.optionName,LEGEND,ADDRESS,.sideBoxContent,.larger{font-size:1.1em}.biggerText{font-size:1.2em}h1,h2,h3,h4,h5,h6{margin:0.3em 0}CODE{font-family:arial,verdana,helvetica,sans-serif;font-size:1em}FORM,SELECT,INPUT{display:inline;font-size:1em;margin:0.1em}TEXTAREA{margin:auto;display:block;width:95%}input:focus,select:focus,textarea:focus{background:#E4FEF5}FIELDSET{padding:0.5em;margin:0.5em 0em;border:1px
+solid #ccc}LEGEND{font-weight:bold;padding:0.3em;color:black}LABEL,h4.optionName{line-height:1.5em;padding:0.2em}LABEL.checkboxLabel,LABEL.radioButtonLabel{margin:0.5em 0.3em}#logo,.centerBoxContents,.specialsListBoxContents,.categoryListBoxContents,.centerBoxContentsAlsoPurch,.attribImg{float:left}LABEL.inputLabel{width:9em;float:left}LABEL.inputLabelPayment{width:14em;float:left;padding-left:2.5em}LABEL.selectLabel,LABEL.switchedLabel,LABEL.uploadsLabel{width:11em;float:left}#checkoutPayment
+LABEL.radioButtonLabel{font-weight:bold}P,ADDRESS{padding:0.5em}ADDRESS{font-style:normal}.clearBoth{clear:both}HR{height:1px;margin-top:0.5em;border:none;border-bottom:1px solid #9a9a9a}.messageStackWarning,.messageStackError,.messageStackSuccess,.messageStackCaution{line-height:1.8em;padding:0.2em;border:1px
+solid #9a9a9a}.messageStackWarning,.messageStackError{background-color:#f00;color:#fff}.messageStackSuccess{background-color:#9F9;color:#000}.messageStackCaution{background-color:#FF6;color:#000}#mainWrapper{background-color:#fff;text-align:left;width:970px;vertical-align:top}#headerWrapper, #contentMainWrapper, #logoWrapper, #cartBoxListWrapper, #ezPageBoxList, #cartBoxListWrapper ul, #ezPageBoxList ul,#mainWrapper,#popupAdditionalImage,#popupImage{margin:0em;padding:0em}#headerWrapper{background:url("/includes/templates/honeyshop/images/topbg01.gif") no-repeat #000;height:171px;padding-top:8px}#logoWrapper{height:auto;padding-bottom:10px}#logo{margin-bottom:12px}#navColumnOneWrapper,#navColumnTwoWrapper,#mainWrapper{margin:auto}#navColumnOneWrapper,#navColumnTwoWrapper{margin-right:0.25em}#tagline{color:#000;font-size:2em;text-align:center;vertical-align:middle}#sendSpendWrapper{border:1px
+solid #cacaca;float:right;margin:0em
+0em 1em 1em}.floatingBox,#accountLinksWrapper,#sendSpendWrapper,#checkoutShipto,#checkoutBillto,#navEZPagesTOCWrapper{margin:0;width:47%}.wrapperAttribsOptions{margin:0.3em 0em}.navSplitPagesResult{}.navSplitPagesLinks{}.navNextPrevCounter{margin:0em;font-size:0.9em}.navNextPrevList{display:inline;white-space:nowrap;margin:0;padding:0.5em 0em;list-style-type:none}#navMainWrapper,#navSuppWrapper,#navCatTabsWrapper{margin:0em;font-weight:bold;color:#fff;height:1%;width:100%}#navCatTabsWrapper{background-color:#fff;color:#9a9a9a;background-image:none}#navMain ul, #navSupp ul, #navCatTabs
+ul{margin:0;padding:0.5em 0em;list-style-type:none;text-align:center;line-height:1.5em}#navMain ul li, #navSupp ul li, #navCatTabs ul
+li{display:inline}#navMain ul li a, #navSupp ul li a, #navCatTabs ul li
+a{text-decoration:none;padding:0em
+0.5em;margin:0;color:#fff;white-space:nowrap}#navCatTabs ul li
+a{color:#9a9a9a}#navEZPagesTOCWrapper{font-weight:bold;float:right;height:1%;border:1px
+solid #9a9a9a}#navEZPagesTOC
+ul{margin:0;padding:0.5em 0em;list-style-type:none;line-height:1.5em}#navEZPagesTOC ul
+li{white-space:nowrap}#navEZPagesTOC ul li
+a{padding:0em
+0.5em;margin:0}#navCategoryIcon,.buttonRow,#indexProductListCatDescription{margin:0.5em}#navMainSearch{float:right;text-align:right}#navMainSearch
+ul{float:right}#navMainSearchCart{margin-top:20px;float:right;text-align:right}#navBreadCrumb{background:url("/includes/templates/honeyshop/images/center_header_bg.png") no-repeat scroll center top transparent;font-size:0.95em;font-weight:bold;margin:0em;width:99%;margin:0
+auto;line-height:41px;text-indent:45px;color:#666}#navBreadCrumb
+a{color:#F12E6E;font-size:11px;font-weight:bold;text-transform:uppercase}#navEZPagesTop{}#navColumnOne,#navColumnTwo{background-color:transparent}#contentColumnMain,#navColumnOne,#navColumnTwo,.centerBoxContents,.specialsListBoxContents,.categoryListBoxContents,.additionalImages,.centerBoxContentsSpecials,.centerBoxContentsAlsoPurch,.centerBoxContentsFeatured,.centerBoxContentsNew,.alert{vertical-align:top}#productDescription,.shippingEstimatorWrapper{padding:0.5em}.alert{color:#F00;margin-left:0.5em}.advisory{}.important{font-weight:bold}.notice{}.rating{}.gvBal{float:right}.centerColumn,#bannerOne,#bannerTwo,#bannerThree,#bannerFour,#bannerFive,#bannerSix{padding:0.8em}.smallText,#siteinfoLegal,#siteinfoCredits,#siteinfoStatus,#siteinfoIP{font-size:0.9em}#cartAdd{float:right;text-align:center;margin:1em;border:1px
+solid #CCC;padding:1em}.tableHeading
+TH{border-bottom:1px solid #9a9a9a}.tableHeading,#cartSubTotal{background-color:#e9e9e9}#cartSubTotal{border-top:1px solid #ccc;font-weight:bold;text-align:right;line-height:2.2em;padding-right:2.5em}.tableRow,.tableHeading,#cartSubTotal{height:2.2em}.cartProductDisplay,.cartUnitDisplay,.cartTotalDisplay,.cartRemoveItemDisplay,.cartQuantityUpdate,.cartQuantity,#cartInstructionsDisplay,.cartTotalsDisplay{padding:0.5em 0em}.cartUnitDisplay,.cartTotalDisplay{text-align:right;padding-right:0.2em}#scUpdateQuantity{width:2em}.cartQuantity{width:4.7em}.cartNewItem{color:#3C3;position:relative}.cartOldItem{color:#609;position:relative}.cartBoxTotal{text-align:right;font-weight:bold}.cartRemoveItemDisplay{width:3.5em}.cartAttribsList{margin-left:1em}#mediaManager{width:50%;margin:0.2em;padding:0.5em;background-color:#E4FEf5;border:1px
+solid #003D00}.mediaTitle{float:left}.mediaTypeLink{float:right}.normalprice,.productSpecialPriceSale{text-decoration:line-through}.productSpecialPrice,.productSalePrice,.productSpecialPriceSale,.productPriceDiscount{color:#f00}.orderHistList{margin:1em;padding:0.2em 0em;list-style-type:none}#cartBoxListWrapper ul, #ezPageBoxList
+ul{list-style-type:none}#cartBoxListWrapper li, #ezPageBoxList li,.cartBoxTotal{margin:0;padding:0.2em 0em}#cartBoxEmpty,#cartBoxVoucherBalance{font-weight:bold}.totalBox{width:5.5em;text-align:right;padding:0.2em}.lineTitle,.amount{text-align:right;padding:0.2em}.amount{width:5.5em}#productMainImage,#reviewsInfoDefaultProductImage,#productReviewsDefaultProductImage,#reviewWriteMainImage{margin:0em
+1em 1em 0em }.categoryIcon{}#cartImage{margin:0.5em 1em}.attribImg{width:20%;margin:0.3em 0em}.attributesComments{}.centerBoxContents,.specialsListBoxContents,.categoryListBoxContents,.additionalImages,.centerBoxContentsSpecials,.centerBoxContentsAlsoPurch,.centerBoxContentsFeatured,.centerBoxContentsNew{margin:1em
+0em}.centerBoxWrapper{height:1%}h2.centerBoxHeading{color:#D4394C;font-size:11px;font-weight:bold;text-transform:uppercase}h1.centerBoxHeading{color:#D4394C;font-size:12px;font-weight:bold;text-transform:uppercase;text-align:left}.columnLeft{}h3.leftBoxHeading, h3.leftBoxHeading a,
+h3.rightBoxHeading, h3.rightBoxHeading
+a{color:#F12E6E;font-size:11px;font-weight:bold;text-transform:uppercase}#manufacturersHeading,#currenciesHeading,#musicgenresHeading,#recordcompaniesHeading,#searchHeading,#search-headerHeading{font-size:0.9em;color:#fff}.leftBoxHeading,.centerBoxHeading,.rightBoxHeading{margin:0em;color:#D4394C;font-size:11px;font-weight:bold;text-transform:uppercase}.leftBoxHeading{background:url("/includes/templates/honeyshop/images/left_header_bg.png") no-repeat scroll center top transparent;height:42px;line-height:42px}.centerBoxHeading{background:url("/includes/templates/honeyshop/images/center_header_bg.png") no-repeat scroll right top transparent;padding:14px
+0 14px 43px}.leftBoxContainer,.rightBoxContainer{margin:0em;margin-bottom:1.0em}.sideBoxContent{padding-bottom:20px}h3.leftBoxHeading a:hover, h3.rightBoxHeading a:hover{color:#FF3;text-decoration:none}.rightBoxHeading a:visited, .leftBoxHeading a:visited, .centerBoxHeading a:visited{color:#FFF}.centeredContent,TH,#cartEmptyText,#cartBoxGVButton,#cartBoxEmpty,#cartBoxVoucherBalance,#navCatTabsWrapper,#navEZPageNextPrev,#bannerOne,#bannerTwo,#bannerThree,#bannerFour,#bannerFive,#bannerSix,#siteinfoLegal,#siteinfoCredits,#siteinfoStatus,#siteinfoIP,.center,.cartRemoveItemDisplay,.cartQuantityUpdate,.cartQuantity,.cartTotalsDisplay,#cartBoxGVBalance,.leftBoxHeading,.centerBoxHeading,.rightBoxHeading,.productListing-data,.accountQuantityDisplay,.ratingRow,LABEL#textAreaReviews,#productMainImage,#reviewsInfoDefaultProductImage,#productReviewsDefaultProductImage,#reviewWriteMainImage,.centerBoxContents,.specialsListBoxContents,.categoryListBoxContents,.additionalImages,.centerBoxContentsSpecials,.centerBoxContentsAlsoPurch,.centerBoxContentsFeatured,.centerBoxContentsNew,.gvBal,.attribImg{text-align:center}#bestsellers
+.wrapper{margin:0em
+0em 0em 1.5em}#bestsellers
+ol{padding:0;margin-left:1.1em}#bestsellers
+li{padding:0;margin:0.3em 0em 0.3em 0em}#bannerboxHeading{background-color:#00C}#upProductsHeading{text-align:left}#upDateHeading{text-align:right}A.category-top,A.category-top:visited{color:#666;text-decoration:none}A.category-links,A.category-links:visited{color:#004080;text-decoration:none}A.category-subs,A.category-products,A.category-subs:visited,A.category-products:visited{color:#F00;text-decoration:none}SPAN.category-subs-parent{font-weight:bold}SPAN.category-subs-selected{font-weight:bold}.back{float:left}.forward, #shoppingCartDefault
+#PPECbutton{float:right}.bold{font-weight:bold}.rowOdd{background-color:#E8E8E8;height:1.5em;vertical-align:top}.rowEven{background-color:#F0F0F0;height:1.5em;vertical-align:top}.hiddenField{display:none}.visibleField{display:inline}CAPTION{}#myAccountGen li, #myAccountNotify
+li{margin:0}.accountTotalDisplay,.accountTaxDisplay{width:20%;text-align:right}.accountQuantityDisplay{width:10%;vertical-align:top}TR.tableHeading{background-color:#cacaca;height:2em}.productListing-rowheading{background-color:#abbbd3;background-image:url(/includes/templates/honeyshop/images/tile_back.gif);height:2em;color:#FFF}#siteMapList{width:90%;float:right}.ratingRow{margin:1em
+0em 1.5em 0em}LABEL#textAreaReviews{font-weight:normal;margin:1em
+0em}#popupShippingEstimator,#popupSearchHelp,#popupAdditionalImage,#popupImage,#popupCVVHelp,#popupCouponHelp,#popupAtrribsQuantityPricesHelp,#infoShoppingCart{background-color:#fff}.information{padding:10px
+3px;line-height:150%}#shoppingcartBody
+#shippingEstimatorContent{clear:both}.seDisplayedAddressLabel{background-color:#85C285;text-align:center}.seDisplayedAddressInfo{text-transform:uppercase;text-align:center;font-weight:bold}#seShipTo{padding:0.2em}.menuMain{background:url("/includes/templates/honeyshop/images/menu-tail.gif") repeat-x scroll center top transparent;width:100%;display:table;overflow:hidden}.left-bg{background:url("/includes/templates/honeyshop/images/menu-left-bg.gif") no-repeat scroll left top transparent}.right-bg{background:url("/includes/templates/honeyshop/images/menu-right-bg.gif") no-repeat scroll right top transparent;height:46px;overflow:hidden;width:100%}#navEZPagesTop
+ul{margin:0;padding:14px
+0 0 8px;list-style:none}#navEZPagesTop
+li{background:url("/includes/templates/honeyshop/images/menu-separ.gif") no-repeat scroll 0 2px transparent;float:left;padding:0
+15px}#navEZPagesTop
+li.li_un{background:none repeat scroll 0 0 transparent}#navEZPagesTop  li
+a{color:#FFF;display:inline-block;font-size:14px;font-weight:bold;text-decoration:none}.banners{margin-bottom:2px;overflow:hidden;width:100%}#bannerOne{float:left;padding-left:2px}.row{background:url("/includes/templates/honeyshop/images/row-tail.gif") repeat-x scroll center top transparent;color:#7A7A7A;height:35px;line-height:35px;overflow:hidden;width:100%}.row
+p{padding:0;margin:0}.row
+a{color:#7A7A7A}#navMain ul
+li{color:#FFF}#navMain ul li
+a{font-weight:normal}#navMain .back .cart span
+a{color:#D4394C !important;text-decoration:underline}.input1{background:none repeat scroll 0 0 transparent;border:0
+solid;color:#999;margin-right:3px;padding:5px
+5px 4px;width:165px}#navMainSearch{margin-top:8px}#navMainSearch
+ul{list-style:none;margin:0;padding:0}#navMainSearch ul
+li{float:left;margin-left:3px}#navMainSearch
+span{background:url("/includes/templates/honeyshop/images/seacrh-bg.gif") no-repeat scroll 0 0 transparent;display:inline-block}#navMain
+span{background:none}#navMainSearch
+select{background:none repeat scroll 0 0 #2C2C2C;border:1px
+solid #161616;color:#FFF;width:135px}#contentMain{background:url("/includes/templates/honeyshop/images/content-tail.gif") repeat-x scroll center top #E3E3E3;padding:10px
+0 7px}#conter_top{background:url("/includes/templates/honeyshop/images/center_top_bg.png") no-repeat scroll center top #E3E3E3;width:753px;height:3px;overflow:hidden}#conter_Main{background:url("/includes/templates/honeyshop/images/center_content_bg.png") repeat-y scroll center top #E3E3E3;width:753px;height:auto}#conter_bottom{background:url("/includes/templates/honeyshop/images/center_bottom_bg.png") no-repeat scroll center top #E3E3E3;width:753px;height:5px;overflow:hidden}#navColumnMiddleWrapper{margin:auto;overflow:hidden}#middlebox_1{float:left;width:33.1%}#middlebox_2{float:left;padding-left:2px;width:33.1%}#middlebox_3{float:left;padding-left:2px;width:33.1%}#middlebox_3{float:left;padding-left:2px;width:33.1%}.middleBoxContent{border:1px
+solid #CCC;height:auto !important;padding:0.4em}#middlebox1Content,#middlebox2Content,#middlebox3Content,#middlebox7Content,#middlebox8Content{background:none repeat scroll 0 0 #F1F1F1;font-size:x-small}#middlebox_7{float:left;width:59%;margin-left:5px}#middlebox_7
+p{padding:0;margin:0}#middlebox_8{float:left;padding-left:3px;width:39.5%}.newsheader{background:none repeat scroll 0 0 #999;color:#FFF;font-size:14px;font-weight:bold}#whatsNew .pro_img a
+img{width:150px;height:150px}.line{background:url("/includes/templates/honeyshop/images/line.gif") repeat-y scroll right center transparent}.product_list_col{text-align:left;padding-left:5px}.pro_name{height:60px}.button-price{overflow:hidden;padding-top:17px;width:90%;margin:0
+auto}.button-price
+.button{float:right}.button-price
+.price{float:left;padding-top:6px}.separator{background:url("/includes/templates/honeyshop/images/line.gif") repeat-x scroll 0 9px transparent;padding:2px
+0}.itemTitle{font-size:11px;font-weight:normal}#productListing
+.back{text-align:left}.price{font-size:18px;font-weight:bold;font-family:Georgia,"Times New Roman",Times,serif}#left_conter_top{background:url("/includes/templates/honeyshop/images/left_content_top_bg.png") no-repeat scroll center top;width:211px;height:4px;overflow:hidden}#left_conter_main{background:url("/includes/templates/honeyshop/images/left_content_bg.png") repeat-y scroll center top;width:211px}#left_conter_bottom{background:url("/includes/templates/honeyshop/images/left_content_bottom_bg.png") no-repeat scroll center top;width:211px;height:5px;overflow:hidden}#categories
+ul{list-style:none;padding:0;margin:0}#categories li,#informationContent
+li{background:url("/includes/templates/honeyshop/images/list-line.gif") repeat-x scroll center bottom transparent;line-height:29px;padding-left:15px}#categories li a,#informationContent li
+a{background:url("/includes/templates/honeyshop/images/list-marker.gif") no-repeat scroll 0 12px transparent;display:inline-block;padding-left:15px;text-decoration:none}#banner3
+h3{display:none}#banner3
+#left_conter_main{text-align:center}#footer-bg{background:url("/includes/templates/honeyshop/images/footer-bg.gif") no-repeat scroll 0 0 transparent;height:38px;padding:5px
+10px;text-align:center;color:#FFF}#footer-bg
+a{color:#FFF}#footerMenu{background:url("/includes/templates/honeyshop/images/foot.gif") repeat scroll 0 0 transparent;color:#000;font-weight:bold;padding:0}#footerMenu
+ul{list-style:none;margin:0;padding:0}#footerMenu
+dl{clear:both;height:125px;margin:0
+0 3px;padding:0;width:100%}#footerMenu
+dd{float:left;margin:0;padding:0;width:24.7%}#footerMenu li
+a{color:#666;outline:medium none;text-decoration:none;padding-left:20px}.first,.second,.third{border-right:1px dotted #000}.menuTitle{color:#F12E6E;font-size:1.2em;margin:0;padding-bottom:0.3em;text-align:center;margin-top:15px}.cards{float:left;padding:4px
+0}.fright{float:right}#navSuppWrapper
+ul{margin:0;padding:0;background:url("/includes/templates/honeyshop/images/menu-tail.gif") repeat-x scroll center top transparent;margin-bottom:2px;width:100%}#navSuppWrapper ul
+li{font-weight:normal}#navSuppWrapper ul li
+a{color:#FFF;display:inline-block;font-weight:normal;font-size:11px;text-decoration:none}#navSuppWrapper ul li a:hover{text-decoration:underline;color:#FFF}#my-glider{width:734px;margin:0
+auto}.scroller{width:734px;position:relative;left:20px;overflow:hidden}.scroller
+.section{width:734px;height:200px;float:left;overflow:hidden}.feature{width:734px;margin-top:8px;border:1px
+solid #ccc;margin-bottom:10px;height:210px;overflow:hidden;font-size:0;position:relative;padding:0;text-align:center}#my-glider{position:relative}.section
+dl{width:165px;float:left;text-align:center;overflow:hidden;display:table}.section
+dt{width:165px;margin-bottom:5px;overflow:hidden;position:relative;padding-top:5px}.section
+dd{width:165px;overflow:hidden;font-size:12px;left:0;margin:0;padding:0}.section dd
+.hd{height:60px;border:1px
+solid #F00}.scroller
+.contenta{width:10000px;height:200px}#prevLink{display:block;overflow:hidden;width:21px;text-indent:-99999px;position:absolute;top:40%;height:51px;background-image:url("/includes/templates/honeyshop/images/left-press.jpg");background-repeat:no-repeat;left:0}#nextLink{display:block;overflow:hidden;width:21px;text-indent:-99999px;position:absolute;top:40%;height:51px;background-image:url("/includes/templates/honeyshop/images/right-press.jpg");background-repeat:no-repeat;right:0}.feature .page-header-title
+h2{font-size:12px}#productName,#headerDescription{background:url("/includes/templates/honeyshop/images/center_header_bg.png") no-repeat scroll right top transparent;padding:14px
+0 14px 43px;color:#D4394C;font-size:11px;font-weight:bold;text-transform:uppercase}#prorightMain{float:right;width:55%}#proleftMain{float:left;width:45%}.STYLE40{color:#F00;font-family:"Times New Roman",Times,serif;font-size:14px;font-weight:bold}#productMainImage  a
+img{border:1px
+solid #333}#productDetailsList li,#productsName,#productPrices{line-height:28px}#productMainImage{margin-left:35px}.cssButton,.cssButtonHover{width:20em;background-color:#F4F4F4;color:#000;border:2px
+outset #F4F4F4;font-family:Tahoma,Verdana,Arial,Helvetica,sans-serif;font-size:1.1em;text-align:center;white-space:nowrap;text-decoration:none;font-weight:bold;padding:0.3em}.cssButtonHover{color:#060;border-style:inset;text-decoration:none}.small_delete,.button_prev,.button_next,.button_search{width:7em}.button_sold_out_sm,.button_sold_out,.button_update_cart,.button_checkout,.button_login{width:10em}.button_return_to_product_list,.button_add_selected{width:22em}.button_in_cart{width:19em}.button_submit{width:18em}.button_update_cart{color:red}.button_update_cartHover{color:#003D00}.newsHeadlineText{text-align:center;width:100%;height:15px;font-size: .9em;background:#e5edf5;border-left:1px solid #9a9a9a;border-right:1px solid #9a9a9a;border-top:1px solid #9a9a9a;border-bottom:5px solid #9a9a9a;padding:3px
+0 0 0;margin:0}.newsHeadlineText
+IMG{vertical-align:middle}.newsHeader{background:#FFF;height:30px;font-size:24px;text-align:center;padding:0;margin:10px
+0 0 0}p.articleHeading{font-weight:bold;margin:0;padding:0}span.articleHeading{font-weight:bold}p.articleByLine{font-size: .9em;padding:0
+0 0 20px;margin:0}p.articleByLine
+SPAN.author{font-style:normal}p.articleByLine
+SPAN.comments{font-style:italic}p.articleByLine
+A{text-decoration:underline}div.articleTextBlock{clear:both;padding:0;margin:0}div.articleText,p.articleText{margin:0;padding:0}IMG.articleImage{border:3px
+double #9a9a9a;background:#FFF;padding:0;margin:10px
+10px 10px 10px}p.newsListingDate{font-weight:bold;text-align:center;margin:0;padding:0}ul.articleLinkList{list-style-type:none;line-height:1.5em;padding:10px
+0 0 0;margin:0}ul.archiveLinkList{list-style-type:none;line-height:1.5em;padding:0;margin:0}ul.articleLinkList li, ul.archiveLinkList
+li{background-image:url("/includes/templates/honeyshop/images/icons/news_link.gif");background-repeat:no-repeat;background-position:17px 2px;padding:0
+0 0 35px}ul.articleLinkList
+li.articleStoreLink{background-image:url("/includes/templates/honeyshop/images/icons/news_link_2.gif");background-repeat:no-repeat;background-position:17px 4px;padding:0
+0 0 35px}ul.articleLinkList
+li.articleProductLink{background-image:url("/includes/templates/honeyshop/images/icons/cart.gif");background-repeat:no-repeat;background-position:17px 0px;padding:0
+0 0 35px}ul.articleLinkList a, ul.archiveLinkList
+a{text-decoration:underline}.commentsHeading{background:#f2f1ee;padding:3px}.commentsBody{background:#FFF;padding:3px}p.backLink{float:right;margin:0;padding:0;clear:right}.commentsAuthor{text-align:left;float:left;margin:0;width:45%}.commentsSubject{font-weight:bold}.commentsDate{text-align:right;float:right;padding:0;margin:0}div.commentsBody
+p{clear:both;padding:0
+10px 10px 10px;margin:0}fieldset.commentsFieldSet{text-align:left;background:#f2f1ee;border:1px
+solid #e7e6e0;padding:1em;margin:10px
+0 0 0}fieldset.commentsFieldSet
+legend{padding:0.2em 0.5em;border:1px
+solid #c96e29;background:#fff;color:#000;text-align:right}fieldset.commentsFieldSet
+label{display:block;text-align:left;margin:3px}fieldset.commentsFieldSet label
+input{display:block}.commentsSubmit{text-align:right}.splitSolid{height:1px;background:#000;padding:0;margin:0}.splitSolidGray{height:1px;background:#9a9a9a;padding:0;margin:0}.clearSplit{height:10px;padding:0;margin:0}.splitSolid hr, .splitSolidGray hr, .clearSplit
+hr{display:none}.clearboth{clear:both;height:1px;width:100%}.clearboth
+hr{display:none}#checkoutConfirmDefault{display:none;visibility:hidden}#onePageText{text-align:center;color:#f00;font-weight:bold;padding-top:30px;padding-bottom:300px;visibility:visible;display:block}.centerColumn{font-size:large}

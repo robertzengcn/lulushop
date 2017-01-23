@@ -1,0 +1,9 @@
+[22-Jan-2017 22:20:20] PHP Fatal error:  1054:Unknown column 'url' in 'field list' :: SELECT url FROM cai_productlink WHERE link='http://www.aliexpress.com/store/product/Free-shipping-100-nylon-Free-soldier-men-s-Tactical-single-shoulder-bag-Military-enthusiasts-carry-on/616172_956176993.html' in D:\wampserver\wamp\www\lulu\includes\classes\db\mysql\query_factory.php on line 122
+[22-Jan-2017 22:20:20] PHP Stack trace:
+[22-Jan-2017 22:20:20] PHP   1. {main}() D:\wampserver\wamp\www\lulu\index.php:0
+[22-Jan-2017 22:20:20] PHP   2. require() D:\wampserver\wamp\www\lulu\index.php:36
+[22-Jan-2017 22:20:21] PHP   3. caiji->checklink() D:\wampserver\wamp\www\lulu\includes\modules\pages\caiapi\header_php.php:51
+[22-Jan-2017 22:20:21] PHP   4. queryFactory->Execute() D:\wampserver\wamp\www\lulu\includes\classes\caiji.php:120
+[22-Jan-2017 22:20:21] PHP   5. queryFactory->set_error() D:\wampserver\wamp\www\lulu\includes\classes\db\mysql\query_factory.php:232
+[22-Jan-2017 22:20:21] PHP   6. queryFactory->show_error() D:\wampserver\wamp\www\lulu\includes\classes\db\mysql\query_factory.php:107
+[22-Jan-2017 22:20:21] PHP   7. trigger_error() D:\wampserver\wamp\www\lulu\includes\classes\db\mysql\query_factory.php:122

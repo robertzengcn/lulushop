@@ -1,0 +1,116 @@
+Oct-23-2015 09:28:04 (1445563684)
+termEC-1
+Killed the session vars as requested
+=================================
+
+Oct-23-2015 09:28:04 (1445563684)
+termEC-2
+BEFORE: $this->showPaymentPage = 0
+Token Data:
+=================================
+
+Oct-23-2015 09:28:04 (1445563684)
+termEC-3
+AFTER: $this->showPaymentPage = 0
+=================================
+
+Oct-23-2015 09:28:04 (1445563684)
+termEC-9
+We are NOT logged in, so set snapshot to Shipping page, and redirect to login
+=================================
+
+Oct-23-2015 09:28:04 (1445563684)
+termEC-10
+Redirecting to login - Stack: login
+Message: An error occurred when we tried to contact the payment processor. Please try again, select an alternate payment method, or contact the store owner for assistance. ()    -  (35) error:14094410:SSL routines:SSL3_READ_BYTES:sslv3 alert handshake failure
+Session Data: Array
+(
+    [securityToken] => 46215640f04ec4a6e2bde5f6d05360a5
+    [customers_host_address] => 113.207.76.65
+    [cartID] => 
+    [cart] => shoppingCart Object
+        (
+            [contents] => Array
+                (
+                    [1472] => Array
+                        (
+                            [qty] => 1
+                        )
+
+                )
+
+            [total] => 7
+            [weight] => 0
+            [cartID] => 26819
+            [content_type] => physical
+            [free_shipping_item] => 0
+            [free_shipping_weight] => 0
+            [free_shipping_price] => 0
+        )
+
+    [navigation] => navigationHistory Object
+        (
+            [path] => Array
+                (
+                    [0] => Array
+                        (
+                            [page] => index
+                            [mode] => NONSSL
+                            [get] => Array
+                                (
+                                    [type] => ec
+                                )
+
+                            [post] => Array
+                                (
+                                )
+
+                        )
+
+                )
+
+            [snapshot] => Array
+                (
+                    [page] => index
+                    [mode] => NONSSL
+                    [get] => Array
+                        (
+                            [type] => ec
+                        )
+
+                    [post] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [check_valid] => true
+    [language] => schinese
+    [languages_id] => 2
+    [languages_code] => cn
+    [currency] => CNY
+    [today_is] => 2015-10-23
+    [updateExpirations] => 1
+    [session_counter] => 1
+    [customers_ip_address] => 113.207.76.65
+    [new_products_id_in_cart] => 1472
+    [messageToStack] => Array
+        (
+            [0] => Array
+                (
+                    [class] => login
+                    [text] => An error occurred when we tried to contact the payment processor. Please try again, select an alternate payment method, or contact the store owner for assistance. ()    -  (35) error:14094410:SSL routines:SSL3_READ_BYTES:sslv3 alert handshake failure
+                    [type] => error
+                )
+
+        )
+
+    [valid_to_checkout] => 1
+    [cart_errors] => 
+    [payment] => paypalwpp
+)
+
+=================================
+

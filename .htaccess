@@ -1,0 +1,49 @@
+# Use PHP5.4 as default
+##### AddHandler application/x-httpd-php54 .php
+##### NOTE: Replace /shop/ with the relative web path of your catalog in the "Rewrite Base" line below:
+
+# For security reasons, Option followsymlinks cannot be overridden.
+#Options +FollowSymLinks
+Options +SymLinksIfOwnerMatch
+RewriteEngine On
+RewriteBase /
+
+RewriteCond %{HTTP_HOST} ^bbs\.lulusc\.com$ [NC]
+RewriteCond %{REQUEST_URI} !^/bbs/
+RewriteRule ^(.*)$ bbs/$1?Rewrite [L,QSA]
+
+RewriteCond %{HTTP_HOST} ^lulusc.com$ [NC]
+RewriteRule ^(.*)$ http://www.lulusc.com/$1 [L,R=301]
+
+
+
+
+# 404 page
+ErrorDocument 404 /404.html
+
+###############################################################################
+# Start Ultimate SEO URLs
+###############################################################################
+
+# Handles the new URL formats
+RewriteRule ^(.*)-c-([0-9_]+)/(.*)-p-([0-9]+)(.*)$ index\.php?main_page=product_info&products_id=$4&cPath=$2&%{QUERY_STRING} [L]
+RewriteRule ^(.*)-c-([0-9_]+)/(.*)-pi-([0-9]+)(.*)$ index\.php?main_page=popup_image&pID=$4&cPath=$2&%{QUERY_STRING} [L]
+RewriteRule ^(.*)-c-([0-9_]+)/(.*)-pr-([0-9]+)(.*)$ index\.php?main_page=product_reviews&products_id=$4&cPath=$2&%{QUERY_STRING} [L]
+RewriteRule ^(.*)-c-([0-9_]+)/(.*)-pri-([0-9]+)(.*)$ index\.php?main_page=product_reviews_info&products_id=$4&cPath=$2&%{QUERY_STRING} [L]
+
+# Original (unchanged) URL formats
+RewriteRule ^(.*)-p-([0-9]+)(.*)$ index\.php?main_page=product_info&products_id=$2&%{QUERY_STRING} [L]
+RewriteRule ^(.*)-m-([0-9]+)(.*)$ index\.php?main_page=index&manufacturers_id=$2&%{QUERY_STRING} [L]
+RewriteRule ^(.*)-pi-([0-9]+)(.*)$ index\.php?main_page=popup_image&pID=$2&%{QUERY_STRING} [L]
+RewriteRule ^(.*)-pr-([0-9]+)(.*)$ index\.php?main_page=product_reviews&products_id=$2&%{QUERY_STRING} [L]
+RewriteRule ^(.*)-pri-([0-9]+)(.*)$ index\.php?main_page=product_reviews_info&products_id=$2&%{QUERY_STRING} [L]
+RewriteRule ^(.*)-ezp-([0-9]+)(.*)$ index\.php?main_page=page&id=$2&%{QUERY_STRING} [L]
+RewriteRule ^(.*)-c-([0-9_]+)(.*)$ index\.php?main_page=index&cPath=$2&%{QUERY_STRING} [L]
+
+# All other pages
+# Don't rewrite real files or directories
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index\.php?main_page=$1&%{QUERY_STRING} [L]
+
+

@@ -1,0 +1,4 @@
+[12-Oct-2016 20:50:03] PHP Parse error:  syntax error, unexpected T_VARIABLE in D:\wampserver\wamp\www\lulu\includes\classes\baidutrans.php on line 67
+[12-Oct-2016 20:50:03] PHP Stack trace:
+[12-Oct-2016 20:50:03] PHP   1. {main}() D:\wampserver\wamp\www\lulu\index.php:0
+[12-Oct-2016 20:50:03] PHP   2. require() D:\wampserver\wamp\www\lulu\index.php:36

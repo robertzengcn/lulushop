@@ -1,0 +1,61 @@
+*** Hero Changelog ***
+
+03-04-2013 - version 1.5.18
+* Menu hover delay fixed. Plus other css fix in admin/css/admin-style.css file.
+
+06-03-2013 - version 1.5.17
+* Search form localised for translation. File changed searchform.php
+
+17-02-2013- version 1.5.16
+* Option added to on/off comments on page in theme options - other settings.
+
+30-01-2013- version 1.5.15
+*function_exists() checks for has_post_thumbnail removed from loop.php
+
+22-1-2013-version 1.5.14
+* Image credit added in readme file of slider.
+
+12-19-2012-version 1.5.13
+* Link change in options-framework.php
+
+3-12-2012 - version 1.5.12
+* Slider back box made transparent and link in footer corrected from WordPress.com to WordPress.org
+
+31-10-2012 - version 1.5.11
+* Slider black box option added under homepage settings in theme options panel to either keep the black box of slider on or off. 
+
+23-10-2012 - version 1.5.10
+* Blog Settings added in theme options panel to exclude categories from displaying on the "Blog" page template. 
+
+13-10-2012 - version 1.5.9
+* Style change for 
+.comment-author cite {}
+strong {}
+strong,b,dt,th {}
+
+6-10-2012 - version 1.5.8
+* No Post title test problem corrected in loop.php file.
+
+22-9-2012 - version 1.5.7
+* Copyright date code corrected in footer.php and get_stylesheet_directory() used in place of STYLESHEETPATH in options.php file.
+
+31-8-2012 -version 1.5.6
+ * add_theme_support( 'custom-background' ); replaced for add_custom_background();
+
+13-8-2012 -version 1.5.5
+ * Style change of menu. Left margin removed.
+
+30-7-2012 -version 1.5.4
+ * Slight code change in header.php to add menu fallback view.
+
+21-7-2012 -version 1.5.3
+ * Nivo Slider Added.
+
+17-7-2012 -version 1.5.2
+ * Custom CSS -  Custom CSS option added in theme options panel to style the theme.
+
+2-7-2012 -version 1.5.1
+ * Favicon -  New option added in theme options panel under logo settings to add fav icon.
+
+22-6-2012 - version 1.5
+ * Download button bug corrected.

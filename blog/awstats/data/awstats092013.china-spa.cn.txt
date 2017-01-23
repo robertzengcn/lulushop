@@ -1,0 +1,934 @@
+AWSTATS DATA FILE 6.8 (build 1.910)
+# If you remove this file, all statistics for date 201309 will be lost/reset.
+
+# Position (offset in bytes) in this file of beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 1915                
+POS_TIME 2600                
+POS_VISITOR 20713               
+POS_DAY 27682               
+POS_DOMAIN 3468                
+POS_LOGIN 3813                
+POS_ROBOT 3968                
+POS_WORMS 4792                
+POS_EMAILSENDER 4923                
+POS_EMAILRECEIVER 5066                
+POS_SESSION 28462               
+POS_SIDER 28641               
+POS_FILETYPES 5201                
+POS_OS 5328                
+POS_BROWSER 5456                
+POS_SCREENSIZE 5834                
+POS_UNKNOWNREFERER 5908                
+POS_UNKNOWNREFERERBROWSER 6495                
+POS_ORIGIN 6988                
+POS_SEREFERRALS 7128                
+POS_PAGEREFS 7295                
+POS_SEARCHWORDS 7642                
+POS_KEYWORDS 8242                
+POS_MISC 2264                
+POS_ERRORS 8657                
+POS_CLUSTER 3669                
+POS_SIDER_404 8795                
+POS_PLUGIN_geoip_city_maxmind 19687               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20131001004036 543 102269 13303031766721
+FirstTime 20130901032439
+LastTime 20130930213059
+LastUpdate 20131001045843 543 171 365 6 0
+TotalVisits 270                 
+TotalUnique 136                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 195                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 2 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 12 17 265727 220 225 1194972
+1 12 19 286171 166 203 629275
+2 7 32 1123941 181 184 923276
+3 7 7 88258 187 203 908154
+4 11 35 594239 192 206 757899
+5 10 33 581074 192 201 923920
+6 10 39 1093705 274 282 1766991
+7 17 63 1209696 211 242 724455
+8 8 32 1014161 186 195 1049355
+9 11 19 301876 196 204 1068156
+10 7 19 279817 162 183 1391997
+11 6 18 272609 184 188 1284335
+12 8 20 457581 157 159 728758
+13 17 17 219165 188 195 808581
+14 39 71 3711980 1209 1209 4107237
+15 20 40 625384 205 217 1168144
+16 6 23 507178 233 319 712724
+17 18 40 1092763 135 140 439199
+18 1 1 12618 106 111 307397
+19 21 21 179866 132 133 530992
+20 8 34 2428749 116 135 1216142
+21 26 65 1719131 141 146 510793
+22 14 24 332859 232 242 701256
+23 22 79 2037315 210 216 602398
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 9
+cn 248 683 18560627
+us 58 58 842000
+fr 4 4 25218
+ru 2 2 25202
+unknown 2 2 25236
+sg 2 16 773562
+de 1 1 12618
+gb 1 1 4112
+tw 0 1 167288
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 19
+baiduspider 678 4013758 20130930221503 0
+spider 284 5023256 20130930180935 0
+sogou 213 2619093 20130930113048 0
+msnbot 211 3524452 20130930195022 0
+googlebot 195 2434973 20130930210311 0
+wordpress 103 0 20130930180931 0
+bspider 96 1158434 20130926221339 0
+bot[+:,\.\;\/\\-] 60 1589919 20130930084934 0
+yandex 55 851845 20130929011802 0
+mj12bot 32 420562 20130929232244 0
+no_user_agent 15 119094 20130930232944 0
+phantom 16 773562 20130906202055 0
+[+:,\.\;\/\\-]bot 22 398572 20130929200836 0
+python 1 12618 20130924045433 0
+surveybot 2 25231 20130920004958 0
+java 2 25236 20130923163349 0
+turnitinbot 1 16290 20130908165046 0
+netcraft 2 12584 20130909083452 0
+nutch 1 12584 20130922214550 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 4
+css 144 1121659 0 0
+png 59 8708329 0 0
+html 318 3961712 0 0
+js 247 6644163 0 0
+END_FILETYPES
+
+# OS ID - Hits
+BEGIN_OS 9
+winlong 9
+winxp 221
+win2000 2
+winnt 196
+win98 2
+linux 252
+macosx 22
+win2003 7
+Unknown 57
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 25
+msie6.0 54
+firefox15.0 1
+msie5.01 2
+firefox17.0 7
+opera 4
+firefox18.0 6
+firefox3.5.2 2
+firefox7.0.1 1
+msie6.1 63
+firefox3.6.15 18
+msie5.00 2
+msie8.0 130
+firefox6.0.2 8
+firefox0.10.1 6
+mozilla 75
+firefox14.0.1 10
+firefox3.0.6 1
+msie7.0 18
+firefox22.0 24
+firefox23.0 2
+netscape4.0 36
+msie9.0 13
+firefox4.2 1
+Unknown 7
+safari 277
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 9
+AppEngine-Google;_(_http://code.google.com/appengine;_appid:_gasandboxx) 20130914173034
+test 20130912175210
+GigablastOpenSource/1 20130907133640
+Mozilla/5.0_(compatible;_SiteExplorer/1.0b;__http://siteexplorer.info/) 20130920215538
+Mozilla/4.0 20130930213100
+Openstat/0.1 20130922191416
+MacInroy_Privacy_Auditors._See_china-spa.cn's_privacy_violation_report:_http://china-spa.cn.macinroy.com/china-spa.cn 20130908234557
+HttpClient 20130912100311
+Mozilla/3.0_(compatible;_Indy_Library) 20130917133621
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 7
+AppEngine-Google;_(_http://code.google.com/appengine;_appid:_gasandboxx) 20130914173034
+test 20130912175210
+GigablastOpenSource/1 20130907133640
+JUC(Linux;U;2.2;Zh_cn;supersonic;480*800;)UCWEB7.4.1.61/139/800 20130907203210
+Openstat/0.1 20130922191416
+MacInroy_Privacy_Auditors._See_china-spa.cn's_privacy_violation_report:_http://china-spa.cn.macinroy.com/china-spa.cn 20130908234557
+HttpClient 20130912100311
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 229 275
+From1 0 0
+From2 13 24
+From3 4 13
+From4 72 456
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 2
+google 0 1
+baidu 13 23
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 5
+http://www.zzfdymcl.cn/17-bdd 1 1
+http://www.nddos.cn/nddos/ 1 1
+http://glb.uc.cn/msearch2/webs/columbus/search 1 1
+http://china-spa.macinroy.com/china-spa.cn 1 1
+http://cache.baiducontent.com/c 0 9
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 6
+%e6%bd%8d%e5%9d%8a%e9%92%a2%e9%93%81%e9%9b%86%e5%9b%a2 2
+china-spa 2
+%ce%ab%b7%bb%b8%d6%cc%fa%bc%af%cd%c5_%ce%ab%b7%bb%b8%d6%cc%fa+%bc%af%cd%c5+%d3%d0%cf%de%d4%f0%c8%ce%b9%ab%cb%be+%7c+%ce%ab%b7%bb%d7%ee%b4%f3%b8%d6%cc%fa%b9%ab%cb%be 1
+%e6%bd%8d%e5%9d%8a%e9%92%a2%e9%93%81%e5%8e%82 1
+site+www.china-spa.cn 1
+china-spa_%ce%ab%b7%bb%b8%d6%cc%fa+%bc%af%cd%c5+%d3%d0%cf%de%d4%f0%c8%ce%b9%ab%cb%be+%7c+%ce%ab%b7%bb%d7%ee%b4%f3%b8%d6%cc%fa%b9%ab%cb%be 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 11
+%e6%bd%8d%e5%9d%8a%e9%92%a2%e9%93%81%e9%9b%86%e5%9b%a2 2
+%ce%ab%b7%bb%d7%ee%b4%f3%b8%d6%cc%fa%b9%ab%cb%be 2
+%d3%d0%cf%de%d4%f0%c8%ce%b9%ab%cb%be 2
+%7c 2
+%bc%af%cd%c5 2
+china-spa 2
+%e6%bd%8d%e5%9d%8a%e9%92%a2%e9%93%81%e5%8e%82 1
+china-spa_%ce%ab%b7%bb%b8%d6%cc%fa 1
+www.china-spa.cn 1
+%ce%ab%b7%bb%b8%d6%cc%fa%bc%af%cd%c5_%ce%ab%b7%bb%b8%d6%cc%fa 1
+site 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 5
+401 4 2160
+302 2 5
+400 10 4217
+404 1422 845630
+301 2311 572331
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 347
+http://61.163.249.25/proxy 1 http://www.baidu.com/
+/aa.rar 1 -
+/w.rar 1 -
+/news/2010072528.html 1 -
+/kouchushishimeyuanyinyinqide/2012/0726/13.html 2 -
+/admin/Southidceditor/js/buttons.js 1 http://www.baidu.com
+/plus/flink_add.php 2 -
+/fckeditor/fckeditor.js 1 http://www.baidu.com
+/common/common.js 1 http://www.baidu.com
+/admin/kindeditor/kindeditor.js 1 http://www.baidu.com
+/sql/ 2 -
+/a.rar 1 -
+/fckeditor/editor/filemanager/browser/default/connectors/test.html 1 -
+/plus/mytag_js.php 1 -
+/sanqingcha/2012/0801/34.html 1 -
+/kouchuchishimeyao/2012/0725/5.html 2 -
+/js/fckeditorcode_ie.js 1 http://www.baidu.com
+/admin/kindeditor/license.txt 1 http://www.baidu.com
+/hr/ 1 -
+/lvyou/index_clip_image004_0000.jpg 48 -
+/ThinkPHP/README.txt 1 http://www.baidu.com
+/%E5%A4%8D%E4%BB%B6%20wwww.rar 1 -
+/123.txt 1 -
+/myadmin/ 1 -
+/news/maps.html 2 -
+/HNAP1/ 22 http://76.163.168.24/
+/diy.asp 1 -
+/sf/ 3 -
+/mysql/main.php 1 -
+/wwwroot.rar 1 -
+/editor/Include/Editor.js 1 http://www.baidu.com
+/dichan/ 2 -
+/docs.css 1 http://www.baidu.com
+/tag/jian-fei-cha/ 1 -
+/phpmyadmin/Documentation.txt 1 http://www.baidu.com
+/ww.rar 1 -
+/news/2010053113.html 3 http://www.china-spa.cn/
+/webmanage/FCKeditor/editor/filemanager/connectors/uploadtest.html 1 -
+/kouchushishimeyuanyinyinqide/2012/0726/19.html 2 -
+/sqlweb/ 1 -
+/test.rar 1 -
+/data 1 http://www.baidu.com
+/index.html 20 -
+/plus/guestbook.php 1 -
+/2012-10-09-07-43-46/ 5 -
+/news 1 -
+/sanqingcha/2012/0725/8.html 1 -
+/cuteeditor_files/Scripts/spell.js 1 http://www.baidu.com
+/6-2012-10-09-13-17-24/ 3 -
+/news/huiyuan.html 2 -
+/webmanage/fckeditor/editor/filemanager/connectors/test.html 1 -
+/dichan/2010041410.html 2 -
+/%E8%BD%AF%E4%BB%B6.rar 1 -
+/www.zip 1 -
+/%c2%a02013-9-5%c2%a0 1 -
+/PMA/ 2 -
+/history.txt 1 http://www.baidu.com
+/plugin/kindeditor/license.txt 1 http://www.baidu.com
+/qq.zip 1 -
+/%E8%BD%AF%E4%BB%B6.zip 1 -
+/admin/basic 1 -
+/kouchuchishimeyao/2012/0725/3.html 2 -
+/roundcubemail/README 1 -
+/dede/ 1 -
+/test.zip 1 -
+/plus/download.php 3 -
+/inc.rar 1 -
+/kouchuchishimeyao/2012/0825/65.html 2 -
+/lvyou/ 1 -
+/about 1 -
+/2.txt 1 -
+/6-2012-10-09-13-17-24 1 -
+/wz.rar 1 -
+/10-sf/4-2012-10-09-09-16-52/ 4 -
+/data/js/config.js 1 http://www.baidu.com
+/fdsa.rar 1 -
+/news/ 3 -
+/888 1 -
+/news/2010071524.html 3 -
+/editor/js/fckeditorcode_ie.js 1 http://www.baidu.com
+/admin/help/online_help_1.htm 1 http://www.baidu.com
+/wangzhan.zip 1 -
+/%e5%ae%89%e8%a3%85%e8%af%b4%e6%98%8e.txt 1 http://www.baidu.com
+/robots.txt 402 -
+/do/reg.php 1 http://www.baidu.com
+/news/2010070720.html 4 -
+/s/ 1 -
+/manage/ 1 -
+/dede/login.php 1 http://www.baidu.com
+/domain.zip 1 -
+/123.rar 1 -
+/kouchuchishimeyao/2012/0726/22.html 3 -
+/ftp.zip 1 -
+/Documentation.txt 1 http://www.baidu.com
+/kouchuzenmeban/2012/0725/2.html 1 -
+/sanqingcha/2012/0725/6.html 2 -
+/kouchushishimeyuanyinyinqide/2012/0811/51.html 2 -
+/fdsa.zip 1 -
+/spa/ 2 -
+/flashfxp.rar 1 -
+/admin/template/foot.htm 1 http://www.baidu.com
+/editor/editor/filemanager/connectors/uploadtest.html 1 -
+/wwwRoot.rar 1 -
+/3.zip 1 -
+/kindeditor/kindeditor.js 1 http://www.baidu.com
+/sanqingcha/2012/0831/66.html 3 -
+/inc.zip 1 -
+/phpmyadmin2/ 1 -
+/eWebEditor/Include/Editor.js 1 http://www.baidu.com
+/Southidceditor/Dialog/about.htm 1 http://www.baidu.com
+/china-spa.cn.zip 1 -
+/Southidceditor/js/buttons.js 1 http://www.baidu.com
+/editor/editor/filemanager/browser/default/connectors/test.html 1 -
+/11.txt 1 -
+/2.zip 1 -
+/kouchuzenmeban/2012/0726/15.html 2 -
+/HYTop.mdb 1 -
+/admin/ 3 -
+/888/ 1 -
+/kouchushishimeyuanyinyinqide/2012/0726/11.html 2 -
+/about/ 1 -
+/news/201004105.html 2 -
+/apple-touch-icon.png 2 -
+/php-my-admin/ 1 -
+/plugin/kindeditor/kindeditor.js 1 http://www.baidu.com
+/statics/js/ckeditor/plugins/capture/plugin.js 1 http://www.baidu.com
+/kindeditor/kindeditor-min.js 1 http://www.baidu.com
+/english 1 -
+/phpmyadmin/README 1 http://www.baidu.com
+/a_d/install/data.sql 1 http://www.baidu.com
+/ckeditor/ckeditor.js 1 http://www.baidu.com
+/kindeditor/license.txt 1 http://www.baidu.com
+/root.rar 3 -
+/robots 1 http://www.baidu.com
+/pma/main.php 1 -
+/dichan 3 -
+/sanqingcha/2012/0726/9.html 1 -
+/digg.php 1 http://www.baidu.com
+/kouchushishimeyuanyinyinqide/2012/0730/25.html 3 -
+/kouchushishimeyuanyinyinqide/2012/0811/55.html 1 -
+/show/tieshi.html 2 -
+/kouchuchishimeyao/2012/0726/18.html 3 -
+/kouchuzenmeban/2012/0813/57.html 1 -
+/1.txt 1 -
+/icons/apache_pb.gif 1 -
+/kouchuzenmeban/2012/0801/40.html 1 -
+/1.zip 1 -
+/spa 1 -
+/phpadmin/main.php 1 -
+/%E5%A4%8D%E4%BB%B6%20%E6%96%B0%E5%BB%BA%E6%96%87%E4%BB%B6%E5%A4%B9.rar 1 -
+/ask 1 http://www.baidu.com
+/ChangeLog 1 http://www.baidu.com
+/3-80/ 1 -
+/news/2010070719.html 1 -
+/kouchuzenmeban/ 1 -
+/static/js/common.js 1 http://www.baidu.com
+/admin 1 http://www.baidu.com
+/a.zip 1 -
+/news/2010041411.html 1 -
+/dede.rar 1 -
+/tag/%E4%BB%80%E4%B9%88%E6%98%AF%E5%87%8F%E8%82%A5%E8%8C%B6 8 -
+/wwww.zip 1 -
+/sanqingcha/2012/0731/32.html 1 -
+/root.zip 2 -
+/aaa.zip 1 -
+/hr/2.jpg 1 http://image.baidu.com/i
+/ThinkPHP/Extend/README.txt 1 http://www.baidu.com
+/abc.rar 1 -
+/README 1 http://www.baidu.com
+/manager.rar 1 -
+http://furude.su/ohLo0Ooni9tu.php 2 -
+/fckeditor/editor/js/fckeditorcode_ie.js 1 http://www.baidu.com
+/phpMyAdmin/ 1 -
+/vip.rar 1 -
+/data/sitemap.html 1 -
+/ 47 -
+/pro.asp 1 http://www.baidu.com
+/member/space/commpany/info.txt 1 http://www.baidu.com
+/kouchushishimeyuanyinyinqide/2012/0809/47.html 3 -
+/kouchuchishimeyao/ 1 -
+/ftp.rar 2 -
+/domain.rar 1 -
+/component/mailto/ 2 -
+/sanqingcha/2012/0814/59.html 1 -
+/admin.rar 1 -
+/Help/default.htm 1 http://www.baidu.com
+/2-2012-10-09-08-14-17/ 3 -
+/_data/jcmsU1.js 1 http://www.baidu.com
+/zhaobiao 3 -
+/webadmin/ 2 -
+/kouchushishimeyuanyinyinqide/ 2 -
+/data.rar 1 -
+/editor/editor/filemanager/connectors/test.html 1 -
+/FCK/fckeditor.js 1 http://www.baidu.com
+/2012-10-09-07-48-16/7-2012-10-09-13-52-55/ 1 -
+/web.rar 1 -
+/data.zip 1 -
+/kouchushishimeyuanyinyinqide/2012/0801/36.html 2 -
+/kouchushishimeyuanyinyinqide/list_4_1.html 2 -
+/webadmin/main.php 1 -
+/admin/Southidceditor/Dialog/about.htm 1 http://www.baidu.com
+/2.rar 1 -
+/pma/ 1 -
+/phpMyAdmin2/ 2 -
+/data/config.js 1 http://www.baidu.com
+/kouchushishimeyuanyinyinqide/2012/0726/12.html 1 -
+/category/jian-fei-cha/ 1 -
+/%E5%A4%8D%E4%BB%B6%20%E6%96%B0%E5%BB%BA%E6%96%87%E4%BB%B6%E5%A4%B9.zip 1 -
+/cuteeditor_files/Help/default.htm 1 http://www.baidu.com
+/editor/Scripts/spell.js 1 http://www.baidu.com
+/dede.zip 1 -
+/uv9ico5mog4o5fd5.html 1 http://china-spa.cn/
+/member/template/homepage.htm 1 http://www.baidu.com
+/www.rar 1 -
+/%E5%A4%8D%E4%BB%B6%20wwww.zip 1 -
+/qq.rar 1 -
+/Include/Editor.js 1 http://www.baidu.com
+/kouchushishimeyuanyinyinqide/2012/0808/43.html 1 -
+/kouchushishimeyuanyinyinqide/2012/0801/37.html 2 -
+/db/main.php 1 -
+/kouchushishimeyuanyinyinqide/2012/0726/20.html 2 -
+/db.zip 1 -
+/phpMyAdmin/scripts/setup.php 1 -
+/db.rar 1 -
+/install/templates/step-1.html 1 http://www.baidu.com
+/dede/js/album.js 1 http://www.baidu.com
+/kouchuchishimeyao/2012/0731/31.html 3 -
+/sanqingcha/2012/0814/58.html 2 -
+/gg.rar 1 -
+/imgs/left09.swf 1 -
+/2012-10-09-07-43-46/8-sf 1 -
+/kouchushishimeyuanyinyinqide/2012/0730/23.html 2 -
+/wwwroot.zip 1 -
+/data/admin/ver.txt 1 http://www.baidu.com
+/ThinkPHP/LICENSE.txt 1 http://www.baidu.com
+/news/youhuihuodong.html 1 -
+/editor/Help/default.htm 1 http://www.baidu.com
+/kouchuchishimeyao/2012/0731/29.html 2 -
+/china-spa.zip 1 -
+/kouchuchishimeyao/2012/0725/4.html 2 -
+/hr 1 -
+/manager.zip 1 -
+/hr/5.jpg 16 http://image.baidu.com/i
+/lvyou 3 -
+/menpiaoyuding 1 -
+/1.rar 2 -
+/bas.asp 1 http://www.baidu.com
+/dawn.asp 1 http://www.baidu.com
+/PMA/main.php 1 -
+/sf/4-2012-10-09-09-16-52/ 1 -
+/FCK/editor/js/fckeditorcode_ie.js 1 http://www.baidu.com
+/lionsky_client/WebHtmlEditor/1_7_2006_1020/Theme/Office_Tinge/WebHtmlEditor.css 1 http://www.baidu.com
+/web.zip 1 -
+/gg.zip 1 -
+/aa.zip 1 -
+/kouchuzenmeban/2012/0801/39.html 1 -
+/zhaobiao/ 1 -
+/php-myadmin/ 2 -
+/kouchuchishimeyao/2012/0726/16.html 2 -
+/fckeditor.js 1 http://www.baidu.com
+/kouchuzenmeban/2012/0809/48.html 1 -
+/kouchushishimeyuanyinyinqide/2012/0808/46.html 1 -
+/password.txt 1 -
+/phpmyadmin/docs.css 1 http://www.baidu.com
+http://baidu.comhttp/baidu.com/ 41 http://www.baidu.com/
+/ueditor/editor_all.js 1 http://www.baidu.com
+/admin.zip 1 -
+/template/default/refreshto.htm 1 http://www.baidu.com
+/kefangyuding 1 -
+/Providers/HtmlEditorProviders/Fck/fcklinkgallery.aspx 1 http://www.baidu.com
+/editor/Dialog/about.htm 1 http://www.baidu.com
+/123.zip 1 -
+/2012-10-09-07-48-16/5-2012-10-09-09-36-47/ 1 http://www.china-spa.cn/
+/i/ 1 http://www.baidu.com
+/licence.txt 1 http://www.baidu.com
+/plugin/kindeditor/kindeditor-min.js 1 http://www.baidu.com
+/china-spacn.zip 1 -
+/%E6%96%B0%E5%BB%BA%E6%96%87%E4%BB%B6%E5%A4%B9.zip 1 -
+/phpmy-admin/ 1 -
+/eWebEditor/Dialog/about.htm 1 http://www.baidu.com
+/english/SPA.HTML 2 -
+/FCKeditor/editor/filemanager/connectors/uploadtest.html 1 -
+/news/2010060617.html 2 http://www.china-spa.cn/
+/kouchuchishimeyao/2012/0731/30.html 2 -
+/english/ticket-booking.html 1 -
+/Scripts/spell.js 1 http://www.baidu.com
+/mysqlmanager/ 2 -
+/phpmyadmin/ 2 -
+/mysql/ 1 -
+/admin/kindeditor/kindeditor-min.js 1 http://www.baidu.com
+/abc.zip 1 -
+/china-spacn.rar 1 -
+/ueditor/editor_config.js 1 http://www.baidu.com
+/2012-10-09-07-48-16/ 1 -
+/news/2010052912.html 3 -
+/jiudian/ 1 -
+/kouchushishimeyuanyinyinqide/2012/0726/10.html 2 -
+/plus/90sec.php 1 -
+/_sys.asp 1 http://www.baidu.com
+/myadmin/scripts/setup.php 1 -
+/wz.zip 1 -
+/FCKeditor/editor/filemanager/upload/test.html 1 -
+/Dialog/about.htm 1 http://www.baidu.com
+/admin/diy.asp 1 -
+/webmanage/fckeditor/editor/filemanager/browser/default/connectors/test.html 1 -
+/phpMyAdmin-2/ 2 -
+/admin/system/editor/FCKeditor/editor/fckeditor.Html 1 -
+/menpiaoyuding/ 2 -
+/china-spa.rar 1 -
+/kouchushishimeyuanyinyinqide/2012/0811/56.html 1 -
+/admin/main.php 2 -
+/news/2010071523.html 1 -
+/jiudian 1 -
+/%E6%96%B0%E5%BB%BA%E6%96%87%E4%BB%B6%E5%A4%B9.rar 1 -
+/fckeditor/editor/filemanager/connectors/test.html 1 -
+/phpmyadmin/scripts/setup.php 1 -
+/kouchushishimeyuanyinyinqide/2012/0807/42.html 2 -
+/phpmyadmin/ChangeLog 1 http://www.baidu.com
+/flashfxp.zip 1 -
+/tags.php 377 -
+/datas.rar 1 -
+/sanqingcha/2012/0831/67.html 2 -
+/datas.zip 1 -
+/kouchushishimeyuanyinyinqide/2012/0806/41.html 2 -
+/admin/template/article_more/config.htm 1 http://www.baidu.com
+/kouchushishimeyuanyinyinqide/2012/0730/27.html 2 -
+/phpMyAdmin/main.php 1 -
+http://80.79.119.248/test.php 1 -
+/aaa.rar 1 -
+/ww.zip 1 -
+/wwww.rar 1 -
+/sqlmanager/ 2 -
+/phpmyadmin/main.php 1 -
+/myadmin/main.php 1 -
+/admina/ 1 -
+/p/m/a/ 1 -
+/movie/onunload.php 2 -
+/hack/gather/template/edit_title.htm 1 http://www.baidu.com
+/plus/erraddsave.php 2 -
+/plus/heightsearch.php 2 -
+/wangzhan.rar 1 -
+/special 1 http://www.baidu.com
+/data/mysql_error_trace.inc 1 -
+/china-spa.cn.rar 1 -
+/3.rar 1 -
+/wwwRoot.zip 1 -
+/dbadmin/ 1 -
+END_SIDER_404
+
+# Plugin key - Pages - Hits - Bandwidth - Last access
+BEGIN_PLUGIN_geoip_city_maxmind 30
+cn_beijing_22 0 382 0 0
+cn_guangzhou_30 0 83 0 0
+cn_shanghai_23 0 37 0 0
+cn_jinan_25 0 32 0 0
+cn_chengdu_32 0 24 0 0
+cn_hefei_01 0 24 0 0
+unknown 0 23 0 0
+cn_tianjin_28 0 22 0 0
+us_san%20antonio_tx 0 21 0 0
+cn_xian_26 0 16 0 0
+sg_singapore_00 0 16 0 0
+cn_haikou_31 0 2 0 0
+cn_fuzhou_07 0 1 0 0
+cn_hangzhou_02 0 9 0 0
+us_san%20diego_ca 0 1 0 0
+cn_zhengzhou_09 0 2 0 0
+us_pompano%20beach_fl 0 1 0 0
+cn_shenzhen_30 0 15 0 0
+cn_nanjing_04 0 11 0 0
+tw_taipei_03 0 1 0 0
+ru_samara_65 0 1 0 0
+cn_jiujiang_03 0 1 0 0
+us_tempe_az 0 4 0 0
+cn_putian_07 0 1 0 0
+cn_wuhan_12 0 9 0 0
+us_new%20york_ny 0 1 0 0
+us_reston_va 0 10 0 0
+cn_yancheng_04 0 3 0 0
+cn_kunming_29 0 1 0 0
+us_dallas_tx 0 14 0 0
+END_PLUGIN_geoip_city_maxmind
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 195
+183.60.243.242 36 36 445719 20130930012031
+183.60.244.20 25 25 306904 20130930142015
+166.78.4.75 21 21 264954 20130920212517
+208.43.225.85 13 13 251252 20130920215538
+222.42.114.11 10 10 41108 20130930194201
+69.58.178.59 10 10 161999 20130910143447
+123.151.148.172 10 10 117674 20130911223036
+220.181.132.220 8 8 100938 20130930061214
+220.181.132.219 8 8 100938 20130927231224
+117.79.144.165 7 28 281632 20130930012229
+123.125.71.15 0 1 30200 
+222.43.53.98 1 15 735335 20130912205617
+70.36.97.52 1 1 12618 20130910060734
+123.125.71.27 0 3 98080 
+220.181.51.212 0 1 93128 
+220.181.51.198 0 1 7200 
+60.28.127.4 2 2 25236 20130919235211
+220.181.141.70 2 2 25236 20130925170205
+180.96.0.21 1 1 12618 20130907141332
+123.151.44.97 1 1 12618 20130909142036
+125.39.200.214 1 1 12618 20130904142543
+123.125.71.35 0 3 21600 
+123.125.71.33 0 1 30200 
+124.115.11.20 0 2 646348 
+122.225.213.202 1 1 4112 20130905141900
+123.125.71.51 0 2 34035 
+123.125.71.31 0 1 1117 
+219.143.225.2 2 2 25168 20130916110643
+219.143.225.20 4 4 50472 20130926044645
+123.125.71.19 0 1 3835 
+220.181.132.195 2 20 353170 20130906224156
+183.60.244.44 2 3 48571 20130922165937
+123.125.71.41 0 2 2234 
+113.142.18.124 1 1 12584 20130922205538
+123.125.71.17 0 3 124445 
+220.181.132.15 2 20 353170 20130925170250
+114.80.109.11 1 1 12584 20130922205544
+103.29.134.195 1 1 17385 20130905171829
+220.181.132.192 1 10 176585 20130921040415
+27.241.119.79 0 1 167288 
+123.151.43.204 1 1 12618 20130907141045
+123.125.71.54 0 2 94245 
+122.225.213.161 1 1 12618 20130910132828
+220.181.51.204 0 1 1117 
+123.125.68.37 1 1 767 20130904071149
+220.181.132.194 2 20 353170 20130923150319
+122.225.213.89 1 1 12618 20130909142320
+61.135.190.221 1 1 12612 20130923232208
+188.165.252.218 1 1 12600 20130914100404
+61.135.190.100 0 7 169515 
+123.125.71.20 0 1 1117 
+112.111.174.43 1 1 12584 20130909212214
+219.150.71.3 0 1 323174 
+118.192.48.6 1 1 12618 20130917181120
+221.7.51.158 1 1 12618 20130928070400
+180.96.0.15 1 1 12612 20130903151546
+123.151.41.81 1 1 12618 20130901221131
+123.125.71.56 0 1 93128 
+123.125.71.34 0 2 7986 
+61.135.190.219 0 4 134363 
+182.245.126.78 1 1 12584 20130924102141
+115.236.138.106 1 1 12618 20130919074208
+61.146.178.184 2 2 25236 20130918203800
+123.125.71.60 0 3 190091 
+180.96.0.53 1 1 12618 20130911223155
+218.17.61.55 1 14 730744 20130910172152
+38.229.70.44 3 3 37752 20130916203159
+123.138.239.179 1 1 12618 20130903151306
+220.181.51.210 0 1 23693 
+193.169.234.5 1 1 12584 20130922191416
+220.181.51.104 1 1 19920 20130912152805
+124.89.102.54 1 1 4112 20130905141925
+123.125.71.57 0 1 7200 
+113.142.8.75 0 1 32714 
+46.105.59.74 2 2 0 20130925015904
+123.151.152.168 1 1 12618 20130904142651
+202.102.79.243 2 2 25168 20130930033217
+221.10.185.2 2 24 910755 20130930075909
+155.69.2.13 2 16 773562 20130929082923
+108.224.145.201 1 1 12600 20130923170347
+103.7.220.71 1 1 15809 20130906154828
+220.181.132.18 1 10 176585 20130927231301
+103.7.220.67 1 1 27627 20130905230450
+180.153.114.197 1 6 148098 20130929074900
+46.0.27.51 1 1 12618 20130911135219
+123.125.71.13 0 3 104163 
+123.125.71.16 0 1 7200 
+119.96.192.87 1 1 12584 20130927221630
+123.125.71.59 0 2 123328 
+85.25.134.59 1 1 12618 20130908234557
+183.60.244.49 1 1 12618 20130907011036
+123.125.71.28 0 1 7200 
+112.67.40.162 2 2 25236 20130926091130
+50.23.254.99 1 1 12618 20130917211719
+220.181.132.197 1 10 176585 20130911230616
+113.142.9.20 0 1 323174 
+8.35.201.51 1 1 12613 20130914173034
+180.153.206.29 1 6 148098 20130908225628
+113.200.250.207 2 2 25236 20130919235624
+61.135.190.224 0 2 100328 
+220.181.51.108 3 3 44922 20130912152759
+220.181.51.109 1 1 12612 20130912152803
+123.125.71.55 0 2 4952 
+123.125.71.40 0 1 93128 
+220.181.51.211 0 1 871 
+111.174.79.81 1 1 12584 20130912082112
+115.236.94.251 2 2 25230 20130912012916
+123.125.71.45 0 2 34035 
+113.142.8.97 0 1 31190 
+211.142.189.101 1 1 12584 20130917135145
+119.147.146.118 2 12 296191 20130930210328
+220.181.132.19 1 10 176585 20130910102625
+220.181.89.187 0 7 56933 
+124.115.10.15 0 1 323174 
+123.125.71.24 0 1 1117 
+180.96.0.63 1 1 12612 20130906142451
+123.125.71.53 0 1 30200 
+27.46.34.59 3 3 37848 20130925194918
+112.243.33.142 2 16 773562 20130923215000
+180.96.0.18 1 1 12612 20130908141422
+46.229.170.197 1 1 12612 20130922122710
+123.125.71.38 0 3 8787 
+110.89.13.214 1 1 4098 20130905054143
+123.125.71.22 0 1 93128 
+220.181.132.193 2 20 353170 20130930061258
+115.236.152.143 1 1 12618 20130920025926
+123.125.71.47 0 1 30200 
+123.125.71.42 0 1 1117 
+113.142.11.151 0 4 51309 
+123.125.71.12 0 2 37400 
+220.181.51.203 1 2 16419 20130906153606
+180.153.201.79 1 6 148093 20130930213059
+69.9.181.172 1 1 12584 20130907133640
+220.181.132.16 1 10 176585 20130910112614
+119.98.236.72 1 1 12584 20130901132243
+220.181.51.107 1 1 19927 20130912152759
+221.232.145.66 3 3 12330 20130929193514
+123.125.68.17 1 1 2944 20130908041324
+192.187.118.26 1 1 12618 20130901032439
+111.161.46.212 1 1 12618 20130907203210
+101.226.51.229 1 6 148098 20130901214358
+220.181.51.110 2 2 36120 20130912152805
+119.98.239.187 1 1 12584 20130913000958
+198.24.179.6 2 2 25230 20130917133621
+111.161.50.25 1 1 12618 20130911223027
+5.199.171.82 1 1 4112 20130926172849
+198.24.163.178 2 2 25168 20130921172939
+58.251.150.190 1 1 12618 20130904225031
+220.181.51.208 0 1 2222 
+106.120.178.3 0 5 195775 
+124.160.163.27 1 1 12618 20130909142132
+220.181.51.201 0 1 1701 
+61.135.190.222 1 2 13735 20130927044925
+123.125.71.29 0 3 190091 
+111.206.51.120 2 2 25236 20130919234819
+176.31.14.28 1 1 12618 20130924194744
+124.115.11.18 0 1 29993 
+218.92.254.86 2 2 29969 20130917112633
+115.236.96.138 1 1 12612 20130906142356
+101.226.66.181 1 6 148098 20130918070422
+123.151.152.157 1 1 12612 20130903151246
+124.160.171.143 1 1 12618 20130913074241
+211.155.113.81 1 1 12618 20130920133819
+123.125.71.30 0 1 30200 
+220.181.132.17 2 20 353170 20130923121605
+118.186.15.219 0 3 93897 
+124.115.11.37 0 1 167288 
+114.97.197.84 2 24 3047182 20130925142143
+182.118.20.164 1 1 12618 20130930055233
+59.54.30.193 1 1 12618 20130912100311
+60.213.146.72 2 16 760944 20130923231011
+119.98.236.16 1 1 12584 20130927151307
+123.125.71.48 0 2 7986 
+218.241.106.16 2 2 25236 20130922063557
+60.191.137.122 2 2 25236 20130929093037
+119.96.95.83 1 1 12584 20130909085641
+220.181.132.198 1 10 176585 20130928140356
+103.29.134.205 1 1 18010 20130905110022
+61.130.0.141 1 1 12618 20130908081639
+220.181.132.191 2 20 353164 20130905072307
+124.160.161.201 2 2 25236 20130922210151
+203.195.147.183 1 1 12618 20130901130638
+180.96.0.36 2 2 25236 20130904142741
+112.64.235.249 1 6 148098 20130904231452
+71.6.151.167 1 1 0 20130912175210
+223.92.128.22 3 3 37854 20130909075618
+103.29.134.193 1 1 16290 20130901213534
+220.181.51.206 0 1 30200 
+192.99.9.164 1 1 12618 20130916133153
+61.135.190.103 1 2 13735 20130925160543
+123.125.71.36 0 3 35152 
+125.39.201.12 1 1 12612 20130929093005
+123.125.71.25 0 1 30200 
+123.125.71.50 0 1 7200 
+218.241.98.202 1 1 12618 20130927191443
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 30
+20130901 11 25 441877 11
+20130902 3 12 201821 3
+20130903 6 9 103312 6
+20130904 10 20 385289 10
+20130905 12 21 298007 12
+20130906 11 32 488981 11
+20130907 9 10 105802 9
+20130908 16 46 938933 16
+20130909 18 28 496417 14
+20130910 21 53 1340573 12
+20130911 11 25 438239 9
+20130912 19 36 1009968 15
+20130913 11 20 746818 10
+20130914 6 11 202659 6
+20130915 7 12 141296 6
+20130916 8 8 105609 7
+20130917 10 10 126100 9
+20130918 8 14 238640 8
+20130919 13 22 328001 10
+20130920 17 17 297992 7
+20130921 7 30 551666 6
+20130922 12 31 1908508 11
+20130923 12 68 2234314 10
+20130924 6 9 103290 6
+20130925 12 67 4343991 9
+20130926 6 14 234686 5
+20130927 9 27 532703 9
+20130928 5 14 218551 5
+20130929 9 34 1125122 7
+20130930 13 43 746698 11
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 4
+5mn-15mn 4
+2mn-5mn 2
+30s-2mn 2
+0s-30s 262
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 1
+/ 318 3961712 270 270
+END_SIDER

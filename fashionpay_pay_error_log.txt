@@ -1,0 +1,3 @@
+payment result:  Payment Declined	orderNo:10047	Amount:65.90 USD	responseCode:22	time: 2012-08-16 03:12:05
+verification failed,please check yout md5key,thank you!	time: 2012-08-19 10:39:18
+verification failed,please check yout md5key,thank you!	time: 2012-08-19 11:08:19

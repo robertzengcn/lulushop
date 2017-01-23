@@ -1,0 +1,17 @@
+AddHandler php53 .php
+Action php53 /cgi-bin/php53.cgi
+
+
+
+# BEGIN WordPress
+
+# END WordPress
+
+RewriteEngine On   
+Options +FollowSymLinks 
+# Redirect www to non-www   
+RewriteCond %{HTTP_HOST} ^www\.(.*)   
+RewriteRule (.*) http://%1/$1 [R=301,L] 
+
+php_value memory_limit 1000M
+php_value max_execution_time 6000000

@@ -1,0 +1,14 @@
+[06-Oct-2016 10:43:14] PHP Warning:  file_get_contents() [<a href='function.file-get-contents'>function.file-get-contents</a>]: php_network_getaddresses: getaddrinfo failed: 这是在主机名解析时通常出现的暂时错误，它意味着本地服务器没有从权威服务器上收到响应。  in D:\wampserver\wamp\www\lulu\includes\classes\MicrosoftTranslator.class.php on line 142
+[06-Oct-2016 10:43:14] PHP Stack trace:
+[06-Oct-2016 10:43:14] PHP   1. {main}() D:\wampserver\wamp\www\lulu\index.php:0
+[06-Oct-2016 10:43:14] PHP   2. require() D:\wampserver\wamp\www\lulu\index.php:36
+[06-Oct-2016 10:43:14] PHP   3. Translator->bing() D:\wampserver\wamp\www\lulu\includes\modules\pages\transapi\header_php.php:36
+[06-Oct-2016 10:43:14] PHP   4. MicrosoftTranslator->translate() D:\wampserver\wamp\www\lulu\includes\classes\translator.php:19
+[06-Oct-2016 10:43:14] PHP   5. file_get_contents() D:\wampserver\wamp\www\lulu\includes\classes\MicrosoftTranslator.class.php:142
+[06-Oct-2016 10:43:14] PHP Warning:  file_get_contents(https://api.datamarket.azure.com/Data.ashx/Bing/MicrosoftTranslator/v1/Translate?Text=%272016%E6%8B%89%E6%96%AF%E7%BB%B4%E5%8A%A0%E6%96%AF%E6%88%90%E4%BA%BA%E5%B1%95AVN%E5%A4%A7%E5%A5%96%E7%BA%A2%E6%AF%AF%E7%A7%80%289%29%27&amp;To=%27en%27&amp;$format=Raw&amp;$top=100) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: php_network_getaddresses: getaddrinfo failed: 这是在主机名解析时通常出现的暂时错误，它意味着本地服务器没有从权威服务器上收到响应。  in D:\wampserver\wamp\www\lulu\includes\classes\MicrosoftTranslator.class.php on line 142
+[06-Oct-2016 10:43:14] PHP Stack trace:
+[06-Oct-2016 10:43:14] PHP   1. {main}() D:\wampserver\wamp\www\lulu\index.php:0
+[06-Oct-2016 10:43:14] PHP   2. require() D:\wampserver\wamp\www\lulu\index.php:36
+[06-Oct-2016 10:43:14] PHP   3. Translator->bing() D:\wampserver\wamp\www\lulu\includes\modules\pages\transapi\header_php.php:36
+[06-Oct-2016 10:43:14] PHP   4. MicrosoftTranslator->translate() D:\wampserver\wamp\www\lulu\includes\classes\translator.php:19
+[06-Oct-2016 10:43:14] PHP   5. file_get_contents() D:\wampserver\wamp\www\lulu\includes\classes\MicrosoftTranslator.class.php:142

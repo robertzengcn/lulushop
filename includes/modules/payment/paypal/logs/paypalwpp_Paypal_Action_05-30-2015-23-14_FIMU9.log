@@ -1,0 +1,285 @@
+May-30-2015 23:14:10 (1433027650)
+getLineItemDetails 1
+Not using default currency. Thus, no line-item details can be submitted.
+=================================
+
+May-30-2015 23:14:10 (1433027650)
+ec_step1 - 1
+Checking to see if we are in markflow
+cart contents: physical
+
+NOTE: $this->showPaymentPage = 0
+Customer ID: 0
+Session Data: Array
+(
+    [securityToken] => abc820a3d17e9c279f0a47fa5ef3459c
+    [customers_host_address] => 27.221.20.20
+    [cartID] => 
+    [cart] => shoppingCart Object
+        (
+            [contents] => Array
+                (
+                    [1472] => Array
+                        (
+                            [qty] => 1
+                        )
+
+                    [1457] => Array
+                        (
+                            [qty] => 1
+                        )
+
+                )
+
+            [total] => 57
+            [weight] => 24
+            [cartID] => 80744
+            [content_type] => physical
+            [free_shipping_item] => 0
+            [free_shipping_weight] => 0
+            [free_shipping_price] => 0
+        )
+
+    [check_valid] => true
+    [language] => schinese
+    [languages_id] => 2
+    [languages_code] => cn
+    [currency] => CNY
+    [today_is] => 2015-05-30
+    [updateExpirations] => 1
+    [session_counter] => 1
+    [customers_ip_address] => 27.221.20.20
+    [new_products_id_in_cart] => 1457
+    [valid_to_checkout] => 1
+    [cart_errors] => 
+    [payment] => paypalwpp
+    [total_weight] => 24
+    [total_count] => 2
+)
+
+=================================
+
+May-30-2015 23:14:10 (1433027650)
+ec-step1-addr_check
+cart content is not all virtual (or customer is not logged in) ... therefore will be submitting address details
+=================================
+
+May-30-2015 23:14:10 (1433027650)
+getOverrideAddress - 4
+not logged in and not in markflow mode - nothing to override
+=================================
+
+May-30-2015 23:14:10 (1433027650)
+ec-step1-addr_check3
+address details from override check: <NONE FOUND>
+=================================
+
+May-30-2015 23:14:10 (1433027650)
+ec_step1 - 2 -submit
+Array
+(
+    [CURRENCYCODE] => USD
+    [LOCALECODE] => CN
+    [GIFTMESSAGEENABLE] => 0
+    [GIFTRECEIPTEENABLE] => 0
+    [GIFTWRAPENABLE] => 0
+    [GIFTWRAPNAME] => 
+    [GIFTWRAPAMOUNT] => 0
+    [BUYEREMAILOPTINENABLE] => 0
+    [CUSTOMERSERVICENUMBER] => 
+    [BRANDNAME] => 撸撸商城情趣用品
+    [PAYMENTACTION] => Sale
+    [ALLOWNOTE] => 1
+    [SOLUTIONTYPE] => Sole
+    [LANDINGPAGE] => Billing
+    [NOSHIPPING] => 0
+    [AMT] => 94.83
+    [RETURNURL] => http://www.hy-tm.com/ipn_main_handler.php?type=ec
+    [CANCELURL] => http://www.hy-tm.com/shopping_cart.html?ec_cancel=1
+)
+
+=================================
+
+May-30-2015 23:14:18 (1433027658)
+termEC-1
+Killed the session vars as requested
+=================================
+
+May-30-2015 23:14:18 (1433027658)
+termEC-2
+BEFORE: $this->showPaymentPage = 0
+Token Data:
+=================================
+
+May-30-2015 23:14:18 (1433027658)
+termEC-3
+AFTER: $this->showPaymentPage = 0
+=================================
+
+May-30-2015 23:14:18 (1433027658)
+termEC-9
+We are NOT logged in, so set snapshot to Shipping page, and redirect to login
+=================================
+
+May-30-2015 23:14:18 (1433027658)
+termEC-10
+Redirecting to login - Stack: login
+Message: An error occurred when we tried to contact the payment processor. Please try again, select an alternate payment method, or contact the store owner for assistance. ()    -  (35) error:14094410:SSL routines:SSL3_READ_BYTES:sslv3 alert handshake failure
+Session Data: Array
+(
+    [securityToken] => abc820a3d17e9c279f0a47fa5ef3459c
+    [customers_host_address] => 27.221.20.20
+    [cartID] => 
+    [cart] => shoppingCart Object
+        (
+            [contents] => Array
+                (
+                    [1472] => Array
+                        (
+                            [qty] => 1
+                        )
+
+                    [1457] => Array
+                        (
+                            [qty] => 1
+                        )
+
+                )
+
+            [total] => 57
+            [weight] => 24
+            [cartID] => 80744
+            [content_type] => physical
+            [free_shipping_item] => 0
+            [free_shipping_weight] => 0
+            [free_shipping_price] => 0
+        )
+
+    [navigation] => navigationHistory Object
+        (
+            [path] => Array
+                (
+                    [0] => Array
+                        (
+                            [page] => product_info
+                            [mode] => NONSSL
+                            [get] => Array
+                                (
+                                    [products_id] => 1457
+                                    [action] => add_product
+                                )
+
+                            [post] => Array
+                                (
+                                )
+
+                        )
+
+                    [1] => Array
+                        (
+                            [page] => shopping_cart
+                            [mode] => NONSSL
+                            [get] => 
+                            [post] => Array
+                                (
+                                )
+
+                        )
+
+                    [2] => Array
+                        (
+                            [page] => checkout_shipping
+                            [mode] => NONSSL
+                            [get] => 
+                            [post] => Array
+                                (
+                                )
+
+                        )
+
+                    [3] => Array
+                        (
+                            [page] => checkout
+                            [mode] => NONSSL
+                            [get] => 
+                            [post] => Array
+                                (
+                                )
+
+                        )
+
+                    [4] => Array
+                        (
+                            [page] => login
+                            [mode] => NONSSL
+                            [get] => 
+                            [post] => Array
+                                (
+                                )
+
+                        )
+
+                    [5] => Array
+                        (
+                            [page] => index
+                            [mode] => NONSSL
+                            [get] => Array
+                                (
+                                    [type] => ec
+                                )
+
+                            [post] => Array
+                                (
+                                )
+
+                        )
+
+                )
+
+            [snapshot] => Array
+                (
+                    [page] => index
+                    [mode] => NONSSL
+                    [get] => Array
+                        (
+                            [type] => ec
+                        )
+
+                    [post] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [check_valid] => true
+    [language] => schinese
+    [languages_id] => 2
+    [languages_code] => cn
+    [currency] => CNY
+    [today_is] => 2015-05-30
+    [updateExpirations] => 1
+    [session_counter] => 1
+    [customers_ip_address] => 27.221.20.20
+    [new_products_id_in_cart] => 1457
+    [valid_to_checkout] => 1
+    [cart_errors] => 
+    [payment] => paypalwpp
+    [total_weight] => 24
+    [total_count] => 2
+    [messageToStack] => Array
+        (
+            [0] => Array
+                (
+                    [class] => login
+                    [text] => An error occurred when we tried to contact the payment processor. Please try again, select an alternate payment method, or contact the store owner for assistance. ()    -  (35) error:14094410:SSL routines:SSL3_READ_BYTES:sslv3 alert handshake failure
+                    [type] => error
+                )
+
+        )
+
+)
+
+=================================
+

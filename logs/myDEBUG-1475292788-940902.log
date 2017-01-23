@@ -1,0 +1,9 @@
+[01-Oct-2016 11:33:08] PHP Fatal error:  1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'id'].'' at line 1 :: update cai_article SET statu=1 WHERE id='.Array['id'].' in D:\wampserver\wamp\www\lulu\includes\classes\db\mysql\query_factory.php on line 122
+[01-Oct-2016 11:33:08] PHP Stack trace:
+[01-Oct-2016 11:33:08] PHP   1. {main}() D:\wampserver\wamp\www\lulu\index.php:0
+[01-Oct-2016 11:33:08] PHP   2. require() D:\wampserver\wamp\www\lulu\index.php:36
+[01-Oct-2016 11:33:08] PHP   3. caiji->getarticle() D:\wampserver\wamp\www\lulu\includes\modules\pages\caiapi\header_php.php:44
+[01-Oct-2016 11:33:08] PHP   4. queryFactory->Execute() D:\wampserver\wamp\www\lulu\includes\classes\caiji.php:95
+[01-Oct-2016 11:33:08] PHP   5. queryFactory->set_error() D:\wampserver\wamp\www\lulu\includes\classes\db\mysql\query_factory.php:232
+[01-Oct-2016 11:33:08] PHP   6. queryFactory->show_error() D:\wampserver\wamp\www\lulu\includes\classes\db\mysql\query_factory.php:107
+[01-Oct-2016 11:33:08] PHP   7. trigger_error() D:\wampserver\wamp\www\lulu\includes\classes\db\mysql\query_factory.php:122

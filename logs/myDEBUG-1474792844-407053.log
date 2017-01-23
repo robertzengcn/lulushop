@@ -1,0 +1,6 @@
+[25-Sep-2016 16:40:46] PHP Warning:  preg_replace() [<a href='function.preg-replace'>function.preg-replace</a>]: Unknown modifier '/' in D:\wampserver\wamp\www\lulu\includes\classes\translator.php on line 21
+[25-Sep-2016 16:40:46] PHP Stack trace:
+[25-Sep-2016 16:40:46] PHP   1. {main}() D:\wampserver\wamp\www\lulu\index.php:0
+[25-Sep-2016 16:40:46] PHP   2. require() D:\wampserver\wamp\www\lulu\index.php:36
+[25-Sep-2016 16:40:46] PHP   3. Translator->bing() D:\wampserver\wamp\www\lulu\includes\modules\pages\transapi\header_php.php:35
+[25-Sep-2016 16:40:46] PHP   4. preg_replace() D:\wampserver\wamp\www\lulu\includes\classes\translator.php:21

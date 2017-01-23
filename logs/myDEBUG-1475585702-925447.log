@@ -1,0 +1,8 @@
+[04-Oct-2016 20:55:03] PHP Warning:  file_get_contents(https://api.datamarket.azure.com/Data.ashx/Bing/MicrosoftTranslator/v1/Translate?Text=%27%E6%A1%94%E8%89%B2%E6%88%90%E4%BA%BA%E5%9F%9F%E5%90%8D%E5%A4%AA%E7%94%9F%E7%8C%9B+%E6%88%90%E4%BA%BA%E7%94%A8%E5%93%81%E5%95%86%E9%83%BD%E8%BF%99%E6%A0%B7%EF%BC%9F%27&amp;To=%27en%27&amp;$format=Raw&amp;$top=100) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: HTTP request failed! HTTP/1.1 502 Bad Gateway
+ in D:\wampserver\wamp\www\lulu\includes\classes\MicrosoftTranslator.class.php on line 142
+[04-Oct-2016 20:55:03] PHP Stack trace:
+[04-Oct-2016 20:55:03] PHP   1. {main}() D:\wampserver\wamp\www\lulu\index.php:0
+[04-Oct-2016 20:55:03] PHP   2. require() D:\wampserver\wamp\www\lulu\index.php:36
+[04-Oct-2016 20:55:03] PHP   3. Translator->bing() D:\wampserver\wamp\www\lulu\includes\modules\pages\transapi\header_php.php:35
+[04-Oct-2016 20:55:03] PHP   4. MicrosoftTranslator->translate() D:\wampserver\wamp\www\lulu\includes\classes\translator.php:19
+[04-Oct-2016 20:55:03] PHP   5. file_get_contents() D:\wampserver\wamp\www\lulu\includes\classes\MicrosoftTranslator.class.php:142
