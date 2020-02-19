@@ -58,8 +58,8 @@
 
 // * DIR_FS_* = Filesystem directories (local/physical)
   //the following path is a COMPLETE path to your Zen Cart files. eg: /var/www/vhost/accountname/public_html/store/
-  define('DIR_FS_ADMIN', 'D:/wampserver/wamp/www/lulu/myhtadmin/');
-  define('DIR_FS_CATALOG', 'D:/wampserver/wamp/www/lulu/');
+  define('DIR_FS_ADMIN', 'G:/lulu/lulu/myhtadmin/');
+  define('DIR_FS_CATALOG', 'G:/lulu/lulu/');
 
   define('DIR_FS_CATALOG_LANGUAGES', DIR_FS_CATALOG . 'includes/languages/');
   define('DIR_FS_CATALOG_IMAGES', DIR_FS_CATALOG . 'images/');
@@ -86,7 +86,7 @@
   // or webserver user has write privileges (chmod 666 or 777). We recommend using the "cache" folder inside the Zen Cart folder
   // ie: /path/to/your/webspace/public_html/zen/cache   -- leave no trailing slash  
   define('SQL_CACHE_METHOD', 'none'); 
-  define('DIR_FS_SQL_CACHE', 'D:/wampserver/wamp/www/lulu/cache');
+  define('DIR_FS_SQL_CACHE', 'G:/lulu/lulu/cache');
   
 
 

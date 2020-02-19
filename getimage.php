@@ -1,10 +1,11 @@
 <?php
-error_reporting(0);
+//error_reporting(0);
+ini_set("display_errors", "On");
 require_once __DIR__ . '/autoload.php';
 
 use Qiniu\Auth;
 
-// 引入上传类
+// 瀵洖鍙嗘稉濠佺炊缁拷
 use Qiniu\Storage\UploadManager;
 
 // $_REQUEST['pwdd']="3lqWu0QCM0wY2i";
@@ -14,12 +15,15 @@ use Qiniu\Storage\UploadManager;
 if(isset($_REQUEST['pwdd'])&&$_REQUEST['pwdd']=="3lqWu0QCM0wY2i"){
 	if(isset($_REQUEST['imageurl'])&&$_REQUEST['imageurl']!=null){
 		$str=$_REQUEST['imageurl'];
+		echo $str;exit();
 $filename=basename($str);
 $tempu=parse_url($_REQUEST['imageurl']);
 $thehostname=$tempu['host'];
 $qiniuhost='image.lulusc.com';
+
 $savefile=str_replace($thehostname,$qiniuhost,$str);
 
+$savefile=str_replace('https','http',$savefile);
 $fulllink=parse_url($_REQUEST['imageurl']);
 $thefiles=substr($fulllink['path'],1);
 
@@ -33,29 +37,28 @@ if($result){
 
 //$filepath=dirname(__FILE__).$filename;
 
-// 需要填写你的 Access Key 和 Secret Key
+// 闂囷拷顩︽繅顐㈠晸娴ｇ姷娈�Access Key 閸滐拷Secret Key
 $accessKey = 'jMN6FOc_k_8TWSoMNfSs-KSDNKChPa59l5l-4ZFx';
 $secretKey = 'ud5MW5efpiTEXo4TlBfClQ8AODWyCtilBNYhfRHu';
 
-// 构建鉴权对象
+// 閺嬪嫬缂撻柎瀛樻綀鐎电钖�
 $auth = new Auth($accessKey, $secretKey);
 
-// 要上传的空间
+// 鐟曚椒绗傛导鐘垫畱缁屾椽妫�
 $bucket = 'crunkmusicer';
 
-// 生成上传 Token
+// 閻㈢喐鍨氭稉濠佺炊 Token
 $token = $auth->uploadToken($bucket);
 
-// 要上传文件的本地路径
+// 鐟曚椒绗傛导鐘虫瀮娴犲墎娈戦張顒�勾鐠侯垰绶�
 $filePath = $filename;
 
-// 上传到七牛后保存的文件名
+// 娑撳﹣绱堕崚棰佺閻楁稑鎮楁穱婵嗙摠閻ㄥ嫭鏋冩禒璺烘倳
 $key = $thefiles;
 
-// 初始化 UploadManager 对象并进行文件的上传。
-$uploadMgr = new UploadManager();
-
-// 调用 UploadManager 的 putFile 方法进行文件的上传。
+// 閸掓繂顫愰崠锟経ploadManager 鐎电钖勯獮鎯扮箻鐞涘本鏋冩禒鍓佹畱娑撳﹣绱堕妴锟�$uploadMgr = new UploadManager();
+$uploadMgr=new UploadManager;
+// 鐠嬪啰鏁�UploadManager 閻拷putFile 閺傝纭舵潻娑滎攽閺傚洣娆㈤惃鍕瑐娴肩姰锟�
 list($ret, $err) = $uploadMgr->putFile($token, $key, $filePath);
 //echo "\n====> putFile result: \n";
 $qiniuurl=$savefile;
@@ -104,7 +107,7 @@ function getImage($url,$filename='',$type=0){
         
         $filename=basename($url);
     }
-    //文件保存路径
+    //閺傚洣娆㈡穱婵嗙摠鐠侯垰绶�
     if($type){
   $ch=curl_init();
   $timeout=5;
@@ -120,14 +123,14 @@ function getImage($url,$filename='',$type=0){
      ob_end_clean();
     }
     $size=strlen($img);
-    //文件大小
+    //閺傚洣娆㈡径褍鐨�
     $fp2=@fopen($filename,'a');
     fwrite($fp2,$img);
     fclose($fp2);
     return $filename;
 }
 
-function getImageInfo($img) { //$img为图象文件绝对路径 
+function getImageInfo($img) { //$img娑撳搫娴樼挒鈩冩瀮娴犲墎绮风�纭呯熅瀵帮拷
 $needupload=false;
 $img_info = getimagesize($img); 
 
@@ -207,7 +210,7 @@ case 3:
 $img=imagecreatefrompng($srcfile);
 break;
 }
-//源图片的宽度和高度
+//濠ф劕娴橀悧鍥╂畱鐎硅棄瀹抽崪宀勭彯鎼达拷
 $oldImg['w']=imagesx($img);
 $oldImg['h']=imagesy($img);
 if ($oldImg['w']<=$mySize['w']){

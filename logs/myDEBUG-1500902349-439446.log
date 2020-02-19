@@ -1,0 +1,13 @@
+[24-Jul-2017 21:19:19 Asia/Shanghai] PHP Fatal error:  : :: show fields from orders_status_history in D:\wampserver\wamp\www\lulu\includes\classes\db\mysql\query_factory.php on line 122
+[24-Jul-2017 21:19:19 Asia/Shanghai] PHP Stack trace:
+[24-Jul-2017 21:19:19 Asia/Shanghai] PHP   1. {main}() D:\wampserver\wamp\www\lulu\index.php:0
+[24-Jul-2017 21:19:19 Asia/Shanghai] PHP   2. require() D:\wampserver\wamp\www\lulu\index.php:26
+[24-Jul-2017 21:19:19 Asia/Shanghai] PHP   3. require() D:\wampserver\wamp\www\lulu\includes\application_top.php:150
+[24-Jul-2017 21:19:19 Asia/Shanghai] PHP   4. require() D:\wampserver\wamp\www\lulu\includes\autoload_func.php:48
+[24-Jul-2017 21:19:19 Asia/Shanghai] PHP   5. include() D:\wampserver\wamp\www\lulu\includes\init_includes\init_general_funcs.php:38
+[24-Jul-2017 21:19:19 Asia/Shanghai] PHP   6. include() D:\wampserver\wamp\www\lulu\includes\modules\extra_functions.php:44
+[24-Jul-2017 21:19:19 Asia/Shanghai] PHP   7. sniffer->field_exists() D:\wampserver\wamp\www\lulu\includes\functions\extra_functions\osh_updated_by_functions.php:34
+[24-Jul-2017 21:19:19 Asia/Shanghai] PHP   8. queryFactory->Execute() D:\wampserver\wamp\www\lulu\includes\classes\sniffer.php:46
+[24-Jul-2017 21:19:19 Asia/Shanghai] PHP   9. queryFactory->set_error() D:\wampserver\wamp\www\lulu\includes\classes\db\mysql\query_factory.php:232
+[24-Jul-2017 21:19:19 Asia/Shanghai] PHP  10. queryFactory->show_error() D:\wampserver\wamp\www\lulu\includes\classes\db\mysql\query_factory.php:107
+[24-Jul-2017 21:19:19 Asia/Shanghai] PHP  11. trigger_error() D:\wampserver\wamp\www\lulu\includes\classes\db\mysql\query_factory.php:122

@@ -1,0 +1,13 @@
+[25-May-2017 21:16:13] PHP Fatal error:  1030:Got error 28 from storage engine :: show fields from orders_status_history in D:\wampserver\wamp\www\lulu\includes\classes\db\mysql\query_factory.php on line 122
+[25-May-2017 21:16:13] PHP Stack trace:
+[25-May-2017 21:16:13] PHP   1. {main}() D:\wampserver\wamp\www\lulu\index.php:0
+[25-May-2017 21:16:13] PHP   2. require() D:\wampserver\wamp\www\lulu\index.php:26
+[25-May-2017 21:16:13] PHP   3. require() D:\wampserver\wamp\www\lulu\includes\application_top.php:150
+[25-May-2017 21:16:13] PHP   4. require() D:\wampserver\wamp\www\lulu\includes\autoload_func.php:48
+[25-May-2017 21:16:13] PHP   5. include() D:\wampserver\wamp\www\lulu\includes\init_includes\init_general_funcs.php:38
+[25-May-2017 21:16:13] PHP   6. include() D:\wampserver\wamp\www\lulu\includes\modules\extra_functions.php:44
+[25-May-2017 21:16:13] PHP   7. sniffer->field_exists() D:\wampserver\wamp\www\lulu\includes\functions\extra_functions\osh_updated_by_functions.php:34
+[25-May-2017 21:16:13] PHP   8. queryFactory->Execute() D:\wampserver\wamp\www\lulu\includes\classes\sniffer.php:46
+[25-May-2017 21:16:13] PHP   9. queryFactory->set_error() D:\wampserver\wamp\www\lulu\includes\classes\db\mysql\query_factory.php:232
+[25-May-2017 21:16:13] PHP  10. queryFactory->show_error() D:\wampserver\wamp\www\lulu\includes\classes\db\mysql\query_factory.php:107
+[25-May-2017 21:16:13] PHP  11. trigger_error() D:\wampserver\wamp\www\lulu\includes\classes\db\mysql\query_factory.php:122

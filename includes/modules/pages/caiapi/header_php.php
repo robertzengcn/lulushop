@@ -36,7 +36,7 @@
  			break;	
  		case 'savearticle':
  			if($title==""||$content==""){
- 				echo '1';//文章缺少元素
+ 				echo '1';//鏂囩珷缂哄皯鍏冪礌
  				exit();
  			}
  			$caiji->savearticle($title,$content,$catelogue,$url);
@@ -50,6 +50,8 @@
  		case 'checklink':
  			$caiji->checklink($url);			
  			break;
+ 		case 'trimcontent':
+ 			$caiji->trimcontent($content);
  		default:
  						
  	}

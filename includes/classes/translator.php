@@ -42,11 +42,28 @@ class Translator {
 	
 			$translator = new Baidutrans($check_result->fields['app_id'],$check_result->fields['app_sec']);
 	
-			$jsonresult=$translator->translate($content, 'auto', $tolan);
+			$jsonresult=$translator->translate(htmlspecialchars($content,ENT_QUOTES), 'auto', $tolan);
+			
+			$apk_url = dirname(__FILE__) . "/apkoldfile.txt";
+			
+			
+			$myfile = fopen( $apk_url, "w") or die("Unable to open file!");
+			
+			
+			$txt = print_r($jsonresult,true)."\n";
+			fwrite($myfile, $txt);
+			fclose($myfile);
 			
 if(isset($jsonresult['trans_result'])){
-	
-	return $jsonresult['trans_result']['0']['dst'];
+	$restr="";
+	foreach($jsonresult['trans_result'] as $key=>$val){
+		$restr.=str_replace(';;',';',htmlspecialchars_decode($val['dst'],ENT_QUOTES));
+		
+		
+	}
+
+	$restr=str_replace('< ','<',$restr);
+	return $restr;
 }else{
 	return false;
 }

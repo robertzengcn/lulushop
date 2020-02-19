@@ -74,7 +74,7 @@ final class Client
     private static function sendRequest($request)
     {
         $t1 = microtime(true);
-        $ch = curl_init();
+        $ch = \curl_init();
         $options = array(
             CURLOPT_USERAGENT => self::userAgent(),
             CURLOPT_RETURNTRANSFER => true,

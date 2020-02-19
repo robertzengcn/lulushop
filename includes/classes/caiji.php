@@ -19,7 +19,7 @@ if (!defined('IS_ADMIN_FLAG')) {
 }
 class caiji extends base {
 	/*
-	 * 获取搜索关键词
+	 * 鑾峰彇鎼滅储鍏抽敭璇�
 	 * 
 	 * */
 	public function getkeyword(){
@@ -37,7 +37,7 @@ class caiji extends base {
 		exit();
 	}
 	/*
-	 * 检查url是否存在
+	 * 妫�煡url鏄惁瀛樺湪
 	 * 
 	 * */
 	public function checklist($url){
@@ -54,12 +54,13 @@ class caiji extends base {
 	}
 	
 	/*
-	 * 保存文章
+	 * 淇濆瓨鏂囩珷
 	 * */
 	public function savearticle($title,$content,$catelogue,$url){
 		$sql_data_array=array('title'=>$title,
 				               'content'=>$content,
 				              'keyword'=>$catelogue,
+				               'time'=>date('Y-m-d H:i:s',time()),
 				                'url'=>$url,
 				                
 				
@@ -69,8 +70,8 @@ class caiji extends base {
 		exit();
 	}
 	
-	/*
-	 * 移除html
+	/**
+	 * 绉婚櫎html
 	 * */
 	public function removehtml($content,$length=800){
 		$string=strip_tags($content,'<img>');
@@ -80,7 +81,7 @@ class caiji extends base {
 	
 	
 	/**
-	 * 获取文章
+	 * 鑾峰彇鏂囩珷
 	 * */
 	public function getarticle($keyword){
 		global $db;
@@ -90,19 +91,19 @@ class caiji extends base {
 		
 		if(!$check_result->RecordCount()){
 			echo "n";
-		}else{//如果有文章
+		}else{//濡傛灉鏈夋枃绔�
 			$articleid=$check_result->fields['id'];
 			
 			$updatestute="update ". TABLE_CAI_ARTICLE ." SET statu=1 WHERE id={$articleid}";
 			
-			$db->Execute($updatestute);//设置文章为已发布
+			$db->Execute($updatestute);//璁剧疆鏂囩珷涓哄凡鍙戝竷
 			echo json_encode(array('title'=>$check_result->fields['title'],'content'=>$check_result->fields['content']));
 		}
 		exit();
 	}
 	
 	/**
-	 * 获取产品链接
+	 * 鑾峰彇浜у搧閾炬帴
 	 * */
 	public function getlink(){
 		global $db;
@@ -111,23 +112,31 @@ class caiji extends base {
 	}
 	
 	/**
-	 * 检查产品链接是否已经采集
+	 * 妫�煡浜у搧閾炬帴鏄惁宸茬粡閲囬泦
 	 * */
 	public function checklink($link){
 		global $db;
 		$link_query = "SELECT link FROM " . TABLE_CAI_PRODUCTLINK . " WHERE link=:link";
 		$link_query  =$db->bindVars($link_query, ':link', $link, 'string');
 		$check_result = $db->Execute($link_query);
-		if(!$check_result->RecordCount()){//如果不存在改产品
+		if(!$check_result->RecordCount()){//濡傛灉涓嶅瓨鍦ㄦ敼浜у搧
 			
 			
 			$array=array('link'=>$link,'time'=>date('Y-m-d H:i:s',time()));
 			zen_db_perform(TABLE_CAI_PRODUCTLINK, $array);
 			echo 0;exit();
-		}else{//如果有改产品
+		}else{//濡傛灉鏈夋敼浜у搧
 			echo 1;exit();
 		}
 		
+	}
+	
+	/**
+	 * 删除字符串前后空格
+	 * */
+	public function trimcontent($content){
+		echo trim($content);
+		exit();
 	}
 	
 	

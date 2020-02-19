@@ -65,8 +65,12 @@ if (!isset($flag_disable_footer) || !$flag_disable_footer) {
 
 	<!--bof- site copyright display -->
 	<div id="siteinfoLegal" class="legalCopyright"><?php echo FOOTER_TEXT_BODY; ?>
-	<script language="javascript" type="text/javascript" src="http://js.users.51.la/16890208.js"></script>
-<noscript><img alt="&#x6211;&#x8981;&#x5566;&#x514D;&#x8D39;&#x7EDF;&#x8BA1;" src="http://img.users.51.la/16890208.asp" style="border:none" /></noscript>
+<?php if ($this_is_home_page) { ?>	
+	<a href="http://www.aoji.cn/">出国留学</a>
+<?php }	?> 	
+	</div>
+	<div style="display:none">
+	<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1257684013'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s95.cnzz.com/stat.php%3Fid%3D1257684013%26show%3Dpic1' type='text/javascript'%3E%3C/script%3E"));</script>
 	</div>
 	<!--eof- site copyright display -->
 

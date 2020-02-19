@@ -1,0 +1,378 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />	
+<title>接口测试</title>
+
+</head>
+<body>
+获取订单详情：
+<form class="postform" action="http://test2.boyicms.com/shop/order.php?method=getorderdetailjson" method="post">
+<input type="text" value="37034446dd6b97ff2e5a77bd460c2bc1" name="token" />
+<input type="text" value="860014" name="cust_code" />
+<button id="postsubmit" class="pn pnc" name="topicsubmit" value="true" type="submit">提交</button>
+</form>
+预约挂号：
+<form class="postform" action="http://test2.boyicms.com/interface/hma/reservations.php" method="post">
+
+<input type="text" value="1b14c010fa81fd5850457393a11eafb3" name="token" />
+<input type="text" value="appointment_finish" name="part" />
+<input type="text" value="86" name="time_id" />
+<input type="text" value="19:00" name="time_field" />
+<input type="text" value="1" name="sex" />
+<input type="text" value="18" name="age" />
+<input type="text" value="18059949858" name="telephone" />
+<input type="text" value="18119" name="card" />
+<input type="text" value="头疼" name="ill" />
+<input type="text" value="台江区" name="address" />
+<button id="postsubmit" class="pn pnc" name="topicsubmit" value="true" type="submit">提交</button>
+</form>
+用户登录接口：
+<form class="postform" action="http://www.boyicms.com/interface/hma/UserInterface.php" method="post">
+<input type="text" value="login" name="type" />
+<input type="text" value="lushixiang" name="account" />
+<input type="text" value="e10adc3949ba59abbe56e057f20f883e" name="password" />
+<button id="postsubmit" class="pn pnc" name="topicsubmit" value="true" type="submit">提交</button>
+</form>
+
+搜索文章接口
+<form class="postform" action="http://test.boyicms.com/interface/hma/get.php" method="post">
+<input type="text" value="search_article" name="part" />
+<input type="text" value="a98ec32a1db8c76d69fbe763735d73a6" name="token" />
+<input type="text" value="医疗" name="keyword" />
+
+<button id="postsubmit" class="pn pnc" name="topicsubmit" value="true" type="submit">提交</button>
+</form>
+
+医生列表
+<form class="postform" action="http://test2.boyicms.com/interface/hma/get.php" method="post">
+<input type="text" value="department_doctor_list" name="part" />
+<input type="text" value="a98ec32a1db8c76d69fbe763735d73a6" name="token" />
+<input type="text" value="医疗" name="keyword" />
+
+<button id="postsubmit" class="pn pnc" name="topicsubmit" value="true" type="submit">提交</button>
+</form>
+
+搜索全部文章标题
+<form class="postform" action="http://test2.boyicms.com/interface/hma/get.php" method="post">
+<input type="text" value="article_title" name="part" />
+<input type="text" value="a98ec32a1db8c76d69fbe763735d73a6" name="token" />
+<button id="postsubmit" class="pn pnc" name="topicsubmit" value="true" type="submit">提交</button>
+</form>
+
+根据用户获取用户预约列表
+<form class="postform" action="http://test.boyicms.com/interface/hma/reservations.php" method="post">
+<input type="text" value="appointment_list" name="part" />
+<input type="text" value="a98ec32a1db8c76d69fbe763735d73a6" name="token" />
+<button id="postsubmit" class="pn pnc" name="topicsubmit" value="true" type="submit">提交</button>
+</form>
+
+生成apk测试接口
+<form class="postform" action="http://www.boyicms.com/interface/hma/ApkInterface.php?action=downloadApk" method="post">
+<input type="text" value="test.boyicms.com" name="domain" />
+<input type="text" value="我们来试试" name="app_name" />
+<input type="text" value="cms" name="from" />
+<input type="text" value="hma" name="apk_type" />
+<input type="text" value="1.0" name="version" />
+<button id="postsubmit" class="pn pnc" name="topicsubmit" value="true" type="submit">提交</button>
+</form>
+
+APP登录获取token接口
+<form class="postform" action="http://new.82233333.com/interface/hm/user.php" method="post">
+<input type="text" value="login" name="method" />
+<input type="text" value="shangyu2016" name="username" />
+<input type="text" value="98b96b16a91401c0da7cc2f378b8b145" name="pwd" />
+<button id="postsubmit" class="pn pnc" name="topicsubmit" value="true" type="submit">提交</button>
+</form>
+
+用户登录接口
+<form class="postform" action="http://www.hwibsc.com/interface/hma/UserInterface.php" method="post">
+<input type="text" value="login" name="type" />
+<input type="text" value="18059949858" name="account" />
+<input type="text" value="e10adc3949ba59abbe56e057f20f883e" name="password" />
+<button id="postsubmit" class="pn pnc" name="topicsubmit" value="true" type="submit">提交</button>
+</form>
+
+用户注册接口
+<form class="postform" action="http://www.boyicms.com/interface/hma/UserInterface.php" method="post">
+<input type="text" value="register" name="type" />
+<input type="text" value="18526985695" name="account" />
+<input type="text" value="e10adc3949ba59abbe56e057f20f883e" name="password" />
+<button id="postsubmit" class="pn pnc" name="topicsubmit" value="true" type="submit">提交</button>
+</form>
+
+医院管理端获取预约详情接口
+<form class="postform" action="http://test.boyicms.com/interface/hm/reservationmanager.php" method="post">
+<input type="text" value="104" name="id" />
+<input type="text" value="reservation_info" name="method" />
+<input type="text" value="f45687ff07365f7391267621dfd27d13" name="token" />
+<button id="postsubmit" class="pn pnc" name="topicsubmit" value="true" type="submit">提交</button>
+</form>
+
+向医院提问的接口
+<form class="postform" action="http://www.boyicms.com/interface/hma/OnlineInterface.php" method="post">
+<input type="text" value="online" name="type" />
+<input type="text" value="22" name="age" />
+<input type="text" value="妇科炎症" name="departments" />
+<input type="text" value="男" name="gender" />
+<input type="text" value="test1.boyicms.com" name="hospital" />
+<input type="text" value="什么问题" name="title" />
+<input type="text" value="什么问题如何解决" name="description" />
+<input type="text" value="1075" name="user_id" />
+<button id="postsubmit" class="pn pnc" name="topicsubmit" value="true" type="submit">提交</button>
+</form>
+
+获取问答接口
+<form class="postform" action="http://www.boyicms.com/interface/hma/OnlineInterface.php" method="post">
+<input type="text" value="question_list" name="type" />
+<input type="text" value="22" name="token" />
+<input type="text" value="1075" name="user_id" />
+<button id="postsubmit" class="pn pnc" name="topicsubmit" value="true" type="submit">提交</button>
+</form>
+
+总控验证token
+<form class="postform" action="http://www.hwibsc.com/interface/hma/HmaAccountInterface.php" method="post">
+<input type="text" value="123456789" name="token" />
+<input type="text" value="logincheck" name="type" />
+<button id="postsubmit" class="pn pnc" name="topicsubmit" value="true" type="submit">提交</button>
+</form>
+
+
+
+
+<!--hm-->
+hm 获取用户病例接口
+<form class="postform" action="http://www.newtemp.com/interface/hm/patientmanager.php" method="post">
+<input type="text" value="f96f53c85d45e3f377b3a25e04a2530d" name="token"/>
+<input type="text" value="patientcase" name="method" />
+<input type="text" value="243171" name="case_number" />
+<button id="postsubmit" class="pn pnc" name="topicsubmit" value="true" type="submit">提交</button>
+</form>
+
+hm 获取具体病例接口
+<form class="postform" action="http://test2.boyicms.com/interface/hm/patientmanager.php" method="post">
+<input type="text" value="f96f53c85d45e3f377b3a25e04a2530d" name="token"/>
+<input type="text" value="getdetailbycase" name="method" />
+<input type="text" value="7" name="case_id" />
+<input type="text" value="1" name="type" />
+<input type="text" value="0" name="pid" />
+<button id="postsubmit" class="pn pnc" name="topicsubmit" value="true" type="submit">提交</button>
+</form>
+
+hm 获取复诊列表
+<form class="postform" action="http://test2.boyicms.com/interface/hm/patientmanager.php" method="post">
+<input type="text" value="f96f53c85d45e3f377b3a25e04a2530d" name="token"/>
+<input type="text" value="getconsultation" name="method" />
+<input type="text" value="243171" name="case_number" />
+<input type="text" value="2" name="type" />
+<button id="postsubmit" class="pn pnc" name="topicsubmit" value="true" type="submit">提交</button>
+</form>
+
+hm 登陆获取token接口
+<form class="postform" action="http://www.newtemp.com/interface/hm/user.php" method="post">
+<input type="text" value="login" name="method" />
+<input type="text" value="admin" name="username" />
+<input type="text" value="e10adc3949ba59abbe56e057f20f883e" name="pwd" />
+<button id="postsubmit" class="pn pnc" name="topicsubmit" value="true" type="submit">提交</button>
+</form>
+
+hm设置用户为到诊
+<form class="postform" action="http://test2.boyicms.com/interface/hm/reservationmanager.php?method=makeres" method="post">
+<input type="text" value="d80cec9eff58d7639f090b5e3b1e0d26" name="token" />
+<input type="text" value="122" name="id" />
+<button id="postsubmit" class="pn pnc" name="topicsubmit" value="true" type="submit">提交</button>
+</form>
+
+hm修改订单为已提取
+<form class="postform" action="http://www.newtemp.com/interface/hm/order.php" method="post">
+<input type="text" value="3e9af78b2e250279bef2aeb3ae11fca8" name="token" />
+<input type="text" value="orderhaspay" name="method" />
+<input type="text" value="9d813a017f" name="qrcode" />
+<input type="text" value="161223565510" name="order_num" />
+<button id="postsubmit" class="pn pnc" name="topicsubmit" value="true" type="submit">提交</button>
+</form>
+
+hm回答问题接口
+<form class="postform" action="http://new.82233333.com/interface/hm/ask.php" method="post">
+<input type="text" value="6ec9f4ce863eb30dd229faf8a0d491f8" name="token" />
+<input type="text" value="answer" name="method" />
+<input type="text" value="80" name="question_id" />
+<input type="text" value="只是在测试而已的" name="content" />
+<button id="postsubmit" class="pn pnc" name="topicsubmit" value="true" type="submit">提交</button>
+</form>
+
+hm获取关注对象列表
+<form class="postform" action="http://www.newtemp.com/interface/hm/clientmanager.php" method="post">
+<input type="text" value="db205b601806fd7eda62e46e5a809005" name="token" />
+<input type="text" value="clientlist" name="method" />
+<button id="postsubmit" class="pn pnc" name="topicsubmit" value="true" type="submit">提交</button>
+</form>
+
+hm获取关注对象的具体信息
+<form class="postform" action="http://www.newtemp.com/interface/hm/clientmanager.php" method="post">
+<input type="text" value="db205b601806fd7eda62e46e5a809005" name="token" />
+<input type="text" value="76" name="client_id" />
+<input type="text" value="clientinfo" name="method" />
+<button id="postsubmit" class="pn pnc" name="topicsubmit" value="true" type="submit">提交</button>
+</form>
+
+
+<!--hma-->
+hma 获取复诊列表
+<form class="postform" action="http://test2.boyicms.com/interface/hma/patientmanager.php" method="post">
+<input type="text" value="f20cd30667d89c1902b03c40276b54e5" name="token"/>
+<input type="text" value="consultation" name="part" />
+<input type="text" value="774922" name="case_number" />
+<input type="text" value="2" name="type" />
+<button id="postsubmit" class="pn pnc" name="topicsubmit" value="true" type="submit">提交</button>
+</form>
+hma 根据case_number取详情
+<form class="postform" action="http://test2.boyicms.com/interface/hma/patientmanager.php" method="post">
+<input type="text" value="19dd4db782a0ff07faa140b551a165db" name="token"/>
+<input type="text" value="patientcasenumberdetail" name="part" />
+<input type="text" value="774922" name="case_number" />
+<input type="text" value="0" name="type" />
+<button id="postsubmit" class="pn pnc" name="topicsubmit" value="true" type="submit">提交</button>
+</form>
+
+hma 获取用户病例接口0000
+<form class="postform" action="http://new.82233333.com/interface/hma/patientmanager.php" method="post">
+<input type="text" value="50bde2c09f6c29d873efadd85525903e" name="token" />
+<input type="text" value="patientcaselist" name="part" />
+<!--<input type="text" value="0" name="type" />
+<input type="text" value="0" name="pid" />-->
+<button id="postsubmit" class="pn pnc" name="topicsubmit" value="true" type="submit">提交</button>
+</form>
+
+hma 获取病例详情接口
+<form class="postform" action="http://www.newtemp.com/interface/hma/patientmanager.php" method="post">
+<input type="text" value="d5e0e2fad9176d0102b517e07a2f1e40" name="token" />
+<input type="text" value="4" name="case_id" />
+<input type="text" value="2" name="type" />
+<input type="text" value="0" name="pid" />
+<input type="text" value="patientcasedetail" name="part" />
+<button id="postsubmit" class="pn pnc" name="topicsubmit" value="true" type="submit">提交</button>
+</form>
+
+APP取预约时间列表
+<form class="postform" action="http://test2.boyicms.com/interface/hma/get.php" method="post">
+
+<input type="text" value="doctormanager_outpatient_time" name="part" />
+<input type="text" value="14" name="department_id" />
+<input type="text" value="43" name="doctor_id" />
+<button id="postsubmit" class="pn pnc" name="topicsubmit" value="true" type="submit">提交</button>
+</form>
+
+hma 根据token取详情
+<form class="postform" action="http://test2.boyicms.com/interface/hma/patientmanager.php" method="post">
+<input type="text" value="db7a32b10b641956f43585bfd84e8171" name="token"/>
+<input type="text" value="patientinfo" name="part" />
+<button id="postsubmit" class="pn pnc" name="topicsubmit" value="true" type="submit">提交</button>
+</form>
+
+hma 取医生排班列表接口
+<form class="postform" action="http://new.82233333.com/interface/hma/get.php" method="post">
+<input type="text" value="3d08961966448fe480f4f415a828db01" name="token"/>
+<input type="text" value="doctormanager_outpatient_time" name="part" />
+<input type="text" value="17" name="doctor_id" />
+<input type="text" value="10" name="department_id" />
+
+<button id="postsubmit" class="pn pnc" name="topicsubmit" value="true" type="submit">提交</button>
+</form>
+
+
+hma 提交预约信息
+<form class="postform" action="http://www.newtemp.com/interface/hma/reservations.php" method="post">
+<input type="text" value="537412c62c8dc5ad56cb0adce71be542" name="token"/>
+<input type="text" value="appointment_finish" name="part" />
+<input type="text" value="8" name="time_id" />
+<input type="text" value="08:00" name="time_field" />
+<input type="text" value="小张" name="name" />
+<input type="text" value="1" name="sex" />
+<input type="text" value="黎明小区" name="address" />
+<input type="text" value="13589656984" name="telephone" />
+<input type="text" value="xiaozhang@163.com" name="email" />
+<input type="text" value="肚子疼" name="ill" />
+<button id="postsubmit" class="pn pnc" name="topicsubmit" value="true" type="submit">提交</button>
+</form>
+
+修改密码 发送短信
+<form class="postform" action="http://www.newtemp.com/home.php?mod=register&method=sendcode" method="post">
+<input type="text" value="18059949858" name="mobile"/>
+<button id="postsubmit" class="pn pnc" name="topicsubmit" value="true" type="submit">提交</button>
+</form>
+
+修改密码 验证短信验证码
+<form class="postform" action="http://www.hwibsc.com/interface/hma/UserInterface.php" method="post">
+<input type="text" value="13616535526" name="mobile"/>
+<input type="text" value="new.82233333.com" name="website"/>
+<input type="text" value="816058" name="code"/>
+<input type="text" value="validcode" name="type"/>
+<button id="postsubmit" class="pn pnc" name="topicsubmit" value="true" type="submit">提交</button>
+</form>
+
+修改密码 通过短信安全码修改密码
+<form class="postform" action="http://www.hwibsc.com/interface/hma/UserInterface.php" method="post">
+<input type="text" value="18059949858" name="mobile"/>
+<input type="text" value="9ddb92b30b018d7e302d6b0e4bee753c" name="safetycode"/>
+<input type="text" value="123456789" name="password"/>
+<input type="text" value="changepassword" name="type"/>
+<button id="postsubmit" class="pn pnc" name="topicsubmit" value="true" type="submit">提交</button>
+</form>
+搜狐短信发送测试
+<form class="postform" action="http://api2.esoftsms.com/sdk/BatchSend.aspx?CorpID=BJZX01710&Pwd=3ius60Yk1KpX&Mobile=15005946887&Content=111&cell=66" method="post">
+
+<button id="postsubmit" class="pn pnc" name="topicsubmit" value="true" type="submit">提交</button>
+</form>
+
+请求总控发送短信接口
+<form class="postform" action="http://www.hwibsc.com/interface/hma/HmaAccountInterface.php" method="post">
+<input type="text" value="18059949858" name="mobile"/>
+<input type="text" value="www.hongen.com" name="website"/>
+<input type="text" value="8b6dd35f1ec1ee88bee216738788b816" name="hmkey"/>
+<input type="text" value="sendcode" name="type"/>
+<button id="postsubmit" class="pn pnc" name="topicsubmit" value="true" type="submit">提交</button>
+</form>
+
+PC提交预约信息
+<form class="postform" action="http://www.hongen.com/home.php?mod=reservations&method=saveBookingInfo" method="post">
+
+<input type="text" value="" name="age" />
+<input type="text" value="2017-06-02" name="bookingdata" />
+<input type="text" value="08:00" name="bookingtime" />
+<input type="text" value="2017-06-02" name="date" />
+<input type="text" value="1" name="department_id" />
+<input type="text" value="1" name="doctor_id" />
+<input type="text" value="" name="ill_info" />
+<input type="text" value="小张" name="username" />
+<input type="text" value="8" name="resvationID" />
+<input type="text" value="08:00" name="times" />
+<input type="text" value="1" name="sex" />
+<input type="text" value="黎明小区" name="address" />
+<input type="text" value="18059949858" name="telephone" />
+<input type="text" value="xiaozhang@163.com" name="email" />
+<button id="postsubmit" class="pn pnc" name="topicsubmit" value="true" type="submit">提交</button>
+</form>
+
+发布博客测试
+<form class="postform" action="http://www.broome-county.com/secpost.php" method="post">
+
+<input type="text" value="W1T#AjVsZwe%1QT" name="secret" />
+<input type="text" value="save" name="action" />
+<input type="text" value="217" name="post_category" />
+<input type="text" value="Wait for the Milan call! Aubame refused and Dortmund renew Brother Lee last puzzle" name="post_title" />
+<textarea rows="3" cols="20" name="post_content">
+
+</textarea>
+
+<button id="postsubmit" class="pn pnc" name="topicsubmit" value="true" type="submit">提交</button>
+</form>
+
+
+
+
+
+
+
+
+</body>
+</html>
